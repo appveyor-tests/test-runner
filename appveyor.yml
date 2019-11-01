@@ -1,0 +1,4 @@
+build_script:
+- dotnet run TestSuiteRunner
+
+test: off

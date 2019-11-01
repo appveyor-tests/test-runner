@@ -1,0 +1,18 @@
+[
+  {
+    "testName": "dacpac-sqlpackage-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "dacpac-sqlpackage-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "nodejs-versions",
+    "accountName": "appveyor-tests",
+    "projectSlug": "nodejs-versions",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  }
+]

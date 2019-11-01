@@ -272,14 +272,6 @@
     "shouldSucceed": true
   },
   {
-    "testName": "mixed-net-core-solution",
-    "accountName": "appveyor-tests",
-    "projectSlug": "44fa9160-e352-447f-a932-464057f9c5e5",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true
-  },
-  {
     "testName": "where-tools",
     "accountName": "appveyor-tests",
     "projectSlug": "where-tools",
@@ -315,14 +307,6 @@
     "testName": "AzureCloudServiceVS2017",
     "accountName": "appveyor-tests",
     "projectSlug": "azurecloudservicevs2017",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true
-  },
-  {
-    "testName": "dotnet-1.0.3-appveyor",
-    "accountName": "appveyor-tests",
-    "projectSlug": "def9116f-c8d6-439a-bb7d-d7a3db6da357",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true
@@ -515,7 +499,7 @@
     "testName": "mercurial-private-clone-credentials",
     "accountName": "appveyor-tests",
     "projectSlug": "bitbucket-private-hg-6vjwi",
-    "branch": "master",
+    "branch": "default",
     "timeoutMinutes": 10,
     "shouldSucceed": true
   },
@@ -531,7 +515,7 @@
     "testName": "bitbucket-private-hg",
     "accountName": "appveyor-tests",
     "projectSlug": "bitbucket-private-hg",
-    "branch": "master",
+    "branch": "default",
     "timeoutMinutes": 10,
     "shouldSucceed": true
   },
@@ -539,7 +523,7 @@
     "testName": "bitbucket-public-hg",
     "accountName": "appveyor-tests",
     "projectSlug": "bitbucket-public-hg",
-    "branch": "master",
+    "branch": "default",
     "timeoutMinutes": 10,
     "shouldSucceed": true
   },

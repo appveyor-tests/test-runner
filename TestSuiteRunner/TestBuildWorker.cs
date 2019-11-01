@@ -5,6 +5,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace TestSuiteRunner
@@ -16,12 +17,12 @@ namespace TestSuiteRunner
         string _appveyorUrl;
         string _appveyorApiToken;
 
-        public TestBuildWorker(string instanceId, TestItem item)
+        public TestBuildWorker(TestItem item)
         {
-            _instanceId = instanceId;
+            _instanceId = $"{item.AccountName}/{item.ProjectSlug}";
             _item = item;
             _appveyorUrl = Environment.GetEnvironmentVariable("APPVEYOR_URL") ?? "https://ci.appveyor.com";
-            _appveyorApiToken = Environment.GetEnvironmentVariable("APPVEYOR_API_TOKEN");
+            _appveyorApiToken = Environment.GetEnvironmentVariable("APPVEYOR_TOKEN");
         }
 
         public async Task Start()
@@ -34,8 +35,12 @@ namespace TestSuiteRunner
             var MaxProvisioningTime = 10; // minutes
             var MaxRunTime = 10; // minutes
 
+            DateTime started = DateTime.MinValue;
+            DateTime finished = DateTime.MinValue;
+
             try
             {
+                await BuildWorkerApi.UpdateTest(_item.TestName, "Running");
 
                 // start new build
                 var build = await StartNewBuild(_item.AccountName, _item.ProjectSlug, _item.Branch);
@@ -46,6 +51,7 @@ namespace TestSuiteRunner
                 WriteLog("Build started");
 
                 string previousStatus = null;
+
                 while (true)
                 {
                     await Task.Delay(TimeSpan.FromSeconds(20));
@@ -54,6 +60,9 @@ namespace TestSuiteRunner
                     build = await GetBuildDetails(_item.AccountName, _item.ProjectSlug, buildVersion);
                     var job = build["build"]["jobs"].First();
                     jobId = job.Value<string>("jobId");
+
+                    started = job.Value<DateTime>("started");
+                    finished = job.Value<DateTime>("finished");
 
                     var status = job.Value<string>("status");
                     WriteLog("Build status at " + elapsed.ToString() + " - " + status);
@@ -79,25 +88,38 @@ namespace TestSuiteRunner
                     }
                     else if (status == "failed")
                     {
-                        string message = "Build has failed.";
-                        downloadLog = true;
-                        WriteLog(message);
-                        throw new Exception(message);
+                        if (_item.ShouldSucceed)
+                        {
+                            string message = "Build has failed.";
+                            downloadLog = true;
+                            WriteLog(message);
+                            throw new Exception(message);
+                        }
+                        else
+                        {
+                            break;
+                        }
                     }
                     else if (status == "cancelled")
                     {
-                        string message = "Build has been failed.";
+                        string message = "Build has been cancelled.";
                         downloadLog = true;
                         WriteLog(message);
                         throw new Exception(message);
                     }
                     else if (status == "success")
                     {
-                        var started = job.Value<DateTime>("started");
-                        var finished = job.Value<DateTime>("finished");
-
-                        WriteLog(String.Format("Build duration: {0}", (finished - started)));
-                        break;
+                        if (!_item.ShouldSucceed)
+                        {
+                            string message = "Build should have failed.";
+                            downloadLog = true;
+                            WriteLog(message);
+                            throw new Exception(message);
+                        }
+                        else
+                        {
+                            break;
+                        }
                     }
 
                     previousStatus = status;
@@ -114,6 +136,8 @@ namespace TestSuiteRunner
                 }
             }
 
+            WriteLog(String.Format("Build duration: {0}", (finished - started)));
+
             // download build log if there was an error
             string buildLog = null;
             try
@@ -127,6 +151,13 @@ namespace TestSuiteRunner
             catch (Exception ex)
             {
                 WriteLog("Cannot download build log: " + ex.Message);
+            }
+
+            await BuildWorkerApi.UpdateTest(_item.TestName, error != null ? "Failed" : "Passed");
+
+            if (error != null)
+            {
+                throw new Exception(error);
             }
         }
 
@@ -150,12 +181,12 @@ namespace TestSuiteRunner
                         branch = branch,
                         environmentVariables = new
                         {
-                            APPVEYOR_BUILD_WORKER_CLOUD = Environment.GetEnvironmentVariable("APPVEYOR_BUILD_WORKER_CLOUD"),
-                            APPVEYOR_BUILD_WORKER_IMAGE = Environment.GetEnvironmentVariable("APPVEYOR_BUILD_WORKER_IMAGE")
+                            APPVEYOR_BUILD_WORKER_CLOUD = Environment.GetEnvironmentVariable("TEST_CLOUD"),
+                            APPVEYOR_BUILD_WORKER_IMAGE = Environment.GetEnvironmentVariable("TEST_IMAGE")
                         }
                     };
 
-                    var response = await client.PostAsJsonAsync("api/builds", request);
+                    var response = await client.PostAsJsonUnchunkedAsync("api/builds", request, CancellationToken.None);
                     if (!response.IsSuccessStatusCode)
                     {
                         // read response as string
@@ -163,7 +194,6 @@ namespace TestSuiteRunner
                         throw new Exception(String.Format("Starting build returned {0}: {1}", (int)response.StatusCode, responseContents));
                     }
 
-                    Console.WriteLine(errorMessage);
                     return await response.Content.ReadAsAsync<JToken>();
                 }
             }

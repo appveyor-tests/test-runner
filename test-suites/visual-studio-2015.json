@@ -165,7 +165,7 @@
     "projectSlug": "nunit3-tests",
     "branch": "master",
     "timeoutMinutes": 10,
-    "shouldSucceed": true
+    "shouldSucceed": false
   },
   {
     "testName": "dacpac-local-2008r2sp2-vs2015",
@@ -507,7 +507,7 @@
     "testName": "mercurial-private-clone-credentials",
     "accountName": "appveyor-tests",
     "projectSlug": "bitbucket-private-hg-6vjwi",
-    "branch": "master",
+    "branch": "default",
     "timeoutMinutes": 10,
     "shouldSucceed": true
   },
@@ -523,7 +523,7 @@
     "testName": "bitbucket-private-hg",
     "accountName": "appveyor-tests",
     "projectSlug": "bitbucket-private-hg",
-    "branch": "master",
+    "branch": "default",
     "timeoutMinutes": 10,
     "shouldSucceed": true
   },

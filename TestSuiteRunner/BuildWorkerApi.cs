@@ -30,7 +30,7 @@ namespace TestSuiteRunner
             }
         }
 
-        public static async Task UpdateTest(string testName, string outcome)
+        public static async Task UpdateTest(string testName, string outcome, string stdOut = null)
         {
             if (!IsRunningInsideCI())
             {
@@ -42,7 +42,8 @@ namespace TestSuiteRunner
                 var request = new
                 {
                     testName = testName,
-                    outcome = outcome
+                    outcome = outcome,
+                    stdOut = stdOut
                 };
 
                 var response = await client.PutAsJsonUnchunkedAsync("api/tests", request, CancellationToken.None);

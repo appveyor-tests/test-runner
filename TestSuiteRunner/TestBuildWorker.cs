@@ -54,7 +54,7 @@ namespace TestSuiteRunner
 
                 while (true)
                 {
-                    await Task.Delay(TimeSpan.FromSeconds(20));
+                    await Task.Delay(TimeSpan.FromSeconds(10));
                     var elapsed = DateTime.UtcNow - buildStarted;
 
                     build = await GetBuildDetails(_item.AccountName, _item.ProjectSlug, buildVersion);

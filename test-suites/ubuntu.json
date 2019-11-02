@@ -1,0 +1,410 @@
+[
+  {
+    "testName": "bitbucket-public-git",
+    "accountName": "appveyor-tests",
+    "projectSlug": "bitbucket-public-git",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "bitbucket-private-git",
+    "accountName": "appveyor-tests",
+    "projectSlug": "bitbucket-private-git",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "bitbucket-public-hg",
+    "accountName": "appveyor-tests",
+    "projectSlug": "bitbucket-public-hg",
+    "branch": "default",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "bitbucket-private-hg",
+    "accountName": "appveyor-tests",
+    "projectSlug": "bitbucket-private-hg",
+    "branch": "default",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "bitbucket-private-shallow-clone",
+    "accountName": "appveyor-tests",
+    "projectSlug": "bitbucket-private-shallow-clone",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "git-private-clone-credentials",
+    "accountName": "appveyor-tests",
+    "projectSlug": "bitbucket-private-git-dtc5j",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "mercurial-private-clone-credentials",
+    "accountName": "appveyor-tests",
+    "projectSlug": "bitbucket-private-hg-6vjwi",
+    "branch": "default",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "VSTS-git-clone",
+    "accountName": "appveyor-tests",
+    "projectSlug": "mywebapp",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "VSTS-TFVC-clone",
+    "accountName": "appveyor-tests",
+    "projectSlug": "projecta",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "git-lfs-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "git-lfs-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "nodejs_versions-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "linux-nodejs-versions",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "Powershell-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "linux-powershell",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "upload-xml-test-results",
+    "accountName": "appveyor-tests",
+    "projectSlug": "upload-xml-test-results",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "postgresql-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "postgresql-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "ruby-test-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "ruby-test-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "github-shallow-clone",
+    "accountName": "appveyor-tests",
+    "projectSlug": "github-shallow-clone",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "go-lang-versions-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "go-lang-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "jdk-versions-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "jdk-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "jdk-stack-versions-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "jdk-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "Python-versions-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "python-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "docker-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "docker-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "MSSQL_linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "mssql-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "clone_folder_linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "clone-folder-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "tools-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "tools-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "gce-scopes-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "gce-scopes-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "secure-file-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "secure-file-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "Ruby-stack-versions-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "ruby-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "powershell-version-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "powershell-version-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "bash-builtin-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "bash-builtin-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "xplat-cache-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "xplat-cache-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "root-files-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "root-files-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "Kernel-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "kernel-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "dotnet-telemetry-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "dotnet-telemetry-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "cmake-version",
+    "accountName": "appveyor-tests",
+    "projectSlug": "cmake-version",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "build-agent-bash",
+    "accountName": "appveyor-tests",
+    "projectSlug": "build-agent-bash",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "login-interactive-shell-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "login-interactive-shell-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "java-tls-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "java-tls-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "Appveyor-cmdlets",
+    "accountName": "appveyor-tests",
+    "projectSlug": "appveyor-cmdlets",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "Powershell_artifacts_variable",
+    "accountName": "appveyor-tests",
+    "projectSlug": "powershell-artifacts-variable",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "bitbucket-private-git-ssh-clone-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "bitbucket-private-git-qddys",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "linux-upgrade",
+    "accountName": "appveyor-tests",
+    "projectSlug": "linux-upgrade",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "localstack-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "localstack-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "virtualbox-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "virtualbox-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "lang-variable-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "lang-variable-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "qemu-kvm-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "qemu-kvm-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "octo-test-ubuntu",
+    "accountName": "appveyor-tests",
+    "projectSlug": "octo-test-ubuntu",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "freespace-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "freespace-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "Long-variables",
+    "accountName": "appveyor-tests",
+    "projectSlug": "long-variables",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "pass-variables-phases",
+    "accountName": "appveyor-tests",
+    "projectSlug": "pass-variables-phases",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "check_nuget_linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "check-nuget-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "dotnet_preheat_linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "dotnet-preheat-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  }
+]

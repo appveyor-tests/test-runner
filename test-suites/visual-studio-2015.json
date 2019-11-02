@@ -5,7 +5,7 @@
     "projectSlug": "nunit3-tests",
     "branch": "master",
     "timeoutMinutes": 10,
-    "shouldSucceed": true
+    "shouldSucceed": false
   },
   {
     "testName": "nodejs-versions",

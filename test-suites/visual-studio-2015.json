@@ -1,5 +1,13 @@
 [
   {
+    "testName": "nunit3-tests",
+    "accountName": "appveyor-tests",
+    "projectSlug": "nunit3-tests",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
     "testName": "nodejs-versions",
     "accountName": "appveyor-tests",
     "projectSlug": "nodejs-versions",
@@ -158,14 +166,6 @@
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true
-  },
-  {
-    "testName": "nunit3-tests",
-    "accountName": "appveyor-tests",
-    "projectSlug": "nunit3-tests",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": false
   },
   {
     "testName": "dacpac-local-2008r2sp2-vs2015",
@@ -531,7 +531,7 @@
     "testName": "bitbucket-public-hg",
     "accountName": "appveyor-tests",
     "projectSlug": "bitbucket-public-hg",
-    "branch": "master",
+    "branch": "default",
     "timeoutMinutes": 10,
     "shouldSucceed": true
   },

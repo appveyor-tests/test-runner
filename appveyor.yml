@@ -1,5 +1,8 @@
 image: ubuntu
 
+init:
+- appveyor UpdateBuild -Message "TEST_SUITE=${TEST_SUITE}, TEST_IMAGE=${TEST_IMAGE}, TEST_CLOUD=${TEST_CLOUD}"
+
 build_script:
 - cd TestSuiteRunner
 - dotnet run

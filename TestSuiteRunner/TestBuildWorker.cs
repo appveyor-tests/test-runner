@@ -153,7 +153,7 @@ namespace TestSuiteRunner
                 WriteLog("Cannot download build log: " + ex.Message);
             }
 
-            await BuildWorkerApi.UpdateTest(_item.TestName, error != null ? "Failed" : "Passed");
+            await BuildWorkerApi.UpdateTest(_item.TestName, error != null ? "Failed" : "Passed", stdOut: buildLog);
 
             if (error != null)
             {

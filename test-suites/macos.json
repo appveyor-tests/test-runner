@@ -1,5 +1,13 @@
 [
   {
+    "testName": "macos",
+    "accountName": "appveyor-tests",
+    "projectSlug": "macos",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
     "testName": "bitbucket-public-git",
     "accountName": "appveyor-tests",
     "projectSlug": "bitbucket-public-git",

@@ -62,5 +62,29 @@
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true
+  },
+  {
+    "testName": "freespace-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "freespace-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "pass-variables-phases",
+    "accountName": "appveyor-tests",
+    "projectSlug": "pass-variables-phases",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "dotnet-preheat-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "dotnet-preheat-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
   }
 ]

@@ -406,5 +406,21 @@
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true
+  },
+  {
+    "testName": "mysql-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "mysql-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "gitversion-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "gitversion-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
   }
 ]

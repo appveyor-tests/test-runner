@@ -94,5 +94,13 @@
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true
+  },
+  {
+    "testName": "python-versions-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "python-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
   }
 ]

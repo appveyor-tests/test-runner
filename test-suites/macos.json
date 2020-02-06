@@ -102,5 +102,13 @@
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true
+  },
+  {
+    "testName": "qt-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "qt-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
   }
 ]

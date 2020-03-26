@@ -277,7 +277,7 @@
     "projectSlug": "build-agent-bash",
     "branch": "master",
     "timeoutMinutes": 10,
-    "shouldSucceed": true
+    "shouldSucceed": false
   },
   {
     "testName": "login-interactive-shell-linux",

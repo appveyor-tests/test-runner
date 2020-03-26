@@ -43,7 +43,7 @@ namespace TestSuiteRunner
                 await BuildWorkerApi.UpdateTest(_item.TestName, "Running");
 
                 // start new build
-                var build = await StartNewBuild(_item.AccountName, _item.ProjectSlug, _item.Branch);
+                var build = await StartNewBuild(_item.AccountName, _item.ProjectSlug, _item.Branch, _item.EnvironmentVariables);
                 string buildVersion = build.Value<string>("version");
                 WriteLog("Build version: " + buildVersion);
 
@@ -161,7 +161,7 @@ namespace TestSuiteRunner
             }
         }
 
-        private async Task<JToken> StartNewBuild(string accountName, string projectSlug, string branch)
+        private async Task<JToken> StartNewBuild(string accountName, string projectSlug, string branch, IDictionary<string, string> environmentVariables)
         {
             Console.WriteLine("Starting a new build");
 
@@ -174,17 +174,25 @@ namespace TestSuiteRunner
                     // should respond in 30 seconds
                     client.Timeout = TimeSpan.FromSeconds(30);
 
-                    var request = new
+                    var request = new NewBuildRequest
                     {
-                        accountName = accountName,
-                        projectSlug = projectSlug,
-                        branch = branch,
-                        environmentVariables = new
+                        AccountName = accountName,
+                        ProjectSlug = projectSlug,
+                        Branch = branch,
+                        EnvironmentVariables = new Dictionary<string, string>()
                         {
-                            APPVEYOR_BUILD_WORKER_CLOUD = Environment.GetEnvironmentVariable("TEST_CLOUD"),
-                            APPVEYOR_BUILD_WORKER_IMAGE = Environment.GetEnvironmentVariable("TEST_IMAGE")
+                            { "APPVEYOR_BUILD_WORKER_CLOUD", Environment.GetEnvironmentVariable("TEST_CLOUD") },
+                            { "APPVEYOR_BUILD_WORKER_IMAGE", Environment.GetEnvironmentVariable("TEST_IMAGE") }
                         }
                     };
+
+                    if (environmentVariables != null)
+                    {
+                        foreach(var name in environmentVariables.Keys)
+                        {
+                            request.EnvironmentVariables[name] = environmentVariables[name];
+                        }
+                    }
 
                     var response = await client.PostAsJsonUnchunkedAsync("api/builds", request, CancellationToken.None);
                     if (!response.IsSuccessStatusCode)

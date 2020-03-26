@@ -320,14 +320,6 @@
     "shouldSucceed": true
   },
   {
-    "testName": "windows-phone-8.1-behaviors",
-    "accountName": "appveyor-tests",
-    "projectSlug": "appveyorxamlbehaviorstest",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true
-  },
-  {
     "testName": "selenium-tests",
     "accountName": "appveyor-tests",
     "projectSlug": "selenium-tests",

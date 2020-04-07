@@ -144,20 +144,147 @@
     "shouldSucceed": true
   },
   {
-    "testName": "jdk-stack-versions-linux",
+    "testName": "jdk 7",
     "accountName": "appveyor-tests",
     "projectSlug": "jdk-stack-versions-linux",
     "branch": "master",
     "timeoutMinutes": 10,
-    "shouldSucceed": true
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "JAVA_STACK": "jdk 7"
+    }
   },
   {
-    "testName": "Python-versions-linux",
+    "testName": "jdk 8",
+    "accountName": "appveyor-tests",
+    "projectSlug": "jdk-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "JAVA_STACK": "jdk 8"
+    }
+  },
+  {
+    "testName": "jdk 9",
+    "accountName": "appveyor-tests",
+    "projectSlug": "jdk-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "JAVA_STACK": "jdk 9"
+    }
+  },
+  {
+    "testName": "jdk 10",
+    "accountName": "appveyor-tests",
+    "projectSlug": "jdk-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "JAVA_STACK": "jdk 10"
+    }
+  },
+  {
+    "testName": "jdk 11",
+    "accountName": "appveyor-tests",
+    "projectSlug": "jdk-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "JAVA_STACK": "jdk 11"
+    }
+  },
+  {
+    "testName": "jdk 12",
+    "accountName": "appveyor-tests",
+    "projectSlug": "jdk-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "JAVA_STACK": "jdk 12"
+    }
+  },
+  {
+    "testName": "jdk 13",
+    "accountName": "appveyor-tests",
+    "projectSlug": "jdk-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "JAVA_STACK": "jdk 13"
+    }
+  },
+  {
+    "testName": "jdk 14",
+    "accountName": "appveyor-tests",
+    "projectSlug": "jdk-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "JAVA_STACK": "jdk 14"
+    }
+  },
+  {
+    "testName": "python 2.7.17",
     "accountName": "appveyor-tests",
     "projectSlug": "python-versions-linux",
     "branch": "master",
     "timeoutMinutes": 10,
-    "shouldSucceed": true
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "PYTHON_STACK": "python 2.7.17"
+    }
+  },
+  {
+    "testName": "python 3.7.5",
+    "accountName": "appveyor-tests",
+    "projectSlug": "python-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "PYTHON_STACK": "python 3.7.5"
+    }
+  },
+  {
+    "testName": "python 3.8.0",
+    "accountName": "appveyor-tests",
+    "projectSlug": "python-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "PYTHON_STACK": "python 3.8.0"
+    }
+  },
+  {
+    "testName": "python 3.8.1",
+    "accountName": "appveyor-tests",
+    "projectSlug": "python-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "PYTHON_STACK": "python 3.8.1"
+    }
+  },
+  {
+    "testName": "python 3.9.0",
+    "accountName": "appveyor-tests",
+    "projectSlug": "python-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "PYTHON_STACK": "python 3.9.0"
+    }
   },
   {
     "testName": "docker-linux",

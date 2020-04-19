@@ -155,7 +155,7 @@
     "testName": "dacpac-sqlpackage-test-sql2019",
     "accountName": "appveyor-tests",
     "projectSlug": "dacpac-sqlpackage-test-sql2019",
-    "branch": "master",
+    "branch": "sql2019",
     "timeoutMinutes": 10,
     "shouldSucceed": true
   },

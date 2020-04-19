@@ -104,12 +104,59 @@
     "shouldSucceed": true
   },
   {
-    "testName": "sql-server-instances",
+    "testName": "sql server 2008 R2 SP2",
     "accountName": "appveyor-tests",
-    "projectSlug": "sql-server-instances",
+    "projectSlug": "sql-server-test",
     "branch": "master",
     "timeoutMinutes": 10,
-    "shouldSucceed": true
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "SQL_INSTANCE_NAME": "SQL2008R2SP2"
+    }
+  },
+  {
+    "testName": "sql server 2012 SP1",
+    "accountName": "appveyor-tests",
+    "projectSlug": "sql-server-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "SQL_INSTANCE_NAME": "SQL2012SP1"
+    }
+  },
+  {
+    "testName": "sql server 2014",
+    "accountName": "appveyor-tests",
+    "projectSlug": "sql-server-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "SQL_INSTANCE_NAME": "SQL2014"
+    }
+  },
+  {
+    "testName": "sql server 2016",
+    "accountName": "appveyor-tests",
+    "projectSlug": "sql-server-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "SQL_INSTANCE_NAME": "SQL2016"
+    }
+  },
+  {
+    "testName": "sql server 2017",
+    "accountName": "appveyor-tests",
+    "projectSlug": "sql-server-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "SQL_INSTANCE_NAME": "SQL2017"
+    }
   },
   {
     "testName": "clone-folder-variables",

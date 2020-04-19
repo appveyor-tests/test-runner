@@ -410,10 +410,13 @@
   {
     "testName": "dotnet-core-vs2017",
     "accountName": "appveyor-tests",
-    "projectSlug": "dotnet-core-bh7ks",
+    "projectSlug": "dotnet-core-vs2017",
     "branch": "master",
     "timeoutMinutes": 10,
-    "shouldSucceed": true
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "EXPECTED_DOTNET_VER": "2.2.402"
+    }
   },
   {
     "testName": "appveyor-py-launcher",
@@ -432,12 +435,37 @@
     "shouldSucceed": true
   },
   {
-    "testName": "sql-server-instances",
+    "testName": "sql server 2014",
     "accountName": "appveyor-tests",
-    "projectSlug": "sql-server-instances",
+    "projectSlug": "sql-server-test",
     "branch": "master",
     "timeoutMinutes": 10,
-    "shouldSucceed": true
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "SQL_INSTANCE_NAME": "SQL2014"
+    }
+  },
+  {
+    "testName": "sql server 2016",
+    "accountName": "appveyor-tests",
+    "projectSlug": "sql-server-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "SQL_INSTANCE_NAME": "SQL2016"
+    }
+  },
+  {
+    "testName": "sql server 2017",
+    "accountName": "appveyor-tests",
+    "projectSlug": "sql-server-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "SQL_INSTANCE_NAME": "SQL2017"
+    }
   },
   {
     "testName": "qt-tests",

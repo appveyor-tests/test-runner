@@ -176,30 +176,6 @@
     "shouldSucceed": true
   },
   {
-    "testName": "ssdt-dacpac",
-    "accountName": "appveyor-tests",
-    "projectSlug": "ssdt-dacpac",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true
-  },
-  {
-    "testName": "dacpac-local-2014",
-    "accountName": "appveyor-tests",
-    "projectSlug": "dacpac-local-2014",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true
-  },
-  {
-    "testName": "sxs-vs7",
-    "accountName": "appveyor-tests",
-    "projectSlug": "sxs-vs7",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true
-  },
-  {
     "testName": "web-app-packaging-for-xcopy",
     "accountName": "appveyor-tests",
     "projectSlug": "web-app-packaging-for-xcopy",
@@ -248,9 +224,9 @@
     "shouldSucceed": true
   },
   {
-    "testName": "dacpac-local-2016",
+    "testName": "dacpac-local-2017",
     "accountName": "appveyor-tests",
-    "projectSlug": "dacpac-local-2016",
+    "projectSlug": "dacpac-local-2017",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true
@@ -280,9 +256,9 @@
     "shouldSucceed": true
   },
   {
-    "testName": "azure-powershell",
+    "testName": "az-powershell",
     "accountName": "appveyor-tests",
-    "projectSlug": "azure-powershell",
+    "projectSlug": "az-powershell",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true
@@ -402,10 +378,13 @@
   {
     "testName": "dotnet-core-vs2017",
     "accountName": "appveyor-tests",
-    "projectSlug": "dotnet-core-bh7ks",
+    "projectSlug": "dotnet-core-vs2017",
     "branch": "master",
     "timeoutMinutes": 10,
-    "shouldSucceed": true
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "EXPECTED_DOTNET_VER": "3.1.201"
+    }
   },
   {
     "testName": "appveyor-py-launcher",
@@ -424,12 +403,26 @@
     "shouldSucceed": true
   },
   {
-    "testName": "sql-server-instances",
+    "testName": "sql server 2017",
     "accountName": "appveyor-tests",
-    "projectSlug": "sql-server-instances",
+    "projectSlug": "sql-server-test",
     "branch": "master",
     "timeoutMinutes": 10,
-    "shouldSucceed": true
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "SQL_INSTANCE_NAME": "SQL2017"
+    }
+  },
+  {
+    "testName": "sql server 2019",
+    "accountName": "appveyor-tests",
+    "projectSlug": "sql-server-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "SQL_INSTANCE_NAME": "SQL2019"
+    }
   },
   {
     "testName": "qt-tests",

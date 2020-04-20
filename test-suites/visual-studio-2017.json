@@ -408,9 +408,9 @@
     "shouldSucceed": true
   },
   {
-    "testName": "dotnet-core-vs2017",
+    "testName": "dotnet-core-2017",
     "accountName": "appveyor-tests",
-    "projectSlug": "dotnet-core-vs2017",
+    "projectSlug": "dotnet-core-2017",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,

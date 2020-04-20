@@ -88,12 +88,15 @@
     "shouldSucceed": true
   },
   {
-    "testName": "dotnet-core-vs2015",
+    "testName": "dotnet-core-2017",
     "accountName": "appveyor-tests",
-    "projectSlug": "dotnet-core",
+    "projectSlug": "dotnet-core-2017",
     "branch": "master",
     "timeoutMinutes": 10,
-    "shouldSucceed": true
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "EXPECTED_DOTNET_VER": "2.2.402"
+    }
   },
   {
     "testName": "cache",

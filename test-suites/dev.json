@@ -1,6 +1,6 @@
 [
   {
-    "testName": "dotnet-core-vs2017",
+    "testName": "dotnet-core-2017",
     "accountName": "appveyor-tests",
     "projectSlug": "dotnet-core-vs2017",
     "branch": "master",

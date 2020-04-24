@@ -232,47 +232,58 @@
     }
   },
   {
-    "testName": "python 2.7.17",
+    "testName": "python 2.7.x",
     "accountName": "appveyor-tests",
     "projectSlug": "python-versions-linux",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "environmentVariables": {
-      "PYTHON_STACK": "python 2.7.17"
+      "PYTHON_STACK": "python 2.7"
     }
   },
   {
-    "testName": "python 3.7.5",
+    "testName": "python 2.7.18",
     "accountName": "appveyor-tests",
     "projectSlug": "python-versions-linux",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "environmentVariables": {
-      "PYTHON_STACK": "python 3.7.5"
+      "PYTHON_STACK": "python 2.7.18"
     }
   },
   {
-    "testName": "python 3.8.0",
+    "testName": "python 3.7.7",
     "accountName": "appveyor-tests",
     "projectSlug": "python-versions-linux",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "environmentVariables": {
-      "PYTHON_STACK": "python 3.8.0"
+      "PYTHON_STACK": "python 3.7.7"
     }
   },
   {
-    "testName": "python 3.8.1",
+    "testName": "python 3.8.x",
     "accountName": "appveyor-tests",
     "projectSlug": "python-versions-linux",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "environmentVariables": {
-      "PYTHON_STACK": "python 3.8.1"
+      "PYTHON_STACK": "python 3.8"
+    }
+  },
+  {
+    "testName": "python 3.8.2",
+    "accountName": "appveyor-tests",
+    "projectSlug": "python-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "PYTHON_STACK": "python 3.8.2"
     }
   },
   {

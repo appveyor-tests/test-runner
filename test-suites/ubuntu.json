@@ -4,7 +4,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "bitbucket-public-git",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   },
   {
@@ -12,7 +12,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "bitbucket-private-git",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   },
   {
@@ -20,7 +20,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "bitbucket-public-hg",
     "branch": "default",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   },
   {
@@ -28,7 +28,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "bitbucket-private-hg",
     "branch": "default",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   },
   {
@@ -36,7 +36,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "bitbucket-private-shallow-clone",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   },
   {
@@ -44,7 +44,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "bitbucket-private-git-dtc5j",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   },
   {
@@ -52,7 +52,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "bitbucket-private-hg-6vjwi",
     "branch": "default",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   },
   {
@@ -60,7 +60,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "mywebapp",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   },
   {
@@ -68,7 +68,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "projecta",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   },
   {
@@ -76,7 +76,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "git-lfs-test",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   },
   {
@@ -84,7 +84,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "linux-nodejs-versions",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   },
   {
@@ -92,7 +92,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "linux-powershell",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   },
   {
@@ -100,7 +100,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "upload-xml-test-results",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   },
   {
@@ -108,7 +108,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "postgresql-linux",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   },
   {
@@ -116,7 +116,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "ruby-test-linux",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   },
   {
@@ -124,7 +124,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "github-shallow-clone",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   },
   {
@@ -132,7 +132,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "go-lang-versions-linux",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   },
   {
@@ -140,7 +140,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "jdk-versions-linux",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   },
   {
@@ -148,7 +148,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "jdk-stack-versions-linux",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true,
     "environmentVariables": {
       "JAVA_STACK": "jdk 7"
@@ -159,7 +159,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "jdk-stack-versions-linux",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true,
     "environmentVariables": {
       "JAVA_STACK": "jdk 8"
@@ -170,7 +170,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "jdk-stack-versions-linux",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true,
     "environmentVariables": {
       "JAVA_STACK": "jdk 9"
@@ -181,7 +181,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "jdk-stack-versions-linux",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true,
     "environmentVariables": {
       "JAVA_STACK": "jdk 10"
@@ -192,7 +192,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "jdk-stack-versions-linux",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true,
     "environmentVariables": {
       "JAVA_STACK": "jdk 11"
@@ -203,7 +203,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "jdk-stack-versions-linux",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true,
     "environmentVariables": {
       "JAVA_STACK": "jdk 12"
@@ -214,7 +214,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "jdk-stack-versions-linux",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true,
     "environmentVariables": {
       "JAVA_STACK": "jdk 13"
@@ -225,7 +225,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "jdk-stack-versions-linux",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true,
     "environmentVariables": {
       "JAVA_STACK": "jdk 14"
@@ -236,7 +236,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "python-versions-linux",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true,
     "environmentVariables": {
       "PYTHON_STACK": "python 2.7"
@@ -247,7 +247,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "python-versions-linux",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true,
     "environmentVariables": {
       "PYTHON_STACK": "python 2.7.18"
@@ -258,7 +258,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "python-versions-linux",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true,
     "environmentVariables": {
       "PYTHON_STACK": "python 3.7.7"
@@ -269,7 +269,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "python-versions-linux",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true,
     "environmentVariables": {
       "PYTHON_STACK": "python 3.8"
@@ -280,7 +280,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "python-versions-linux",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true,
     "environmentVariables": {
       "PYTHON_STACK": "python 3.8.2"
@@ -291,7 +291,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "python-versions-linux",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true,
     "environmentVariables": {
       "PYTHON_STACK": "python 3.9.0"
@@ -302,7 +302,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "docker-linux",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   },
   {
@@ -310,7 +310,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "mssql-linux",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   },
   {
@@ -318,7 +318,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "clone-folder-linux",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   },
   {
@@ -326,7 +326,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "tools-linux",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   },
   {
@@ -334,7 +334,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "gce-scopes-linux",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   },
   {
@@ -342,7 +342,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "secure-file-test",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   },
   {
@@ -350,7 +350,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "ruby-stack-versions-linux",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   },
   {
@@ -358,7 +358,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "powershell-version-linux",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   },
   {
@@ -366,7 +366,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "bash-builtin-linux",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   },
   {
@@ -374,7 +374,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "xplat-cache-test",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   },
   {
@@ -382,7 +382,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "root-files-linux",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   },
   {
@@ -390,7 +390,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "kernel-linux",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   },
   {
@@ -398,7 +398,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "dotnet-telemetry-linux",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   },
   {
@@ -406,7 +406,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "cmake-version",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   },
   {
@@ -414,7 +414,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "build-agent-bash",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": false
   },
   {
@@ -422,7 +422,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "login-interactive-shell-linux",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   },
   {
@@ -430,7 +430,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "java-tls-test",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   },
   {
@@ -438,7 +438,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "appveyor-cmdlets",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   },
   {
@@ -446,7 +446,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "powershell-artifacts-variable",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   },
   {
@@ -454,7 +454,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "bitbucket-private-git-qddys",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   },
   {
@@ -462,7 +462,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "linux-upgrade",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   },
   {
@@ -470,7 +470,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "localstack-linux",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   },
   {
@@ -478,7 +478,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "virtualbox-linux",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   },
   {
@@ -486,7 +486,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "lang-variable-linux",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   },
   {
@@ -494,7 +494,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "qemu-kvm-linux",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   },
   {
@@ -502,7 +502,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "octo-test-ubuntu",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   },
   {
@@ -510,7 +510,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "freespace-linux",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   },
   {
@@ -518,7 +518,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "long-variables",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   },
   {
@@ -526,7 +526,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "pass-variables-phases",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   },
   {
@@ -534,7 +534,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "check-nuget-linux",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   },
   {
@@ -542,7 +542,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "dotnet-preheat-linux",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   },
   {
@@ -550,7 +550,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "mysql-linux",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   },
   {
@@ -558,7 +558,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "gitversion-linux",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   },
   {
@@ -566,7 +566,7 @@
     "accountName": "appveyor-tests",
     "projectSlug": "qt-linux",
     "branch": "master",
-    "timeoutMinutes": 10,
+    "timeoutMinutes": 30,
     "shouldSucceed": true
   }
 ]

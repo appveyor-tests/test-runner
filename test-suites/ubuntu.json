@@ -506,14 +506,6 @@
     "shouldSucceed": true
   },
   {
-    "testName": "java-tls-test",
-    "accountName": "appveyor-tests",
-    "projectSlug": "java-tls-test",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true
-  },
-  {
     "testName": "Appveyor-cmdlets",
     "accountName": "appveyor-tests",
     "projectSlug": "appveyor-cmdlets",

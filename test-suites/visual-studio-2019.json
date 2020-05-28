@@ -383,7 +383,7 @@
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "environmentVariables": {
-      "EXPECTED_DOTNET_VER": "3.1.201"
+      "EXPECTED_DOTNET_VER": "3.1.202"
     }
   },
   {

@@ -1,13 +1,68 @@
 [
   {
-    "testName": "dotnet-core-2017",
+    "testName": "python 2.7.x",
     "accountName": "appveyor-tests",
-    "projectSlug": "dotnet-core-2017",
+    "projectSlug": "python-versions-linux",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "environmentVariables": {
-      "EXPECTED_DOTNET_VER": "3.1.201"
+      "PYTHON_STACK": "python 2.7"
+    }
+  },
+  {
+    "testName": "python 2.7.18",
+    "accountName": "appveyor-tests",
+    "projectSlug": "python-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "PYTHON_STACK": "python 2.7.18"
+    }
+  },
+  {
+    "testName": "python 3.7.7",
+    "accountName": "appveyor-tests",
+    "projectSlug": "python-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "PYTHON_STACK": "python 3.7.7"
+    }
+  },
+  {
+    "testName": "python 3.8.x",
+    "accountName": "appveyor-tests",
+    "projectSlug": "python-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "PYTHON_STACK": "python 3.8"
+    }
+  },
+  {
+    "testName": "python 3.8.3",
+    "accountName": "appveyor-tests",
+    "projectSlug": "python-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "PYTHON_STACK": "python 3.8.3"
+    }
+  },
+  {
+    "testName": "python 3.9.0",
+    "accountName": "appveyor-tests",
+    "projectSlug": "python-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "PYTHON_STACK": "python 3.9.0"
     }
   }
 ]

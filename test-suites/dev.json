@@ -102,5 +102,13 @@
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true
+  },
+  {
+    "testName": "safaridriver-smoke-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "safaridriver-smoke-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
   }
 ]

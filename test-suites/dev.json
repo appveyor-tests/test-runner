@@ -22,6 +22,39 @@
     }
   },
   {
+    "testName": "python 3.4.10",
+    "accountName": "appveyor-tests",
+    "projectSlug": "python-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "PYTHON_STACK": "python 3.4.10"
+    }
+  },
+  {
+    "testName": "python 3.5.9",
+    "accountName": "appveyor-tests",
+    "projectSlug": "python-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "PYTHON_STACK": "python 3.5.9"
+    }
+  },
+  {
+    "testName": "python 3.6.10",
+    "accountName": "appveyor-tests",
+    "projectSlug": "python-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "PYTHON_STACK": "python 3.6.10"
+    }
+  },
+  {
     "testName": "python 3.7.7",
     "accountName": "appveyor-tests",
     "projectSlug": "python-versions-linux",

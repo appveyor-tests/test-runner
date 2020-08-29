@@ -554,34 +554,10 @@
     "shouldSucceed": true
   },
   {
-    "testName": "mercurial-private-clone-credentials",
-    "accountName": "appveyor-tests",
-    "projectSlug": "bitbucket-private-hg-6vjwi",
-    "branch": "default",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true
-  },
-  {
     "testName": "git-private-clone-credentials",
     "accountName": "appveyor-tests",
     "projectSlug": "bitbucket-private-git-dtc5j",
     "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true
-  },
-  {
-    "testName": "bitbucket-private-hg",
-    "accountName": "appveyor-tests",
-    "projectSlug": "bitbucket-private-hg",
-    "branch": "default",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true
-  },
-  {
-    "testName": "bitbucket-public-hg",
-    "accountName": "appveyor-tests",
-    "projectSlug": "bitbucket-public-hg",
-    "branch": "default",
     "timeoutMinutes": 10,
     "shouldSucceed": true
   },

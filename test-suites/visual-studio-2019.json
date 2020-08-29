@@ -521,14 +521,6 @@
     "shouldSucceed": true
   },
   {
-    "testName": "service-fabric-docker",
-    "accountName": "appveyor-tests",
-    "projectSlug": "service-fabric-docker",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true
-  },
-  {
     "testName": "bitbucket-private-git-ssh-clone-test",
     "accountName": "appveyor-tests",
     "projectSlug": "bitbucket-private-git-qddys",

@@ -1,5 +1,13 @@
 [
   {
+    "testName": "msys-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "msys2-test",
+    "branch": "main",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
     "testName": "nodejs-versions",
     "accountName": "appveyor-tests",
     "projectSlug": "nodejs-versions",

@@ -263,14 +263,14 @@
     }
   },
   {
-    "testName": "python 3.9.0",
+    "testName": "python 3.9.1",
     "accountName": "appveyor-tests",
     "projectSlug": "python-versions-linux",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "environmentVariables": {
-      "PYTHON_STACK": "python 3.9.0"
+      "PYTHON_STACK": "python 3.9.1"
     }
   },
   {

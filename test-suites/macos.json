@@ -24,22 +24,6 @@
     "shouldSucceed": true
   },
   {
-    "testName": "bitbucket-public-hg",
-    "accountName": "appveyor-tests",
-    "projectSlug": "bitbucket-public-hg",
-    "branch": "default",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true
-  },
-  {
-    "testName": "bitbucket-private-hg",
-    "accountName": "appveyor-tests",
-    "projectSlug": "bitbucket-private-hg",
-    "branch": "default",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true
-  },
-  {
     "testName": "bitbucket-private-shallow-clone",
     "accountName": "appveyor-tests",
     "projectSlug": "bitbucket-private-shallow-clone",
@@ -52,14 +36,6 @@
     "accountName": "appveyor-tests",
     "projectSlug": "bitbucket-private-git-dtc5j",
     "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true
-  },
-  {
-    "testName": "mercurial-private-clone-credentials",
-    "accountName": "appveyor-tests",
-    "projectSlug": "bitbucket-private-hg-6vjwi",
-    "branch": "default",
     "timeoutMinutes": 10,
     "shouldSucceed": true
   },
@@ -134,25 +110,14 @@
     }
   },
   {
-    "testName": "python 3.4.10",
+    "testName": "python 3.5.10",
     "accountName": "appveyor-tests",
     "projectSlug": "python-versions-linux",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "environmentVariables": {
-      "PYTHON_STACK": "python 3.4.10"
-    }
-  },
-  {
-    "testName": "python 3.5.9",
-    "accountName": "appveyor-tests",
-    "projectSlug": "python-versions-linux",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "environmentVariables": {
-      "PYTHON_STACK": "python 3.5.9"
+      "PYTHON_STACK": "python 3.5.10"
     }
   },
   {
@@ -167,14 +132,14 @@
     }
   },
   {
-    "testName": "python 3.7.7",
+    "testName": "python 3.7.9",
     "accountName": "appveyor-tests",
     "projectSlug": "python-versions-linux",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "environmentVariables": {
-      "PYTHON_STACK": "python 3.7.7"
+      "PYTHON_STACK": "python 3.7.9"
     }
   },
   {
@@ -189,25 +154,25 @@
     }
   },
   {
-    "testName": "python 3.8.3",
+    "testName": "python 3.8.6",
     "accountName": "appveyor-tests",
     "projectSlug": "python-versions-linux",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "environmentVariables": {
-      "PYTHON_STACK": "python 3.8.3"
+      "PYTHON_STACK": "python 3.8.6"
     }
   },
   {
-    "testName": "python 3.9.0",
+    "testName": "python 3.9.1",
     "accountName": "appveyor-tests",
     "projectSlug": "python-versions-linux",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "environmentVariables": {
-      "PYTHON_STACK": "python 3.9.0"
+      "PYTHON_STACK": "python 3.9.1"
     }
   },
   {

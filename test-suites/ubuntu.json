@@ -252,25 +252,25 @@
     }
   },
   {
-    "testName": "python 3.8.6",
+    "testName": "python 3.8.9",
     "accountName": "appveyor-tests",
     "projectSlug": "python-versions-linux",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "environmentVariables": {
-      "PYTHON_STACK": "python 3.8.6"
+      "PYTHON_STACK": "python 3.8.9"
     }
   },
   {
-    "testName": "python 3.9.1",
+    "testName": "python 3.9.4",
     "accountName": "appveyor-tests",
     "projectSlug": "python-versions-linux",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "environmentVariables": {
-      "PYTHON_STACK": "python 3.9.1"
+      "PYTHON_STACK": "python 3.9.4"
     }
   },
   {

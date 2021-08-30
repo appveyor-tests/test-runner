@@ -514,14 +514,6 @@
     "shouldSucceed": true
   },
   {
-    "testName": "localstack-linux",
-    "accountName": "appveyor-tests",
-    "projectSlug": "localstack-linux",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true
-  },
-  {
     "testName": "virtualbox-linux",
     "accountName": "appveyor-tests",
     "projectSlug": "virtualbox-linux",

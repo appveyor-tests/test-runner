@@ -230,14 +230,14 @@
     }
   },
   {
-    "testName": "python 3.7.12",
+    "testName": "python 3.7.13",
     "accountName": "appveyor-tests",
     "projectSlug": "python-versions-linux",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "environmentVariables": {
-      "PYTHON_STACK": "python 3.7.12"
+      "PYTHON_STACK": "python 3.7.13"
     }
   },
   {
@@ -252,14 +252,14 @@
     }
   },
   {
-    "testName": "python 3.8.12",
+    "testName": "python 3.8.13",
     "accountName": "appveyor-tests",
     "projectSlug": "python-versions-linux",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "environmentVariables": {
-      "PYTHON_STACK": "python 3.8.12"
+      "PYTHON_STACK": "python 3.8.13"
     }
   },
   {
@@ -274,14 +274,14 @@
     }
   },
   {
-    "testName": "python 3.10.2",
+    "testName": "python 3.10.5",
     "accountName": "appveyor-tests",
     "projectSlug": "python-versions-linux",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "environmentVariables": {
-      "PYTHON_STACK": "python 3.10.2"
+      "PYTHON_STACK": "python 3.10.5"
     }
   },  
   {

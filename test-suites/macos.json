@@ -121,25 +121,25 @@
     }
   },
   {
-    "testName": "python 3.6.12",
+    "testName": "python 3.6.15",
     "accountName": "appveyor-tests",
     "projectSlug": "python-versions-linux",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "environmentVariables": {
-      "PYTHON_STACK": "python 3.6.12"
+      "PYTHON_STACK": "python 3.6.15"
     }
   },
   {
-    "testName": "python 3.7.9",
+    "testName": "python 3.7.15",
     "accountName": "appveyor-tests",
     "projectSlug": "python-versions-linux",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "environmentVariables": {
-      "PYTHON_STACK": "python 3.7.9"
+      "PYTHON_STACK": "python 3.7.15"
     }
   },
   {
@@ -154,25 +154,47 @@
     }
   },
   {
-    "testName": "python 3.8.6",
+    "testName": "python 3.8.15",
     "accountName": "appveyor-tests",
     "projectSlug": "python-versions-linux",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "environmentVariables": {
-      "PYTHON_STACK": "python 3.8.6"
+      "PYTHON_STACK": "python 3.8.15"
     }
   },
   {
-    "testName": "python 3.9.1",
+    "testName": "python 3.9.15",
     "accountName": "appveyor-tests",
     "projectSlug": "python-versions-linux",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "environmentVariables": {
-      "PYTHON_STACK": "python 3.9.1"
+      "PYTHON_STACK": "python 3.9.15"
+    }
+  },
+  {
+    "testName": "python 3.10.8",
+    "accountName": "appveyor-tests",
+    "projectSlug": "python-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "PYTHON_STACK": "python 3.10.8"
+    }
+  },
+  {
+    "testName": "python 3.11.0",
+    "accountName": "appveyor-tests",
+    "projectSlug": "python-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "PYTHON_STACK": "python 3.11.0"
     }
   },
   {
@@ -261,6 +283,28 @@
     "shouldSucceed": true,
     "environmentVariables": {
       "RUBY_STACK": "ruby 2.7"
+    }
+  },
+  {
+    "testName": "Ruby 3.0",
+    "accountName": "appveyor-tests",
+    "projectSlug": "ruby-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "RUBY_STACK": "ruby 3.0"
+    }
+  },
+  {
+    "testName": "Ruby 3.1",
+    "accountName": "appveyor-tests",
+    "projectSlug": "ruby-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "RUBY_STACK": "ruby 3.1"
     }
   },
   {

@@ -1,57 +1,91 @@
 [
   {
-    "testName": "python 2.7.17",
+    "testName": "python 3.7.16",
     "accountName": "appveyor-tests",
     "projectSlug": "python-versions-linux",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "environmentVariables": {
-      "PYTHON_STACK": "python 2.7.17"
+      "PYTHON_STACK": "python 3.7.16"
     }
   },
   {
-    "testName": "python 3.7.5",
+    "testName": "python 3.8.x",
     "accountName": "appveyor-tests",
     "projectSlug": "python-versions-linux",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "environmentVariables": {
-      "PYTHON_STACK": "python 3.7.5"
+      "PYTHON_STACK": "python 3.8"
     }
   },
   {
-    "testName": "python 3.8.0",
+    "testName": "python 3.8.16",
     "accountName": "appveyor-tests",
     "projectSlug": "python-versions-linux",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "environmentVariables": {
-      "PYTHON_STACK": "python 3.8.0"
+      "PYTHON_STACK": "python 3.8.16"
     }
   },
   {
-    "testName": "python 3.8.1",
+    "testName": "python 3.9.16",
     "accountName": "appveyor-tests",
     "projectSlug": "python-versions-linux",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "environmentVariables": {
-      "PYTHON_STACK": "python 3.8.1"
+      "PYTHON_STACK": "python 3.9.16"
     }
   },
   {
-    "testName": "python 3.9.0",
+    "testName": "python 3.10.10",
     "accountName": "appveyor-tests",
     "projectSlug": "python-versions-linux",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "environmentVariables": {
-      "PYTHON_STACK": "python 3.9.0"
+      "PYTHON_STACK": "python 3.10.10"
+    }
+  },
+  {
+    "testName": "python 3.11.2",
+    "accountName": "appveyor-tests",
+    "projectSlug": "python-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "PYTHON_STACK": "python 3.11.2"
+    }
+  },
+  {
+    "testName": "Node 8",
+    "accountName": "appveyor-tests",
+    "projectSlug": "node-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "NODE_STACK": "node 8.17.0",
+      "NODE_MAJOR": "node 8"
+    }
+  },
+  {
+    "testName": "tools-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "tools-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "TOOLS": "wget curl 7z 7za ftp lftp tclsh cmake make mvn gradle ant yarn gcc gfortran java javac go node ruby docker sqlcmd psql mongo rabbitmqctl packer aws az pwsh mono mcs xsp4 csc pip virtualenv python python3 git svn hg"
     }
   }
 ]

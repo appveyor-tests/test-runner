@@ -64,6 +64,114 @@
     "shouldSucceed": true
   },
   {
+    "testName": "Node 8",
+    "accountName": "appveyor-tests",
+    "projectSlug": "node-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "NODE_STACK": "node 8.17.0",
+      "NODE_MAJOR": "node 8"
+    }
+  },
+  {
+    "testName": "Node 8",
+    "accountName": "appveyor-tests",
+    "projectSlug": "node-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "NODE_STACK": "node 8.17.0",
+      "NODE_MAJOR": "node 8"
+    }
+  },
+  {
+    "testName": "Node 8",
+    "accountName": "appveyor-tests",
+    "projectSlug": "node-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "NODE_STACK": "node 8.17.0",
+      "NODE_MAJOR": "node 8"
+    }
+  },
+  {
+    "testName": "Node 8",
+    "accountName": "appveyor-tests",
+    "projectSlug": "node-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "NODE_STACK": "node 8.17.0",
+      "NODE_MAJOR": "node 8"
+    }
+  },
+  {
+    "testName": "Node 8",
+    "accountName": "appveyor-tests",
+    "projectSlug": "node-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "NODE_STACK": "node 8.17.0",
+      "NODE_MAJOR": "node 8"
+    }
+  },
+  {
+    "testName": "Node 8",
+    "accountName": "appveyor-tests",
+    "projectSlug": "node-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "NODE_STACK": "node 8.17.0",
+      "NODE_MAJOR": "node 8"
+    }
+  },
+  {
+    "testName": "Node 8",
+    "accountName": "appveyor-tests",
+    "projectSlug": "node-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "NODE_STACK": "node 8.17.0",
+      "NODE_MAJOR": "node 8"
+    }
+  },
+  {
+    "testName": "Node 8",
+    "accountName": "appveyor-tests",
+    "projectSlug": "node-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "NODE_STACK": "node 8.17.0",
+      "NODE_MAJOR": "node 8"
+    }
+  },
+  {
+    "testName": "Node 18",
+    "accountName": "appveyor-tests",
+    "projectSlug": "node-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "NODE_STACK": "node 18.14.2",
+      "NODE_MAJOR": "node 18"
+    }
+  },
+  {
     "testName": "Powershell-linux",
     "accountName": "appveyor-tests",
     "projectSlug": "linux-powershell",
@@ -369,7 +477,10 @@
     "projectSlug": "tools-linux",
     "branch": "master",
     "timeoutMinutes": 10,
-    "shouldSucceed": true
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "TOOLS": "wget curl 7z 7za ftp lftp tclsh cmake make mvn gradle ant yarn gcc gfortran java javac go node ruby docker sqlcmd psql mongo rabbitmqctl packer aws az pwsh mono mcs xsp4 csc pip virtualenv python python3 git svn hg"
+    }
   },
   {
     "testName": "gce-scopes-linux",

@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System;
 using System.Collections;
+using System.Linq;
 using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
@@ -24,6 +25,8 @@ namespace TestSuiteRunner
 
             var binDir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
             var suitePath = Path.GetFullPath(Path.Combine("..", "..", "..", "..", "test-suites", $"{testSuite}.json"), binDir);
+            var exclusionsPath = Path.GetFullPath(Path.Combine("..", "..", "..", "..", "test-suites", "exclusions.json"), binDir);
+            var overrridesPath = Path.GetFullPath(Path.Combine("..", "..", "..", "..", "test-suites", "overrrides.json"), binDir);
             var suiteFailed = false;
 
             if (!File.Exists(suitePath))
@@ -33,9 +36,20 @@ namespace TestSuiteRunner
             }
 
             var tests = JsonConvert.DeserializeObject<TestItem[]>(File.ReadAllText(suitePath));
+            var exclusionsDict = JsonConvert.DeserializeObject<Dictionary<string, TestItem[]>>(File.ReadAllText(exclusionsPath));
+            var exclusions = exclusionsDict[testSuite];
+            var overridesDict = JsonConvert.DeserializeObject<Dictionary<string, TestItem[]>>(File.ReadAllText(overridesPath));
+            var overrides = overridesDict[testSuite];
 
             // add all tests to AppVeyor
-            foreach(var test in tests)
+            // first override if existing
+            foreach (var ovrd in overrides)
+            {
+                int index = Array.FindIndex(tests, t => t.TestName == ovrd.TestName)
+                if (index != -1) tests[index] = ovrd;
+            }
+            // filter via linq for exceptions here
+            foreach(var test in tests.Except(exclusions))
             {
                 await BuildWorkerApi.AddTest(test.TestName);
             }
@@ -46,12 +60,12 @@ namespace TestSuiteRunner
             {
                 List<Task> tasks = new List<Task>();
 
+                //filter via linq for exceptions here
                 foreach (var test in tests)
                 {
                     concurrencySemaphore.Wait();
 
                     Console.WriteLine($"Running test [{testNum++}/{tests.Length}]");
-
                     var worker = new TestBuildWorker(test);
                     tasks.Add(worker.Start().ContinueWith(ct =>
                     {

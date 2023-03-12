@@ -1,0 +1,38 @@
+{
+    "ubuntu": [
+        {
+            "testName": "python 3.10.10",
+            "accountName": "appveyor-tests",
+            "projectSlug": "python-versions-linux",
+            "branch": "master",
+            "timeoutMinutes": 10,
+            "shouldSucceed": true,
+            "environmentVariables": {
+              "PYTHON_STACK": "python 3.10.10"
+            }
+          },
+          {
+            "testName": "python 3.11.2",
+            "accountName": "appveyor-tests",
+            "projectSlug": "python-versions-linux",
+            "branch": "master",
+            "timeoutMinutes": 10,
+            "shouldSucceed": true,
+            "environmentVariables": {
+              "PYTHON_STACK": "python 3.11.2"
+            }
+          },
+          {
+            "testName": "Node 18",
+            "accountName": "appveyor-tests",
+            "projectSlug": "node-stack-versions-linux",
+            "branch": "master",
+            "timeoutMinutes": 10,
+            "shouldSucceed": true,
+            "environmentVariables": {
+              "NODE_STACK": "node 18.14.2",
+              "NODE_MAJOR": "node 18"
+            }
+          }
+    ]
+}

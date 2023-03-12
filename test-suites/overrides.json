@@ -1,0 +1,15 @@
+{
+    "ubuntu": [
+        {
+            "testName": "tools-linux",
+            "accountName": "appveyor-tests",
+            "projectSlug": "tools-linux",
+            "branch": "master",
+            "timeoutMinutes": 10,
+            "shouldSucceed": true,
+            "environmentVariables": {
+              "TOOLS": "wget curl 7z 7za ftp lftp tclsh cmake make mvn gradle ant yarn gcc gfortran java javac go node ruby docker sqlcmd psql mongo rabbitmqctl packer aws az pwsh mono mcs xsp4 csc pip virtualenv python python3 git svn hg"
+            }
+          }
+    ]
+}

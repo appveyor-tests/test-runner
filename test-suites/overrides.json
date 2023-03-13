@@ -1,5 +1,5 @@
 {
-    "ubuntu": [
+    "dev-linux": [
         {
             "testName": "tools-linux",
             "accountName": "OwenMcDonnell",

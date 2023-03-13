@@ -2,7 +2,7 @@
   {
     "testName": "python 3.9.16",
     "accountName": "OwenMcDonnell",
-    "projectSlug": "Python-versions-linux",
+    "projectSlug": "python-versions-linux",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
@@ -13,7 +13,7 @@
   {
     "testName": "python 3.10.10",
     "accountName": "OwenMcDonnell",
-    "projectSlug": "Python-versions-linux",
+    "projectSlug": "python-versions-linux",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
@@ -24,7 +24,7 @@
   {
     "testName": "python 3.11.2",
     "accountName": "OwenMcDonnell",
-    "projectSlug": "Python-versions-linux",
+    "projectSlug": "python-versions-linux",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,

@@ -46,7 +46,10 @@ namespace TestSuiteRunner
             foreach (var ovrd in overrides)
             {
                 int index = Array.FindIndex(tests, t => t.TestName == ovrd.TestName);
-                if (index != -1) tests[index] = ovrd;
+                if (index != -1) {
+                    Console.WriteLine($"Test suite {ovrd.TestName} in {ovrd.AccountName} overridden")
+                    tests[index] = ovrd;
+                }
             }
             // filter via linq for exceptions here
             foreach(var test in tests.Except(exclusions))

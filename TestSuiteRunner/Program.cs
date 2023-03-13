@@ -26,7 +26,7 @@ namespace TestSuiteRunner
             var binDir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
             var suitePath = Path.GetFullPath(Path.Combine("..", "..", "..", "..", "test-suites", $"{testSuite}.json"), binDir);
             var exclusionsPath = Path.GetFullPath(Path.Combine("..", "..", "..", "..", "test-suites", "exclusions.json"), binDir);
-            var overridesPath = Path.GetFullPath(Path.Combine("..", "..", "..", "..", "test-suites", "overrrides.json"), binDir);
+            var overridesPath = Path.GetFullPath(Path.Combine("..", "..", "..", "..", "test-suites", "overrides.json"), binDir);
             var suiteFailed = false;
 
             if (!File.Exists(suitePath))

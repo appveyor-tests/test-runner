@@ -54,6 +54,7 @@ namespace TestSuiteRunner
             // filter via linq for exceptions here
             foreach(var test in tests.Except(exclusions))
             {
+                Console.WriteLine($"Test {test.TestName} being run");
                 await BuildWorkerApi.AddTest(test.TestName);
             }
 

@@ -26,7 +26,7 @@ namespace TestSuiteRunner
             var binDir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
             var suitePath = Path.GetFullPath(Path.Combine("..", "..", "..", "..", "test-suites", $"{testSuite}.json"), binDir);
             var exclusionsPath = Path.GetFullPath(Path.Combine("..", "..", "..", "..", "test-suites", "exclusions.json"), binDir);
-            var overrridesPath = Path.GetFullPath(Path.Combine("..", "..", "..", "..", "test-suites", "overrrides.json"), binDir);
+            var overridesPath = Path.GetFullPath(Path.Combine("..", "..", "..", "..", "test-suites", "overrrides.json"), binDir);
             var suiteFailed = false;
 
             if (!File.Exists(suitePath))
@@ -45,7 +45,7 @@ namespace TestSuiteRunner
             // first override if existing
             foreach (var ovrd in overrides)
             {
-                int index = Array.FindIndex(tests, t => t.TestName == ovrd.TestName)
+                int index = Array.FindIndex(tests, t => t.TestName == ovrd.TestName);
                 if (index != -1) tests[index] = ovrd;
             }
             // filter via linq for exceptions here

@@ -47,7 +47,7 @@ namespace TestSuiteRunner
             {
                 int index = Array.FindIndex(tests, t => t.TestName == ovrd.TestName);
                 if (index != -1) {
-                    Console.WriteLine($"Test suite {ovrd.TestName} in {ovrd.AccountName} overridden")
+                    Console.WriteLine($"Test suite {ovrd.TestName} in {ovrd.AccountName} overridden");
                     tests[index] = ovrd;
                 }
             }

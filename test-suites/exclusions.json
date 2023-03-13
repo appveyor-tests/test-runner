@@ -2,7 +2,7 @@
     "ubuntu": [
         {
             "testName": "python 3.10.10",
-            "accountName": "appveyor-tests",
+            "accountName": "OwenMcDonnell",
             "projectSlug": "python-versions-linux",
             "branch": "master",
             "timeoutMinutes": 10,
@@ -13,7 +13,7 @@
           },
           {
             "testName": "python 3.11.2",
-            "accountName": "appveyor-tests",
+            "accountName": "OwenMcDonnell",
             "projectSlug": "python-versions-linux",
             "branch": "master",
             "timeoutMinutes": 10,
@@ -24,7 +24,7 @@
           },
           {
             "testName": "Node 18",
-            "accountName": "appveyor-tests",
+            "accountName": "OwenMcDonnell",
             "projectSlug": "node-stack-versions-linux",
             "branch": "master",
             "timeoutMinutes": 10,

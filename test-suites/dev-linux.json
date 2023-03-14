@@ -69,7 +69,7 @@
   },
   {
     "testName": "qemu-kvm-linux",
-    "accountName": "appveyor-tests",
+    "accountName": "OwenMcDonnell",
     "projectSlug": "qemu-kvm-linux",
     "branch": "master",
     "timeoutMinutes": 10,

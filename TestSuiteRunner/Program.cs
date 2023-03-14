@@ -40,6 +40,10 @@ namespace TestSuiteRunner
             var exclusions = exclusionsDict[testSuite];
             var overridesDict = JsonConvert.DeserializeObject<Dictionary<string, TestItem[]>>(File.ReadAllText(overridesPath));
             var overrides = overridesDict[testSuite];
+            Array.ForEach(exclusions, Console.WriteLine);
+            Array.ForEach(tests, Console.WriteLine);
+            // Console.WriteLine("[{0}]", string.Join(", ", exclusions));
+            // Console.WriteLine("[{0}]", string.Join(", ", tests));
 
             // add all tests to AppVeyor
             // first override if existing

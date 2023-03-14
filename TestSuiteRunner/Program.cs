@@ -57,8 +57,10 @@ namespace TestSuiteRunner
                     tests[index] = ovrd;
                 }
             }
-            // filter via linq for exceptions here
-            foreach(var test in tests.Except(exclusions))
+            var testDiff = tests.Except(exclusions);
+            Console.WriteLine($"diffed list length {testDiff.Count()}");
+            // filter via linq for exclusions here
+            foreach(var test in testDiff)
             {
                 Console.WriteLine($"Test {test.TestName} being run");
                 await BuildWorkerApi.AddTest(test.TestName);

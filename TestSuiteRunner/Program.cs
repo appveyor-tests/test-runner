@@ -39,6 +39,7 @@ namespace TestSuiteRunner
             var tests = JsonConvert.DeserializeObject<TestItem[]>(File.ReadAllText(suitePath));
             var exclusionsDict = JsonConvert.DeserializeObject<Dictionary<string, TestItem[]>>(File.ReadAllText(exclusionsPath));
             var exclusions = exclusionsDict[testSuite];
+            var exclusionsArr = exclusions.Select(e => e.TestName).ToArray<string>();
             var overridesDict = JsonConvert.DeserializeObject<Dictionary<string, TestItem[]>>(File.ReadAllText(overridesPath));
             var overrides = overridesDict[testSuite];
 
@@ -54,7 +55,7 @@ namespace TestSuiteRunner
             }
             
             // filter via linq for exclusions here
-            foreach(var test in tests.Where(t => exclusions.Any(e => t.TestName != e.TestName)))
+            foreach(var test in tests.Where(t => !exclusionsArr.Contains(t.TestName)))
             {
                 Console.WriteLine($"Test {test.TestName} being run");
                 await BuildWorkerApi.AddTest(test.TestName);

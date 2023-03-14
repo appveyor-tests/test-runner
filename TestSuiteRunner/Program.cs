@@ -19,9 +19,10 @@ namespace TestSuiteRunner
             int maxConcurrency = Int32.TryParse(Environment.GetEnvironmentVariable("TESTS_CONCURRENCY"), out int mc) ? mc : 1;
 
             // load test items
-            var testSuite = GetVariable("TEST_SUITE");
-            GetVariable("TEST_CLOUD");
-            GetVariable("TEST_IMAGE");
+            var testSuite = "dev-linux";
+            //var testSuite = GetVariable("TEST_SUITE");
+            //GetVariable("TEST_CLOUD");
+            //GetVariable("TEST_IMAGE");
 
             var binDir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
             var suitePath = Path.GetFullPath(Path.Combine("..", "..", "..", "..", "test-suites", $"{testSuite}.json"), binDir);
@@ -40,12 +41,6 @@ namespace TestSuiteRunner
             var exclusions = exclusionsDict[testSuite];
             var overridesDict = JsonConvert.DeserializeObject<Dictionary<string, TestItem[]>>(File.ReadAllText(overridesPath));
             var overrides = overridesDict[testSuite];
-            foreach (var kvp in exclusionsDict)
-            {
-                Console.WriteLine("Key = {0}, Value = {1}", kvp.Key, kvp.Value);
-            }
-            // Console.WriteLine("[{0}]", string.Join(", ", exclusions));
-            // Console.WriteLine("[{0}]", string.Join(", ", tests));
 
             // add all tests to AppVeyor
             // first override if existing
@@ -57,10 +52,9 @@ namespace TestSuiteRunner
                     tests[index] = ovrd;
                 }
             }
-            var testDiff = tests.Except(exclusions);
-            Console.WriteLine($"diffed list length {testDiff.Count()}");
+            
             // filter via linq for exclusions here
-            foreach(var test in testDiff)
+            foreach(var test in tests.Where(t => exclusions.Any(e => t.TestName == e.TestName)))
             {
                 Console.WriteLine($"Test {test.TestName} being run");
                 await BuildWorkerApi.AddTest(test.TestName);

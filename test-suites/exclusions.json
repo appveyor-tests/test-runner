@@ -1,38 +1,38 @@
 {
     "dev-linux": [
-        {
-            "testName": "python 3.10.10",
-            "accountName": "OwenMcDonnell",
-            "projectSlug": "python-versions-linux",
-            "branch": "master",
-            "timeoutMinutes": 10,
-            "shouldSucceed": true,
-            "environmentVariables": {
-              "PYTHON_STACK": "python 3.10.10"
-            }
-          },
-          {
-            "testName": "python 3.11.2",
-            "accountName": "OwenMcDonnell",
-            "projectSlug": "python-versions-linux",
-            "branch": "master",
-            "timeoutMinutes": 10,
-            "shouldSucceed": true,
-            "environmentVariables": {
-              "PYTHON_STACK": "python 3.11.2"
-            }
-          },
-          {
-            "testName": "Node 8",
-            "accountName": "OwenMcDonnell",
-            "projectSlug": "node-stack-versions-linux",
-            "branch": "master",
-            "timeoutMinutes": 10,
-            "shouldSucceed": true,
-            "environmentVariables": {
-              "NODE_STACK": "node 8.17.0",
-              "NODE_MAJOR": "node 8"
-            }
-          }
+      {
+        "testName": "python 3.10.10",
+        "accountName": "OwenMcDonnell",
+        "projectSlug": "python-versions-linux",
+        "branch": "master",
+        "timeoutMinutes": 10,
+        "shouldSucceed": true,
+        "environmentVariables": {
+          "PYTHON_STACK": "python 3.10.10"
+        }
+      },
+      {
+        "testName": "python 3.11.2",
+        "accountName": "OwenMcDonnell",
+        "projectSlug": "python-versions-linux",
+        "branch": "master",
+        "timeoutMinutes": 10,
+        "shouldSucceed": true,
+        "environmentVariables": {
+          "PYTHON_STACK": "python 3.11.2"
+        }
+      },
+      {
+        "testName": "Node 8",
+        "accountName": "OwenMcDonnell",
+        "projectSlug": "node-stack-versions-linux",
+        "branch": "master",
+        "timeoutMinutes": 10,
+        "shouldSucceed": true,
+        "environmentVariables": {
+          "NODE_STACK": "node 8.17.0",
+          "NODE_MAJOR": "node 8"
+        }
+      }
     ]
 }

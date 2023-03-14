@@ -33,6 +33,6 @@
           "NODE_STACK": "node 18.14.2",
           "NODE_MAJOR": "node 18"
         }
-      },
+      }
     ]
 }

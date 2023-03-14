@@ -53,9 +53,9 @@ namespace TestSuiteRunner
                     tests[index] = ovrd;
                 }
             }
-            
+            var filteredTests = tests.Where(t => !exclusionsArr.Contains(t.TestName)).ToArray<TestItem>();
             // filter via linq for exclusions here
-            foreach(var test in tests.Where(t => !exclusionsArr.Contains(t.TestName)))
+            foreach(var test in filteredTests)
             {
                 Console.WriteLine($"Test {test.TestName} being run");
                 await BuildWorkerApi.AddTest(test.TestName);
@@ -68,11 +68,11 @@ namespace TestSuiteRunner
                 List<Task> tasks = new List<Task>();
 
                 //filter via linq for exceptions here
-                foreach (var test in tests)
+                foreach (var test in filteredTests)
                 {
                     concurrencySemaphore.Wait();
 
-                    Console.WriteLine($"Running test [{testNum++}/{tests.Length - exclusions.Length}]");
+                    Console.WriteLine($"Running test [{testNum++}/{filteredTests.Length}]");
                     var worker = new TestBuildWorker(test);
                     tasks.Add(worker.Start().ContinueWith(ct =>
                     {

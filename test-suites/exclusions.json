@@ -23,16 +23,16 @@
         }
       },
       {
-        "testName": "Node 8",
+        "testName": "Node 18",
         "accountName": "OwenMcDonnell",
         "projectSlug": "node-stack-versions-linux",
         "branch": "master",
         "timeoutMinutes": 10,
         "shouldSucceed": true,
         "environmentVariables": {
-          "NODE_STACK": "node 8.17.0",
-          "NODE_MAJOR": "node 8"
+          "NODE_STACK": "node 18.14.2",
+          "NODE_MAJOR": "node 18"
         }
-      }
+      },
     ]
 }

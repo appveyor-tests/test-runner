@@ -54,7 +54,7 @@ namespace TestSuiteRunner
             }
             
             // filter via linq for exclusions here
-            foreach(var test in tests.Where(t => exclusions.Any(e => t.TestName == e.TestName)))
+            foreach(var test in tests.Where(t => exclusions.Any(e => t.TestName != e.TestName)))
             {
                 Console.WriteLine($"Test {test.TestName} being run");
                 await BuildWorkerApi.AddTest(test.TestName);
@@ -71,7 +71,7 @@ namespace TestSuiteRunner
                 {
                     concurrencySemaphore.Wait();
 
-                    Console.WriteLine($"Running test [{testNum++}/{tests.Length}]");
+                    Console.WriteLine($"Running test [{testNum++}/{tests.Length - exclusions.Length}]");
                     var worker = new TestBuildWorker(test);
                     tasks.Add(worker.Start().ContinueWith(ct =>
                     {

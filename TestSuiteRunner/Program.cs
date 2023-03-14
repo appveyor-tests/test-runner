@@ -40,8 +40,10 @@ namespace TestSuiteRunner
             var exclusions = exclusionsDict[testSuite];
             var overridesDict = JsonConvert.DeserializeObject<Dictionary<string, TestItem[]>>(File.ReadAllText(overridesPath));
             var overrides = overridesDict[testSuite];
-            var lines = exclusionsDict.Select(kvp => kvp.Key + ": " + kvp.Value.ToString());
-            Console.WriteLine(lines);
+            foreach (var kvp in exclusionsDict)
+            {
+                Console.WriteLine("Key = {0}, Value = {1}", kvp.Key, kvp.Value);
+            }
             // Console.WriteLine("[{0}]", string.Join(", ", exclusions));
             // Console.WriteLine("[{0}]", string.Join(", ", tests));
 

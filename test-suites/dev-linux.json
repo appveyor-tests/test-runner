@@ -40,8 +40,8 @@
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "environmentVariables": {
-      "NODE_STACK": "node 8.17.0",
-      "NODE_MAJOR": "node 8"
+      "NODE_STACK": "8.17.0",
+      "NODE_MAJOR": "8"
     }
   },
   {
@@ -52,8 +52,8 @@
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "environmentVariables": {
-      "NODE_STACK": "node 18.14.2",
-      "NODE_MAJOR": "node 18"
+      "NODE_STACK": "18.14.2",
+      "NODE_MAJOR": "18"
     }
   },
   {

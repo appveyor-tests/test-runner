@@ -41,6 +41,7 @@
     "shouldSucceed": true,
     "environmentVariables": {
       "NODE_STACK": "node 8.17.0",
+      "NODE_VERSION": "8.17.0",
       "NODE_MAJOR": "node 8"
     }
   },
@@ -53,6 +54,7 @@
     "shouldSucceed": true,
     "environmentVariables": {
       "NODE_STACK": "node 18.14.2",
+      "NODE_VERSION": "18.14.2",
       "NODE_MAJOR": "node 18"
     }
   },

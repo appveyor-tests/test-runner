@@ -13,5 +13,6 @@ namespace TestSuiteRunner
         public int TimeoutMinutes { get; set; }
         public bool ShouldSucceed { get; set; }
         public Dictionary<string, string> EnvironmentVariables { get; set; }
+        public Dictionary<string, string[]> Images{ get; set; }
     }
 }

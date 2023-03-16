@@ -1,0 +1,1536 @@
+[
+  {
+    "testName": "android-app-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "android-app-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "appveyor-bot-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "appveyor-bot-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "Appveyor-cmdlets",
+    "accountName": "appveyor-tests",
+    "projectSlug": "appveyor-cmdlets",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "appveyor-py-launcher",
+    "accountName": "appveyor-tests",
+    "projectSlug": "appveyor-py-launcher",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "artifacts",
+    "accountName": "appveyor-tests",
+    "projectSlug": "artifacts",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "aws-tools",
+    "accountName": "appveyor-tests",
+    "projectSlug": "aws-tools",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "az-powershell",
+    "accountName": "appveyor-tests",
+    "projectSlug": "az-powershell",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "azure-cloud-services",
+    "accountName": "appveyor-tests",
+    "projectSlug": "azure-cloud-services",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "azure-powershell",
+    "accountName": "appveyor-tests",
+    "projectSlug": "azure-powershell",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "azure-unc-smb-share",
+    "accountName": "appveyor-tests",
+    "projectSlug": "azure-unc-smb-share",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "AzureCloudServiceVS2017",
+    "accountName": "appveyor-tests",
+    "projectSlug": "azurecloudservicevs2017",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "bash-builtin-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "bash-builtin-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "bash-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "bash-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "bitbucket-private-git",
+    "accountName": "appveyor-tests",
+    "projectSlug": "bitbucket-private-git",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "bitbucket-private-git-ssh-clone-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "bitbucket-private-git-qddys",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "bitbucket-private-shallow-clone",
+    "accountName": "appveyor-tests",
+    "projectSlug": "bitbucket-private-shallow-clone",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "bitbucket-public-git",
+    "accountName": "appveyor-tests",
+    "projectSlug": "bitbucket-public-git",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "build-agent-bash",
+    "accountName": "appveyor-tests",
+    "projectSlug": "build-agent-bash",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": false
+  },
+  {
+    "testName": "c-projects-folder-should-not-exist",
+    "accountName": "appveyor-tests",
+    "projectSlug": "c-projects-folder-should-not-exist",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "cache",
+    "accountName": "appveyor-tests",
+    "projectSlug": "cache",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "check_nuget_linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "check-nuget-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "clone-folder-forward-slash",
+    "accountName": "appveyor-tests",
+    "projectSlug": "clone-folder-forward-slash",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "clone-folder-variables",
+    "accountName": "appveyor-tests",
+    "projectSlug": "clone-folder-variables",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "clone-folder-with-spaces",
+    "accountName": "appveyor-tests",
+    "projectSlug": "clone-folder-with-spaces",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "clone_folder_linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "clone-folder-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "cmake-version",
+    "accountName": "appveyor-tests",
+    "projectSlug": "cmake-version",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "CORSTest",
+    "accountName": "appveyor-tests",
+    "projectSlug": "corstest",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "CosmosDb",
+    "accountName": "appveyor-tests",
+    "projectSlug": "cosmosdb",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "dacpac-local-2008r2sp2-vs2015",
+    "accountName": "appveyor-tests",
+    "projectSlug": "dacpac-local-2008r2sp2",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "dacpac-local-2012sp1-vs2015",
+    "accountName": "appveyor-tests",
+    "projectSlug": "dacpac-local-2012sp1",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "dacpac-local-2014",
+    "accountName": "appveyor-tests",
+    "projectSlug": "dacpac-local-2014",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "dacpac-local-2016",
+    "accountName": "appveyor-tests",
+    "projectSlug": "dacpac-local-2016",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "dacpac-local-2017",
+    "accountName": "appveyor-tests",
+    "projectSlug": "dacpac-local-2017",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "dacpac-sqlpackage-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "dacpac-sqlpackage-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "dacpac-sqlpackage-test-sql2019",
+    "accountName": "appveyor-tests",
+    "projectSlug": "dacpac-sqlpackage-test-sql2019",
+    "branch": "sql2019",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "docker-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "docker-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "docker-tests",
+    "accountName": "appveyor-tests",
+    "projectSlug": "docker-tests",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "dotnet-core-2017",
+    "accountName": "appveyor-tests",
+    "projectSlug": "dotnet-core-2017",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "EXPECTED_DOTNET_VER": "2.2.402"
+    }
+  },
+  {
+    "testName": "dotnet-preheat-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "dotnet-preheat-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "dotnet-telemetry-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "dotnet-telemetry-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "dotnet_preheat_linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "dotnet-preheat-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "dotnetcore-nuget-pack",
+    "accountName": "appveyor-tests",
+    "projectSlug": "dotnetcore-nuget-pack",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "freespace-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "freespace-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "gce-scopes-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "gce-scopes-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "git-lfs-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "git-lfs-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "git-long-paths",
+    "accountName": "appveyor-tests",
+    "projectSlug": "git-long-paths",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "git-private-clone-credentials",
+    "accountName": "appveyor-tests",
+    "projectSlug": "bitbucket-private-git-dtc5j",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "github-shallow-clone",
+    "accountName": "appveyor-tests",
+    "projectSlug": "github-shallow-clone",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "gitversion-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "gitversion-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "go-lang-versions-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "go-lang-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "homebrew-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "homebrew-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "jdk 10",
+    "accountName": "appveyor-tests",
+    "projectSlug": "jdk-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "JAVA_STACK": "jdk 10"
+    }
+  },
+  {
+    "testName": "jdk 11",
+    "accountName": "appveyor-tests",
+    "projectSlug": "jdk-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "JAVA_STACK": "jdk 11"
+    }
+  },
+  {
+    "testName": "jdk 12",
+    "accountName": "appveyor-tests",
+    "projectSlug": "jdk-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "JAVA_STACK": "jdk 12"
+    }
+  },
+  {
+    "testName": "jdk 13",
+    "accountName": "appveyor-tests",
+    "projectSlug": "jdk-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "JAVA_STACK": "jdk 13"
+    }
+  },
+  {
+    "testName": "jdk 14",
+    "accountName": "appveyor-tests",
+    "projectSlug": "jdk-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "JAVA_STACK": "jdk 14"
+    }
+  },
+  {
+    "testName": "jdk 15",
+    "accountName": "appveyor-tests",
+    "projectSlug": "jdk-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "JAVA_STACK": "jdk 15"
+    }
+  },
+  {
+    "testName": "jdk 16",
+    "accountName": "appveyor-tests",
+    "projectSlug": "jdk-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "JAVA_STACK": "jdk 16"
+    }
+  },
+  {
+    "testName": "jdk 17",
+    "accountName": "appveyor-tests",
+    "projectSlug": "jdk-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "JAVA_STACK": "jdk 17"
+    }
+  },
+  {
+    "testName": "jdk 18",
+    "accountName": "appveyor-tests",
+    "projectSlug": "jdk-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "JAVA_STACK": "jdk 18"
+    }
+  },
+  {
+    "testName": "jdk 7",
+    "accountName": "appveyor-tests",
+    "projectSlug": "jdk-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "JAVA_STACK": "jdk 7"
+    }
+  },
+  {
+    "testName": "jdk 8",
+    "accountName": "appveyor-tests",
+    "projectSlug": "jdk-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "JAVA_STACK": "jdk 8"
+    }
+  },
+  {
+    "testName": "jdk 9",
+    "accountName": "appveyor-tests",
+    "projectSlug": "jdk-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "JAVA_STACK": "jdk 9"
+    }
+  },
+  {
+    "testName": "jdk-versions-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "jdk-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "jspm-config-auth",
+    "accountName": "appveyor-tests",
+    "projectSlug": "jspm-config-auth",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "Kernel-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "kernel-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "lang-variable-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "lang-variable-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "linux-upgrade",
+    "accountName": "appveyor-tests",
+    "projectSlug": "linux-upgrade",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "login-interactive-shell-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "login-interactive-shell-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "Long-variables",
+    "accountName": "appveyor-tests",
+    "projectSlug": "long-variables",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "macos",
+    "accountName": "appveyor-tests",
+    "projectSlug": "macos",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "msbuild-community-tasks-chocolatey",
+    "accountName": "appveyor-tests",
+    "projectSlug": "msbuild-community-tasks-chocolatey",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "MSSQL_linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "mssql-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "msys-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "msys2-test",
+    "branch": "main",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "multiple-test-assemblies",
+    "accountName": "appveyor-tests",
+    "projectSlug": "multiple-test-assemblies",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "mysql-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "mysql-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "nodejs-versions",
+    "accountName": "appveyor-tests",
+    "projectSlug": "nodejs-versions",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "nodejs_versions-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "linux-nodejs-versions",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "npm-install",
+    "accountName": "appveyor-tests",
+    "projectSlug": "npm-install",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "nuget-restore",
+    "accountName": "appveyor-tests",
+    "projectSlug": "nuget-restore",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "nuget-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "nuget-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "nunit3-tests",
+    "accountName": "appveyor-tests",
+    "projectSlug": "nunit3-tests",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": false
+  },
+  {
+    "testName": "octo-test-ubuntu",
+    "accountName": "appveyor-tests",
+    "projectSlug": "octo-test-ubuntu",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "package-web-app-with-web-jobs",
+    "accountName": "appveyor-tests",
+    "projectSlug": "package-web-app-with-web-jobs",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "pass-variables-phases",
+    "accountName": "appveyor-tests",
+    "projectSlug": "pass-variables-phases",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "ping-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "ping-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "postgresql",
+    "accountName": "appveyor-tests",
+    "projectSlug": "postgresql",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "postgresql-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "postgresql-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "powershell-core",
+    "accountName": "appveyor-tests",
+    "projectSlug": "powershell-core",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "Powershell-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "linux-powershell",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "powershell-start-job-slow-regression",
+    "accountName": "appveyor-tests",
+    "projectSlug": "powershell-start-job-slow-regression",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "powershell-version-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "powershell-version-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "Powershell_artifacts_variable",
+    "accountName": "appveyor-tests",
+    "projectSlug": "powershell-artifacts-variable",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "ps-core-windows-appveyor-cmdlets",
+    "accountName": "appveyor-tests",
+    "projectSlug": "ps-core-windows-appveyor-cmdlets",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "ps-iswindows-islinux-vars",
+    "accountName": "appveyor-tests",
+    "projectSlug": "ps-iswindows-islinux-vars",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "psexec-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "psexec-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "psgallery-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "psgallery-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "python 2.7.18",
+    "accountName": "appveyor-tests",
+    "projectSlug": "python-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "PYTHON_STACK": "python 2.7.18"
+    }
+  },
+  {
+    "testName": "python 2.7.x",
+    "accountName": "appveyor-tests",
+    "projectSlug": "python-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "PYTHON_STACK": "python 2.7"
+    }
+  },
+  {
+    "testName": "python 3.10.10",
+    "accountName": "appveyor-tests",
+    "projectSlug": "python-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "PYTHON_STACK": "python 3.10.10"
+    }
+  },
+  {
+    "testName": "python 3.10.6",
+    "accountName": "appveyor-tests",
+    "projectSlug": "python-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "PYTHON_STACK": "python 3.10.6"
+    }
+  },
+  {
+    "testName": "python 3.10.8",
+    "accountName": "appveyor-tests",
+    "projectSlug": "python-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "PYTHON_STACK": "python 3.10.8"
+    }
+  },
+  {
+    "testName": "python 3.11.0",
+    "accountName": "appveyor-tests",
+    "projectSlug": "python-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "PYTHON_STACK": "python 3.11.0"
+    }
+  },
+  {
+    "testName": "python 3.11.2",
+    "accountName": "appveyor-tests",
+    "projectSlug": "python-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "PYTHON_STACK": "python 3.11.2"
+    }
+  },
+  {
+    "testName": "python 3.5.10",
+    "accountName": "appveyor-tests",
+    "projectSlug": "python-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "PYTHON_STACK": "python 3.5.10"
+    }
+  },
+  {
+    "testName": "python 3.6.15",
+    "accountName": "appveyor-tests",
+    "projectSlug": "python-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "PYTHON_STACK": "python 3.6.15"
+    }
+  },
+  {
+    "testName": "python 3.7.13",
+    "accountName": "appveyor-tests",
+    "projectSlug": "python-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "PYTHON_STACK": "python 3.7.13"
+    }
+  },
+  {
+    "testName": "python 3.7.15",
+    "accountName": "appveyor-tests",
+    "projectSlug": "python-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "PYTHON_STACK": "python 3.7.15"
+    }
+  },
+  {
+    "testName": "python 3.7.16",
+    "accountName": "appveyor-tests",
+    "projectSlug": "python-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "PYTHON_STACK": "python 3.7.16"
+    }
+  },
+  {
+    "testName": "python 3.8.13",
+    "accountName": "appveyor-tests",
+    "projectSlug": "python-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "PYTHON_STACK": "python 3.8.13"
+    }
+  },
+  {
+    "testName": "python 3.8.15",
+    "accountName": "appveyor-tests",
+    "projectSlug": "python-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "PYTHON_STACK": "python 3.8.15"
+    }
+  },
+  {
+    "testName": "python 3.8.16",
+    "accountName": "appveyor-tests",
+    "projectSlug": "python-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "PYTHON_STACK": "python 3.8.16"
+    }
+  },
+  {
+    "testName": "python 3.8.x",
+    "accountName": "appveyor-tests",
+    "projectSlug": "python-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "PYTHON_STACK": "python 3.8"
+    }
+  },
+  {
+    "testName": "python 3.9.13",
+    "accountName": "appveyor-tests",
+    "projectSlug": "python-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "PYTHON_STACK": "python 3.9.13"
+    }
+  },
+  {
+    "testName": "python 3.9.15",
+    "accountName": "appveyor-tests",
+    "projectSlug": "python-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "PYTHON_STACK": "python 3.9.15"
+    }
+  },
+  {
+    "testName": "python 3.9.16",
+    "accountName": "appveyor-tests",
+    "projectSlug": "python-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "PYTHON_STACK": "python 3.9.16"
+    }
+  },
+  {
+    "testName": "python-miniconda-tests",
+    "accountName": "appveyor-tests",
+    "projectSlug": "miniconda-tests",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "python-versions-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "python-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "qemu-kvm-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "qemu-kvm-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "qt-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "qt-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "qt-tests",
+    "accountName": "appveyor-tests",
+    "projectSlug": "qt-tests",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "root-files-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "root-files-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "Ruby 2.0",
+    "accountName": "appveyor-tests",
+    "projectSlug": "ruby-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "RUBY_STACK": "ruby 2.0"
+    }
+  },
+  {
+    "testName": "Ruby 2.1",
+    "accountName": "appveyor-tests",
+    "projectSlug": "ruby-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "RUBY_STACK": "ruby 2.1"
+    }
+  },
+  {
+    "testName": "Ruby 2.2",
+    "accountName": "appveyor-tests",
+    "projectSlug": "ruby-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "RUBY_STACK": "ruby 2.2"
+    }
+  },
+  {
+    "testName": "Ruby 2.3",
+    "accountName": "appveyor-tests",
+    "projectSlug": "ruby-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "RUBY_STACK": "ruby 2.3"
+    }
+  },
+  {
+    "testName": "Ruby 2.4",
+    "accountName": "appveyor-tests",
+    "projectSlug": "ruby-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "RUBY_STACK": "ruby 2.4"
+    }
+  },
+  {
+    "testName": "Ruby 2.5",
+    "accountName": "appveyor-tests",
+    "projectSlug": "ruby-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "RUBY_STACK": "ruby 2.5"
+    }
+  },
+  {
+    "testName": "Ruby 2.6",
+    "accountName": "appveyor-tests",
+    "projectSlug": "ruby-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "RUBY_STACK": "ruby 2.6"
+    }
+  },
+  {
+    "testName": "Ruby 2.7",
+    "accountName": "appveyor-tests",
+    "projectSlug": "ruby-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "RUBY_STACK": "ruby 2.7"
+    }
+  },
+  {
+    "testName": "Ruby 3.0",
+    "accountName": "appveyor-tests",
+    "projectSlug": "ruby-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "RUBY_STACK": "ruby 3.0"
+    }
+  },
+  {
+    "testName": "Ruby 3.1",
+    "accountName": "appveyor-tests",
+    "projectSlug": "ruby-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "RUBY_STACK": "ruby 3.1.3"
+    }
+  },
+  {
+    "testName": "Ruby 3.1.2",
+    "accountName": "appveyor-tests",
+    "projectSlug": "ruby-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "RUBY_STACK": "ruby 3.1.2"
+    }
+  },
+  {
+    "testName": "Ruby 3.2",
+    "accountName": "appveyor-tests",
+    "projectSlug": "ruby-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "RUBY_STACK": "ruby 3.2.1"
+    }
+  },
+  {
+    "testName": "ruby-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "ruby-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "ruby-test-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "ruby-test-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "rust-ssl-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "rust-ssl-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "safaridriver-smoke-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "safaridriver-smoke-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "secure-file-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "secure-file-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "selenium-tests",
+    "accountName": "appveyor-tests",
+    "projectSlug": "selenium-tests",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "semver2-nuget-restore",
+    "accountName": "appveyor-tests",
+    "projectSlug": "semver2-nuget-restore",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "service-fabric-docker",
+    "accountName": "appveyor-tests",
+    "projectSlug": "service-fabric-docker",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "service-fabric-dotnet-getting-started",
+    "accountName": "appveyor-tests",
+    "projectSlug": "service-fabric-dotnet-getting-started",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "sql server 2008 R2 SP2",
+    "accountName": "appveyor-tests",
+    "projectSlug": "sql-server-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "SQL_INSTANCE_NAME": "SQL2008R2SP2"
+    }
+  },
+  {
+    "testName": "sql server 2012 SP1",
+    "accountName": "appveyor-tests",
+    "projectSlug": "sql-server-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "SQL_INSTANCE_NAME": "SQL2012SP1"
+    }
+  },
+  {
+    "testName": "sql server 2014",
+    "accountName": "appveyor-tests",
+    "projectSlug": "sql-server-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "SQL_INSTANCE_NAME": "SQL2014"
+    }
+  },
+  {
+    "testName": "sql server 2016",
+    "accountName": "appveyor-tests",
+    "projectSlug": "sql-server-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "SQL_INSTANCE_NAME": "SQL2016"
+    }
+  },
+  {
+    "testName": "sql server 2017",
+    "accountName": "appveyor-tests",
+    "projectSlug": "sql-server-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "SQL_INSTANCE_NAME": "SQL2017"
+    }
+  },
+  {
+    "testName": "sql server 2019",
+    "accountName": "appveyor-tests",
+    "projectSlug": "sql-server-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "SQL_INSTANCE_NAME": "SQL2019"
+    }
+  },
+  {
+    "testName": "sql-server-restore-bak",
+    "accountName": "appveyor-tests",
+    "projectSlug": "sql-server-restore-bak",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "ssdt-dacpac",
+    "accountName": "appveyor-tests",
+    "projectSlug": "ssdt-dacpac",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "start-bitstransfer-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "start-bitstransfer-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "sxs-vs7",
+    "accountName": "appveyor-tests",
+    "projectSlug": "sxs-vs7",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "tools-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "tools-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "unc-test-python",
+    "accountName": "appveyor-tests",
+    "projectSlug": "unc-test-python",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "unit-test-runners",
+    "accountName": "appveyor-tests",
+    "projectSlug": "unit-test-runners",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "unit-test-runners-except",
+    "accountName": "appveyor-tests",
+    "projectSlug": "unit-test-runners-l2j5s",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "unit-test-runners-only-new-style",
+    "accountName": "appveyor-tests",
+    "projectSlug": "unit-test-runners-lin69",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "unit-test-runners-only-old-style",
+    "accountName": "appveyor-tests",
+    "projectSlug": "unit-test-runners-fn0om",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "upload-xml-test-results",
+    "accountName": "appveyor-tests",
+    "projectSlug": "upload-xml-test-results",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "vdproj-do-not-parse-as-xml",
+    "accountName": "appveyor-tests",
+    "projectSlug": "vdproj-do-not-parse-as-xml",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "vdproj-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "vdproj-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "virtualbox-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "virtualbox-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "VSTS-git-clone",
+    "accountName": "appveyor-tests",
+    "projectSlug": "mywebapp",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "VSTS-TFVC-clone",
+    "accountName": "appveyor-tests",
+    "projectSlug": "projecta",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "WDK 10.0.14393.0",
+    "accountName": "appveyor-tests",
+    "projectSlug": "winfsp-citest",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "web-app-packaging-for-xcopy",
+    "accountName": "appveyor-tests",
+    "projectSlug": "web-app-packaging-for-xcopy",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "where-tools",
+    "accountName": "appveyor-tests",
+    "projectSlug": "where-tools",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "windows-phone-8.1-behaviors",
+    "accountName": "appveyor-tests",
+    "projectSlug": "appveyorxamlbehaviorstest",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "wix-in-vs2017",
+    "accountName": "appveyor-tests",
+    "projectSlug": "setupproject2017",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "wix3x-pre311-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "wix3x-pre311-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "xplat-cache-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "xplat-cache-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  },
+  {
+    "testName": "yarn-tests",
+    "accountName": "appveyor-tests",
+    "projectSlug": "yarn-tests",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true
+  }
+]

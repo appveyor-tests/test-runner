@@ -5,7 +5,12 @@
       "projectSlug": "android-app-test",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "appveyor-bot-test",
@@ -13,7 +18,12 @@
       "projectSlug": "appveyor-bot-test",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "Appveyor-cmdlets",
@@ -21,7 +31,12 @@
       "projectSlug": "appveyor-cmdlets",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "ubuntu-arm",
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "appveyor-py-launcher",
@@ -29,7 +44,12 @@
       "projectSlug": "appveyor-py-launcher",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "artifacts",
@@ -37,7 +57,12 @@
       "projectSlug": "artifacts",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "aws-tools",
@@ -45,7 +70,12 @@
       "projectSlug": "aws-tools",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "az-powershell",
@@ -53,7 +83,10 @@
       "projectSlug": "az-powershell",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "azure-cloud-services",
@@ -61,7 +94,12 @@
       "projectSlug": "azure-cloud-services",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "azure-powershell",
@@ -69,7 +107,12 @@
       "projectSlug": "azure-powershell",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "azure-unc-smb-share",
@@ -77,7 +120,12 @@
       "projectSlug": "azure-unc-smb-share",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "AzureCloudServiceVS2017",
@@ -85,7 +133,12 @@
       "projectSlug": "azurecloudservicevs2017",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "bash-builtin-linux",
@@ -93,7 +146,12 @@
       "projectSlug": "bash-builtin-linux",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "ubuntu-arm",
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "bash-test",
@@ -101,7 +159,12 @@
       "projectSlug": "bash-test",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "bitbucket-private-git",
@@ -109,7 +172,15 @@
       "projectSlug": "bitbucket-private-git",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "ubuntu-arm",
+        "macos",
+        "ubuntu",
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "bitbucket-private-git-ssh-clone-test",
@@ -117,7 +188,14 @@
       "projectSlug": "bitbucket-private-git-qddys",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "ubuntu-arm",
+        "ubuntu",
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "bitbucket-private-shallow-clone",
@@ -125,7 +203,15 @@
       "projectSlug": "bitbucket-private-shallow-clone",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "ubuntu-arm",
+        "macos",
+        "ubuntu",
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "bitbucket-public-git",
@@ -133,7 +219,15 @@
       "projectSlug": "bitbucket-public-git",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "ubuntu-arm",
+        "macos",
+        "ubuntu",
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "build-agent-bash",
@@ -141,7 +235,12 @@
       "projectSlug": "build-agent-bash",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": false
+      "shouldSucceed": false,
+      "images": [
+        "ubuntu-arm",
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "c-projects-folder-should-not-exist",
@@ -149,7 +248,12 @@
       "projectSlug": "c-projects-folder-should-not-exist",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "cache",
@@ -157,7 +261,12 @@
       "projectSlug": "cache",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "check_nuget_linux",
@@ -165,7 +274,12 @@
       "projectSlug": "check-nuget-linux",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "ubuntu-arm",
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "clone-folder-forward-slash",
@@ -173,7 +287,11 @@
       "projectSlug": "clone-folder-forward-slash",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "clone-folder-variables",
@@ -181,7 +299,11 @@
       "projectSlug": "clone-folder-variables",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "clone-folder-with-spaces",
@@ -189,7 +311,12 @@
       "projectSlug": "clone-folder-with-spaces",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "clone_folder_linux",
@@ -197,7 +324,12 @@
       "projectSlug": "clone-folder-linux",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "ubuntu-arm",
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "cmake-version",
@@ -205,7 +337,12 @@
       "projectSlug": "cmake-version",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "ubuntu-arm",
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "CORSTest",
@@ -213,7 +350,11 @@
       "projectSlug": "corstest",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "CosmosDb",
@@ -221,7 +362,12 @@
       "projectSlug": "cosmosdb",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "dacpac-local-2008r2sp2-vs2015",
@@ -229,7 +375,11 @@
       "projectSlug": "dacpac-local-2008r2sp2",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "dacpac-local-2012sp1-vs2015",
@@ -237,7 +387,11 @@
       "projectSlug": "dacpac-local-2012sp1",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "dacpac-local-2014",
@@ -245,7 +399,12 @@
       "projectSlug": "dacpac-local-2014",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "dacpac-local-2016",
@@ -253,7 +412,12 @@
       "projectSlug": "dacpac-local-2016",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "dacpac-local-2017",
@@ -261,7 +425,10 @@
       "projectSlug": "dacpac-local-2017",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "dacpac-sqlpackage-test",
@@ -269,7 +436,12 @@
       "projectSlug": "dacpac-sqlpackage-test",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "dacpac-sqlpackage-test-sql2019",
@@ -277,7 +449,10 @@
       "projectSlug": "dacpac-sqlpackage-test-sql2019",
       "branch": "sql2019",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "docker-linux",
@@ -285,7 +460,12 @@
       "projectSlug": "docker-linux",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "ubuntu-arm",
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "docker-tests",
@@ -293,7 +473,11 @@
       "projectSlug": "docker-tests",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "dotnet-core-2017",
@@ -304,7 +488,12 @@
       "shouldSucceed": true,
       "environmentVariables": {
         "EXPECTED_DOTNET_VER": "2.2.402"
-      }
+      },
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "dotnet-preheat-linux",
@@ -312,7 +501,11 @@
       "projectSlug": "dotnet-preheat-linux",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "macos",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "dotnet-telemetry-linux",
@@ -320,7 +513,12 @@
       "projectSlug": "dotnet-telemetry-linux",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "ubuntu-arm",
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "dotnet_preheat_linux",
@@ -328,7 +526,12 @@
       "projectSlug": "dotnet-preheat-linux",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "ubuntu-arm",
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "dotnetcore-nuget-pack",
@@ -336,7 +539,11 @@
       "projectSlug": "dotnetcore-nuget-pack",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "freespace-linux",
@@ -344,7 +551,13 @@
       "projectSlug": "freespace-linux",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "ubuntu-arm",
+        "macos",
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "gce-scopes-linux",
@@ -352,7 +565,12 @@
       "projectSlug": "gce-scopes-linux",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "ubuntu-arm",
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "git-lfs-test",
@@ -360,7 +578,14 @@
       "projectSlug": "git-lfs-test",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "ubuntu-arm",
+        "ubuntu",
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "git-long-paths",
@@ -368,7 +593,12 @@
       "projectSlug": "git-long-paths",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "git-private-clone-credentials",
@@ -376,7 +606,15 @@
       "projectSlug": "bitbucket-private-git-dtc5j",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "ubuntu-arm",
+        "macos",
+        "ubuntu",
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "github-shallow-clone",
@@ -384,7 +622,14 @@
       "projectSlug": "github-shallow-clone",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "ubuntu-arm",
+        "ubuntu",
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "gitversion-linux",
@@ -392,7 +637,12 @@
       "projectSlug": "gitversion-linux",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "ubuntu-arm",
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "go-lang-versions-linux",
@@ -400,7 +650,13 @@
       "projectSlug": "go-lang-versions-linux",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "ubuntu-arm",
+        "macos",
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "homebrew-test",
@@ -408,7 +664,11 @@
       "projectSlug": "homebrew-test",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "macos",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "jdk 10",
@@ -419,7 +679,11 @@
       "shouldSucceed": true,
       "environmentVariables": {
         "JAVA_STACK": "jdk 10"
-      }
+      },
+      "images": [
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "jdk 11",
@@ -430,7 +694,11 @@
       "shouldSucceed": true,
       "environmentVariables": {
         "JAVA_STACK": "jdk 11"
-      }
+      },
+      "images": [
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "jdk 12",
@@ -441,7 +709,11 @@
       "shouldSucceed": true,
       "environmentVariables": {
         "JAVA_STACK": "jdk 12"
-      }
+      },
+      "images": [
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "jdk 13",
@@ -452,7 +724,11 @@
       "shouldSucceed": true,
       "environmentVariables": {
         "JAVA_STACK": "jdk 13"
-      }
+      },
+      "images": [
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "jdk 14",
@@ -463,7 +739,11 @@
       "shouldSucceed": true,
       "environmentVariables": {
         "JAVA_STACK": "jdk 14"
-      }
+      },
+      "images": [
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "jdk 15",
@@ -474,7 +754,12 @@
       "shouldSucceed": true,
       "environmentVariables": {
         "JAVA_STACK": "jdk 15"
-      }
+      },
+      "images": [
+        "ubuntu-arm",
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "jdk 16",
@@ -485,7 +770,12 @@
       "shouldSucceed": true,
       "environmentVariables": {
         "JAVA_STACK": "jdk 16"
-      }
+      },
+      "images": [
+        "ubuntu-arm",
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "jdk 17",
@@ -496,7 +786,12 @@
       "shouldSucceed": true,
       "environmentVariables": {
         "JAVA_STACK": "jdk 17"
-      }
+      },
+      "images": [
+        "ubuntu-arm",
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "jdk 18",
@@ -507,7 +802,12 @@
       "shouldSucceed": true,
       "environmentVariables": {
         "JAVA_STACK": "jdk 18"
-      }
+      },
+      "images": [
+        "ubuntu-arm",
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "jdk 7",
@@ -518,7 +818,11 @@
       "shouldSucceed": true,
       "environmentVariables": {
         "JAVA_STACK": "jdk 7"
-      }
+      },
+      "images": [
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "jdk 8",
@@ -529,7 +833,11 @@
       "shouldSucceed": true,
       "environmentVariables": {
         "JAVA_STACK": "jdk 8"
-      }
+      },
+      "images": [
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "jdk 9",
@@ -540,7 +848,11 @@
       "shouldSucceed": true,
       "environmentVariables": {
         "JAVA_STACK": "jdk 9"
-      }
+      },
+      "images": [
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "jdk-versions-linux",
@@ -548,7 +860,12 @@
       "projectSlug": "jdk-versions-linux",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "ubuntu-arm",
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "jspm-config-auth",
@@ -556,7 +873,12 @@
       "projectSlug": "jspm-config-auth",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "Kernel-linux",
@@ -564,7 +886,12 @@
       "projectSlug": "kernel-linux",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "ubuntu-arm",
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "lang-variable-linux",
@@ -572,7 +899,12 @@
       "projectSlug": "lang-variable-linux",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "ubuntu-arm",
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "linux-upgrade",
@@ -580,7 +912,12 @@
       "projectSlug": "linux-upgrade",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "ubuntu-arm",
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "login-interactive-shell-linux",
@@ -588,7 +925,12 @@
       "projectSlug": "login-interactive-shell-linux",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "ubuntu-arm",
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "Long-variables",
@@ -596,7 +938,13 @@
       "projectSlug": "long-variables",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "ubuntu-arm",
+        "macos",
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "macos",
@@ -604,7 +952,11 @@
       "projectSlug": "macos",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "macos",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "msbuild-community-tasks-chocolatey",
@@ -612,7 +964,12 @@
       "projectSlug": "msbuild-community-tasks-chocolatey",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "MSSQL_linux",
@@ -620,7 +977,11 @@
       "projectSlug": "mssql-linux",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "msys-test",
@@ -628,7 +989,10 @@
       "projectSlug": "msys2-test",
       "branch": "main",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "multiple-test-assemblies",
@@ -636,7 +1000,11 @@
       "projectSlug": "multiple-test-assemblies",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "mysql-linux",
@@ -644,31 +1012,12 @@
       "projectSlug": "mysql-linux",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
-    },
-    {
-      "testName": "Node 18",
-      "accountName": "appveyor-tests",
-      "projectSlug": "node-stack-versions-linux",
-      "branch": "master",
-      "timeoutMinutes": 10,
       "shouldSucceed": true,
-      "environmentVariables": {
-        "NODE_STACK": "node 18.14.2",
-        "NODE_MAJOR": "node 18"
-      }
-    },
-    {
-      "testName": "Node 8",
-      "accountName": "appveyor-tests",
-      "projectSlug": "node-stack-versions-linux",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "environmentVariables": {
-        "NODE_STACK": "node 8.17.0",
-        "NODE_MAJOR": "node 8"
-      }
+      "images": [
+        "ubuntu-arm",
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "nodejs-versions",
@@ -676,7 +1025,12 @@
       "projectSlug": "nodejs-versions",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "nodejs_versions-linux",
@@ -684,7 +1038,13 @@
       "projectSlug": "linux-nodejs-versions",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "ubuntu-arm",
+        "macos",
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "npm-install",
@@ -692,7 +1052,12 @@
       "projectSlug": "npm-install",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "nuget-restore",
@@ -700,7 +1065,12 @@
       "projectSlug": "nuget-restore",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "nuget-test",
@@ -708,7 +1078,12 @@
       "projectSlug": "nuget-test",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "nunit3-tests",
@@ -716,7 +1091,11 @@
       "projectSlug": "nunit3-tests",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": false
+      "shouldSucceed": false,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "octo-test-ubuntu",
@@ -724,7 +1103,11 @@
       "projectSlug": "octo-test-ubuntu",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "package-web-app-with-web-jobs",
@@ -732,7 +1115,12 @@
       "projectSlug": "package-web-app-with-web-jobs",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "pass-variables-phases",
@@ -740,7 +1128,13 @@
       "projectSlug": "pass-variables-phases",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "ubuntu-arm",
+        "macos",
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "ping-test",
@@ -748,7 +1142,12 @@
       "projectSlug": "ping-test",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "postgresql",
@@ -756,7 +1155,12 @@
       "projectSlug": "postgresql",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "postgresql-linux",
@@ -764,7 +1168,12 @@
       "projectSlug": "postgresql-linux",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "ubuntu-arm",
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "powershell-core",
@@ -772,7 +1181,12 @@
       "projectSlug": "powershell-core",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "Powershell-linux",
@@ -780,7 +1194,12 @@
       "projectSlug": "linux-powershell",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "ubuntu-arm",
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "powershell-start-job-slow-regression",
@@ -788,7 +1207,12 @@
       "projectSlug": "powershell-start-job-slow-regression",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "powershell-version-linux",
@@ -796,7 +1220,12 @@
       "projectSlug": "powershell-version-linux",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "ubuntu-arm",
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "Powershell_artifacts_variable",
@@ -804,7 +1233,12 @@
       "projectSlug": "powershell-artifacts-variable",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "ubuntu-arm",
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "ps-core-windows-appveyor-cmdlets",
@@ -812,7 +1246,12 @@
       "projectSlug": "ps-core-windows-appveyor-cmdlets",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "ps-iswindows-islinux-vars",
@@ -820,7 +1259,12 @@
       "projectSlug": "ps-iswindows-islinux-vars",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "psexec-test",
@@ -828,7 +1272,12 @@
       "projectSlug": "psexec-test",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "psgallery-test",
@@ -836,7 +1285,12 @@
       "projectSlug": "psgallery-test",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "python 2.7.18",
@@ -847,7 +1301,13 @@
       "shouldSucceed": true,
       "environmentVariables": {
         "PYTHON_STACK": "python 2.7.18"
-      }
+      },
+      "images": [
+        "ubuntu-arm",
+        "macos",
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "python 2.7.x",
@@ -858,7 +1318,13 @@
       "shouldSucceed": true,
       "environmentVariables": {
         "PYTHON_STACK": "python 2.7"
-      }
+      },
+      "images": [
+        "ubuntu-arm",
+        "macos",
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "python 3.10.10",
@@ -869,7 +1335,26 @@
       "shouldSucceed": true,
       "environmentVariables": {
         "PYTHON_STACK": "python 3.10.10"
-      }
+      },
+      "images": [
+        "ubuntu",
+        "visual-studio-2019"
+      ]
+    },
+    {
+      "testName": "python 3.10.6",
+      "accountName": "appveyor-tests",
+      "projectSlug": "python-versions-linux",
+      "branch": "master",
+      "timeoutMinutes": 10,
+      "shouldSucceed": true,
+      "environmentVariables": {
+        "PYTHON_STACK": "python 3.10.6"
+      },
+      "images": [
+        "ubuntu-arm",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "python 3.10.8",
@@ -880,7 +1365,11 @@
       "shouldSucceed": true,
       "environmentVariables": {
         "PYTHON_STACK": "python 3.10.8"
-      }
+      },
+      "images": [
+        "macos",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "python 3.11.0",
@@ -891,7 +1380,11 @@
       "shouldSucceed": true,
       "environmentVariables": {
         "PYTHON_STACK": "python 3.11.0"
-      }
+      },
+      "images": [
+        "macos",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "python 3.11.2",
@@ -902,7 +1395,11 @@
       "shouldSucceed": true,
       "environmentVariables": {
         "PYTHON_STACK": "python 3.11.2"
-      }
+      },
+      "images": [
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "python 3.5.10",
@@ -913,7 +1410,11 @@
       "shouldSucceed": true,
       "environmentVariables": {
         "PYTHON_STACK": "python 3.5.10"
-      }
+      },
+      "images": [
+        "macos",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "python 3.6.15",
@@ -924,7 +1425,26 @@
       "shouldSucceed": true,
       "environmentVariables": {
         "PYTHON_STACK": "python 3.6.15"
-      }
+      },
+      "images": [
+        "macos",
+        "visual-studio-2019"
+      ]
+    },
+    {
+      "testName": "python 3.7.13",
+      "accountName": "appveyor-tests",
+      "projectSlug": "python-versions-linux",
+      "branch": "master",
+      "timeoutMinutes": 10,
+      "shouldSucceed": true,
+      "environmentVariables": {
+        "PYTHON_STACK": "python 3.7.13"
+      },
+      "images": [
+        "ubuntu-arm",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "python 3.7.15",
@@ -935,7 +1455,11 @@
       "shouldSucceed": true,
       "environmentVariables": {
         "PYTHON_STACK": "python 3.7.15"
-      }
+      },
+      "images": [
+        "macos",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "python 3.7.16",
@@ -946,7 +1470,26 @@
       "shouldSucceed": true,
       "environmentVariables": {
         "PYTHON_STACK": "python 3.7.16"
-      }
+      },
+      "images": [
+        "ubuntu",
+        "visual-studio-2019"
+      ]
+    },
+    {
+      "testName": "python 3.8.13",
+      "accountName": "appveyor-tests",
+      "projectSlug": "python-versions-linux",
+      "branch": "master",
+      "timeoutMinutes": 10,
+      "shouldSucceed": true,
+      "environmentVariables": {
+        "PYTHON_STACK": "python 3.8.13"
+      },
+      "images": [
+        "ubuntu-arm",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "python 3.8.15",
@@ -957,7 +1500,11 @@
       "shouldSucceed": true,
       "environmentVariables": {
         "PYTHON_STACK": "python 3.8.15"
-      }
+      },
+      "images": [
+        "macos",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "python 3.8.16",
@@ -968,7 +1515,11 @@
       "shouldSucceed": true,
       "environmentVariables": {
         "PYTHON_STACK": "python 3.8.16"
-      }
+      },
+      "images": [
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "python 3.8.x",
@@ -979,7 +1530,28 @@
       "shouldSucceed": true,
       "environmentVariables": {
         "PYTHON_STACK": "python 3.8"
-      }
+      },
+      "images": [
+        "ubuntu-arm",
+        "macos",
+        "ubuntu",
+        "visual-studio-2019"
+      ]
+    },
+    {
+      "testName": "python 3.9.13",
+      "accountName": "appveyor-tests",
+      "projectSlug": "python-versions-linux",
+      "branch": "master",
+      "timeoutMinutes": 10,
+      "shouldSucceed": true,
+      "environmentVariables": {
+        "PYTHON_STACK": "python 3.9.13"
+      },
+      "images": [
+        "ubuntu-arm",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "python 3.9.15",
@@ -990,7 +1562,11 @@
       "shouldSucceed": true,
       "environmentVariables": {
         "PYTHON_STACK": "python 3.9.15"
-      }
+      },
+      "images": [
+        "macos",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "python 3.9.16",
@@ -1001,7 +1577,11 @@
       "shouldSucceed": true,
       "environmentVariables": {
         "PYTHON_STACK": "python 3.9.16"
-      }
+      },
+      "images": [
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "python-miniconda-tests",
@@ -1009,7 +1589,12 @@
       "projectSlug": "miniconda-tests",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "python-versions-linux",
@@ -1017,7 +1602,11 @@
       "projectSlug": "python-versions-linux",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "macos",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "qemu-kvm-linux",
@@ -1025,7 +1614,11 @@
       "projectSlug": "qemu-kvm-linux",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "qt-linux",
@@ -1033,7 +1626,12 @@
       "projectSlug": "qt-linux",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "macos",
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "qt-tests",
@@ -1041,7 +1639,12 @@
       "projectSlug": "qt-tests",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "root-files-linux",
@@ -1049,7 +1652,12 @@
       "projectSlug": "root-files-linux",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "ubuntu-arm",
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "Ruby 2.0",
@@ -1060,7 +1668,12 @@
       "shouldSucceed": true,
       "environmentVariables": {
         "RUBY_STACK": "ruby 2.0"
-      }
+      },
+      "images": [
+        "macos",
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "Ruby 2.1",
@@ -1071,7 +1684,12 @@
       "shouldSucceed": true,
       "environmentVariables": {
         "RUBY_STACK": "ruby 2.1"
-      }
+      },
+      "images": [
+        "macos",
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "Ruby 2.2",
@@ -1082,7 +1700,12 @@
       "shouldSucceed": true,
       "environmentVariables": {
         "RUBY_STACK": "ruby 2.2"
-      }
+      },
+      "images": [
+        "macos",
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "Ruby 2.3",
@@ -1093,7 +1716,12 @@
       "shouldSucceed": true,
       "environmentVariables": {
         "RUBY_STACK": "ruby 2.3"
-      }
+      },
+      "images": [
+        "macos",
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "Ruby 2.4",
@@ -1104,7 +1732,12 @@
       "shouldSucceed": true,
       "environmentVariables": {
         "RUBY_STACK": "ruby 2.4"
-      }
+      },
+      "images": [
+        "macos",
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "Ruby 2.5",
@@ -1115,7 +1748,12 @@
       "shouldSucceed": true,
       "environmentVariables": {
         "RUBY_STACK": "ruby 2.5"
-      }
+      },
+      "images": [
+        "macos",
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "Ruby 2.6",
@@ -1126,7 +1764,13 @@
       "shouldSucceed": true,
       "environmentVariables": {
         "RUBY_STACK": "ruby 2.6"
-      }
+      },
+      "images": [
+        "ubuntu-arm",
+        "macos",
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "Ruby 2.7",
@@ -1137,7 +1781,13 @@
       "shouldSucceed": true,
       "environmentVariables": {
         "RUBY_STACK": "ruby 2.7"
-      }
+      },
+      "images": [
+        "ubuntu-arm",
+        "macos",
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "Ruby 3.0",
@@ -1148,7 +1798,13 @@
       "shouldSucceed": true,
       "environmentVariables": {
         "RUBY_STACK": "ruby 3.0"
-      }
+      },
+      "images": [
+        "ubuntu-arm",
+        "macos",
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "Ruby 3.1",
@@ -1159,7 +1815,27 @@
       "shouldSucceed": true,
       "environmentVariables": {
         "RUBY_STACK": "ruby 3.1.3"
-      }
+      },
+      "images": [
+        "macos",
+        "ubuntu",
+        "visual-studio-2019"
+      ]
+    },
+    {
+      "testName": "Ruby 3.1.2",
+      "accountName": "appveyor-tests",
+      "projectSlug": "ruby-stack-versions-linux",
+      "branch": "master",
+      "timeoutMinutes": 10,
+      "shouldSucceed": true,
+      "environmentVariables": {
+        "RUBY_STACK": "ruby 3.1.2"
+      },
+      "images": [
+        "ubuntu-arm",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "Ruby 3.2",
@@ -1170,7 +1846,11 @@
       "shouldSucceed": true,
       "environmentVariables": {
         "RUBY_STACK": "ruby 3.2.1"
-      }
+      },
+      "images": [
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "ruby-test",
@@ -1178,7 +1858,12 @@
       "projectSlug": "ruby-test",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "ruby-test-linux",
@@ -1186,7 +1871,12 @@
       "projectSlug": "ruby-test-linux",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "ubuntu-arm",
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "rust-ssl-test",
@@ -1194,7 +1884,12 @@
       "projectSlug": "rust-ssl-test",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "safaridriver-smoke-test",
@@ -1202,7 +1897,11 @@
       "projectSlug": "safaridriver-smoke-test",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "macos",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "secure-file-test",
@@ -1210,7 +1909,13 @@
       "projectSlug": "secure-file-test",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "ubuntu",
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "selenium-tests",
@@ -1218,7 +1923,12 @@
       "projectSlug": "selenium-tests",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "semver2-nuget-restore",
@@ -1226,7 +1936,11 @@
       "projectSlug": "semver2-nuget-restore",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "service-fabric-docker",
@@ -1234,7 +1948,11 @@
       "projectSlug": "service-fabric-docker",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "service-fabric-dotnet-getting-started",
@@ -1242,7 +1960,12 @@
       "projectSlug": "service-fabric-dotnet-getting-started",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "sql server 2008 R2 SP2",
@@ -1253,7 +1976,11 @@
       "shouldSucceed": true,
       "environmentVariables": {
         "SQL_INSTANCE_NAME": "SQL2008R2SP2"
-      }
+      },
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "sql server 2012 SP1",
@@ -1264,7 +1991,11 @@
       "shouldSucceed": true,
       "environmentVariables": {
         "SQL_INSTANCE_NAME": "SQL2012SP1"
-      }
+      },
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "sql server 2014",
@@ -1275,7 +2006,12 @@
       "shouldSucceed": true,
       "environmentVariables": {
         "SQL_INSTANCE_NAME": "SQL2014"
-      }
+      },
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "sql server 2016",
@@ -1286,7 +2022,12 @@
       "shouldSucceed": true,
       "environmentVariables": {
         "SQL_INSTANCE_NAME": "SQL2016"
-      }
+      },
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "sql server 2017",
@@ -1297,7 +2038,12 @@
       "shouldSucceed": true,
       "environmentVariables": {
         "SQL_INSTANCE_NAME": "SQL2017"
-      }
+      },
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "sql server 2019",
@@ -1308,7 +2054,10 @@
       "shouldSucceed": true,
       "environmentVariables": {
         "SQL_INSTANCE_NAME": "SQL2019"
-      }
+      },
+      "images": [
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "sql-server-restore-bak",
@@ -1316,7 +2065,12 @@
       "projectSlug": "sql-server-restore-bak",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "ssdt-dacpac",
@@ -1324,7 +2078,12 @@
       "projectSlug": "ssdt-dacpac",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "start-bitstransfer-test",
@@ -1332,7 +2091,12 @@
       "projectSlug": "start-bitstransfer-test",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "sxs-vs7",
@@ -1340,7 +2104,12 @@
       "projectSlug": "sxs-vs7",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "tools-linux",
@@ -1349,9 +2118,11 @@
       "branch": "master",
       "timeoutMinutes": 10,
       "shouldSucceed": true,
-      "environmentVariables": {
-        "TOOLS": "wget curl 7z 7za ftp lftp tclsh cmake make mvn gradle ant yarn gcc gfortran java javac go node ruby docker sqlcmd psql mongo rabbitmqctl packer aws az pwsh mono mcs xsp4 csc pip virtualenv python python3 git svn hg"
-      }
+      "images": [
+        "ubuntu-arm",
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "unc-test-python",
@@ -1359,7 +2130,12 @@
       "projectSlug": "unc-test-python",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "unit-test-runners",
@@ -1367,7 +2143,11 @@
       "projectSlug": "unit-test-runners",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "unit-test-runners-except",
@@ -1375,7 +2155,11 @@
       "projectSlug": "unit-test-runners-l2j5s",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "unit-test-runners-only-new-style",
@@ -1383,7 +2167,11 @@
       "projectSlug": "unit-test-runners-lin69",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "unit-test-runners-only-old-style",
@@ -1391,7 +2179,11 @@
       "projectSlug": "unit-test-runners-fn0om",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "upload-xml-test-results",
@@ -1399,7 +2191,13 @@
       "projectSlug": "upload-xml-test-results",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "ubuntu-arm",
+        "ubuntu",
+        "visual-studio-2015",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "vdproj-do-not-parse-as-xml",
@@ -1407,7 +2205,11 @@
       "projectSlug": "vdproj-do-not-parse-as-xml",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "vdproj-test",
@@ -1415,7 +2217,12 @@
       "projectSlug": "vdproj-test",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "virtualbox-linux",
@@ -1423,7 +2230,11 @@
       "projectSlug": "virtualbox-linux",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "VSTS-git-clone",
@@ -1431,7 +2242,14 @@
       "projectSlug": "mywebapp",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "ubuntu-arm",
+        "ubuntu",
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "VSTS-TFVC-clone",
@@ -1439,7 +2257,14 @@
       "projectSlug": "projecta",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "ubuntu-arm",
+        "ubuntu",
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "WDK 10.0.14393.0",
@@ -1447,7 +2272,11 @@
       "projectSlug": "winfsp-citest",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "web-app-packaging-for-xcopy",
@@ -1455,7 +2284,12 @@
       "projectSlug": "web-app-packaging-for-xcopy",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "where-tools",
@@ -1463,7 +2297,12 @@
       "projectSlug": "where-tools",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "windows-phone-8.1-behaviors",
@@ -1471,7 +2310,12 @@
       "projectSlug": "appveyorxamlbehaviorstest",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "wix-in-vs2017",
@@ -1479,7 +2323,11 @@
       "projectSlug": "setupproject2017",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "wix3x-pre311-test",
@@ -1487,7 +2335,12 @@
       "projectSlug": "wix3x-pre311-test",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "xplat-cache-test",
@@ -1495,7 +2348,12 @@
       "projectSlug": "xplat-cache-test",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "ubuntu-arm",
+        "ubuntu",
+        "visual-studio-2019"
+      ]
     },
     {
       "testName": "yarn-tests",
@@ -1503,7 +2361,12 @@
       "projectSlug": "yarn-tests",
       "branch": "master",
       "timeoutMinutes": 10,
-      "shouldSucceed": true
+      "shouldSucceed": true,
+      "images": [
+        "visual-studio-2015",
+        "visual-studio-2017",
+        "visual-studio-2019"
+      ]
     }
   ]
   

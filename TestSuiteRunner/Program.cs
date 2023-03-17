@@ -19,15 +19,13 @@ namespace TestSuiteRunner
             int maxConcurrency = Int32.TryParse(Environment.GetEnvironmentVariable("TESTS_CONCURRENCY"), out int mc) ? mc : 1;
 
             // load test items
-            var testSuite = "dev-linux";
-            //var testSuite = GetVariable("TEST_SUITE");
+            var loadedJson = "final";
+            var testSuite = GetVariable("TEST_SUITE");
             //GetVariable("TEST_CLOUD");
             //GetVariable("TEST_IMAGE");
 
             var binDir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
-            var suitePath = Path.GetFullPath(Path.Combine("..", "..", "..", "..", "test-suites", $"{testSuite}.json"), binDir);
-            var exclusionsPath = Path.GetFullPath(Path.Combine("..", "..", "..", "..", "test-suites", "exclusions.json"), binDir);
-            var overridesPath = Path.GetFullPath(Path.Combine("..", "..", "..", "..", "test-suites", "overrides.json"), binDir);
+            var suitePath = Path.GetFullPath(Path.Combine("..", "..", "..", "..", "test-suites", "staging", $"{loadedJson}.json"), binDir);
             var suiteFailed = false;
 
             if (!File.Exists(suitePath))
@@ -37,23 +35,10 @@ namespace TestSuiteRunner
             }
 
             var tests = JsonConvert.DeserializeObject<TestItem[]>(File.ReadAllText(suitePath));
-            var exclusionsDict = JsonConvert.DeserializeObject<Dictionary<string, TestItem[]>>(File.ReadAllText(exclusionsPath));
-            var exclusions = exclusionsDict[testSuite];
-            var exclusionsArr = exclusions.Select(e => e.TestName).ToArray<string>();
-            var overridesDict = JsonConvert.DeserializeObject<Dictionary<string, TestItem[]>>(File.ReadAllText(overridesPath));
-            var overrides = overridesDict[testSuite];
 
             // add all tests to AppVeyor
-            // first override if existing
-            foreach (var ovrd in overrides)
-            {
-                int index = Array.FindIndex(tests, t => t.TestName == ovrd.TestName);
-                if (index != -1) {
-                    Console.WriteLine($"Test suite {ovrd.TestName} in {ovrd.AccountName} overridden");
-                    tests[index] = ovrd;
-                }
-            }
-            var filteredTests = tests.Where(t => !exclusionsArr.Contains(t.TestName)).ToArray<TestItem>();
+
+            var filteredTests = tests.Where(t => t.Images.Contains(testSuite) || t.Images.Length == 0).ToArray<TestItem>();
             // filter via linq for exclusions here
             foreach(var test in filteredTests)
             {

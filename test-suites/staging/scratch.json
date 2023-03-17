@@ -29,8 +29,10 @@
 // first as $names | (.[1] | map(select(.testName|IN($names[])).images += ["macos"]))
 // first as $names | (.[1] | map(select(.testName|IN($names[])).images += ["macos"]))
 //tests-merged has 170 tests
+//[,\s\n]*"visual-studio-2019"
 [
     [
+        "msys-test",
         "nodejs-versions",
         "azure-unc-smb-share",
         "powershell-start-job-slow-regression",
@@ -50,28 +52,24 @@
         "npm-install",
         "wix3x-pre311-test",
         "git-lfs-test",
-        "dacpac-sqlpackage-test",
+        "dacpac-sqlpackage-test-sql2019",
         "wix-in-vs2017",
         "vdproj-test",
-        "ssdt-dacpac",
-        "dacpac-local-2014",
-        "sxs-vs7",
         "web-app-packaging-for-xcopy",
         "nuget-restore",
         "service-fabric-dotnet-getting-started",
         "jspm-config-auth",
         "clone-folder-with-spaces",
         "package-web-app-with-web-jobs",
-        "dacpac-local-2016",
+        "dacpac-local-2017",
         "git-long-paths",
         "aws-tools",
         "where-tools",
-        "azure-powershell",
+        "az-powershell",
         "android-app-test",
         "azure-cloud-services",
         "AzureCloudServiceVS2017",
         "python-miniconda-tests",
-        "windows-phone-8.1-behaviors",
         "selenium-tests",
         "unit-test-runners-only-old-style",
         "unit-test-runners-only-new-style",
@@ -84,9 +82,8 @@
         "dotnet-core-2017",
         "appveyor-py-launcher",
         "postgresql",
-        "sql server 2014",
-        "sql server 2016",
         "sql server 2017",
+        "sql server 2019",
         "qt-tests",
         "powershell-core",
         "ps-iswindows-islinux-vars",
@@ -100,7 +97,6 @@
         "sql-server-restore-bak",
         "secure-file-test",
         "ps-core-windows-appveyor-cmdlets",
-        "service-fabric-docker",
         "bitbucket-private-git-ssh-clone-test",
         "psgallery-test",
         "CosmosDb"
@@ -114,7 +110,8 @@
             "timeoutMinutes": 10,
             "shouldSucceed": true,
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -125,7 +122,8 @@
             "timeoutMinutes": 10,
             "shouldSucceed": true,
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -148,7 +146,8 @@
             "timeoutMinutes": 10,
             "shouldSucceed": true,
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -159,7 +158,8 @@
             "timeoutMinutes": 10,
             "shouldSucceed": true,
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -170,7 +170,8 @@
             "timeoutMinutes": 10,
             "shouldSucceed": true,
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -179,7 +180,8 @@
             "projectSlug": "az-powershell",
             "branch": "master",
             "timeoutMinutes": 10,
-            "shouldSucceed": true
+            "shouldSucceed": true,
+            "images": []
         },
         {
             "testName": "azure-cloud-services",
@@ -189,7 +191,8 @@
             "timeoutMinutes": 10,
             "shouldSucceed": true,
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -200,7 +203,8 @@
             "timeoutMinutes": 10,
             "shouldSucceed": true,
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -211,7 +215,8 @@
             "timeoutMinutes": 10,
             "shouldSucceed": true,
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -222,7 +227,8 @@
             "timeoutMinutes": 10,
             "shouldSucceed": true,
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -245,7 +251,8 @@
             "timeoutMinutes": 10,
             "shouldSucceed": true,
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -259,7 +266,8 @@
                 "ubuntu-arm",
                 "macos",
                 "ubuntu",
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -272,7 +280,8 @@
             "images": [
                 "ubuntu-arm",
                 "ubuntu",
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -286,7 +295,8 @@
                 "ubuntu-arm",
                 "macos",
                 "ubuntu",
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -300,7 +310,8 @@
                 "ubuntu-arm",
                 "macos",
                 "ubuntu",
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -323,7 +334,8 @@
             "timeoutMinutes": 10,
             "shouldSucceed": true,
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -334,7 +346,8 @@
             "timeoutMinutes": 10,
             "shouldSucceed": true,
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -379,7 +392,8 @@
             "timeoutMinutes": 10,
             "shouldSucceed": true,
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -425,7 +439,8 @@
             "timeoutMinutes": 10,
             "shouldSucceed": true,
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -458,7 +473,8 @@
             "timeoutMinutes": 10,
             "shouldSucceed": true,
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -469,7 +485,8 @@
             "timeoutMinutes": 10,
             "shouldSucceed": true,
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -478,7 +495,8 @@
             "projectSlug": "dacpac-local-2017",
             "branch": "master",
             "timeoutMinutes": 10,
-            "shouldSucceed": true
+            "shouldSucceed": true,
+            "images": []
         },
         {
             "testName": "dacpac-sqlpackage-test",
@@ -488,7 +506,8 @@
             "timeoutMinutes": 10,
             "shouldSucceed": true,
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -497,7 +516,8 @@
             "projectSlug": "dacpac-sqlpackage-test-sql2019",
             "branch": "sql2019",
             "timeoutMinutes": 10,
-            "shouldSucceed": true
+            "shouldSucceed": true,
+            "images": []
         },
         {
             "testName": "docker-linux",
@@ -517,7 +537,10 @@
             "projectSlug": "docker-tests",
             "branch": "master",
             "timeoutMinutes": 10,
-            "shouldSucceed": true
+            "shouldSucceed": true,
+            "images": [
+                "visual-studio-2017"
+            ]
         },
         {
             "testName": "dotnet-core-2017",
@@ -530,7 +553,8 @@
                 "EXPECTED_DOTNET_VER": "2.2.402"
             },
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -574,7 +598,10 @@
             "projectSlug": "dotnetcore-nuget-pack",
             "branch": "master",
             "timeoutMinutes": 10,
-            "shouldSucceed": true
+            "shouldSucceed": true,
+            "images": [
+                "visual-studio-2017"
+            ]
         },
         {
             "testName": "freespace-linux",
@@ -611,7 +638,8 @@
             "images": [
                 "ubuntu-arm",
                 "ubuntu",
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -622,7 +650,8 @@
             "timeoutMinutes": 10,
             "shouldSucceed": true,
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -636,7 +665,8 @@
                 "ubuntu-arm",
                 "macos",
                 "ubuntu",
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -649,7 +679,8 @@
             "images": [
                 "ubuntu-arm",
                 "ubuntu",
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -880,7 +911,8 @@
             "timeoutMinutes": 10,
             "shouldSucceed": true,
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -963,7 +995,8 @@
             "timeoutMinutes": 10,
             "shouldSucceed": true,
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -983,7 +1016,8 @@
             "projectSlug": "msys2-test",
             "branch": "main",
             "timeoutMinutes": 10,
-            "shouldSucceed": true
+            "shouldSucceed": true,
+            "images": []
         },
         {
             "testName": "multiple-test-assemblies",
@@ -1016,7 +1050,8 @@
             "timeoutMinutes": 10,
             "shouldSucceed": true,
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -1040,7 +1075,8 @@
             "timeoutMinutes": 10,
             "shouldSucceed": true,
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -1051,7 +1087,8 @@
             "timeoutMinutes": 10,
             "shouldSucceed": true,
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -1062,7 +1099,8 @@
             "timeoutMinutes": 10,
             "shouldSucceed": true,
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -1095,7 +1133,8 @@
             "timeoutMinutes": 10,
             "shouldSucceed": true,
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -1119,7 +1158,8 @@
             "timeoutMinutes": 10,
             "shouldSucceed": true,
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -1130,7 +1170,8 @@
             "timeoutMinutes": 10,
             "shouldSucceed": true,
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -1153,7 +1194,8 @@
             "timeoutMinutes": 10,
             "shouldSucceed": true,
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -1176,7 +1218,8 @@
             "timeoutMinutes": 10,
             "shouldSucceed": true,
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -1211,7 +1254,8 @@
             "timeoutMinutes": 10,
             "shouldSucceed": true,
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -1222,7 +1266,8 @@
             "timeoutMinutes": 10,
             "shouldSucceed": true,
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -1233,7 +1278,8 @@
             "timeoutMinutes": 10,
             "shouldSucceed": true,
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -1244,7 +1290,8 @@
             "timeoutMinutes": 10,
             "shouldSucceed": true,
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -1527,7 +1574,8 @@
             "timeoutMinutes": 10,
             "shouldSucceed": true,
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -1572,7 +1620,8 @@
             "timeoutMinutes": 10,
             "shouldSucceed": true,
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -1776,7 +1825,8 @@
             "timeoutMinutes": 10,
             "shouldSucceed": true,
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -1799,7 +1849,8 @@
             "timeoutMinutes": 10,
             "shouldSucceed": true,
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -1822,7 +1873,8 @@
             "shouldSucceed": true,
             "images": [
                 "ubuntu",
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -1833,7 +1885,8 @@
             "timeoutMinutes": 10,
             "shouldSucceed": true,
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -1842,7 +1895,10 @@
             "projectSlug": "semver2-nuget-restore",
             "branch": "master",
             "timeoutMinutes": 10,
-            "shouldSucceed": true
+            "shouldSucceed": true,
+            "images": [
+                "visual-studio-2017"
+            ]
         },
         {
             "testName": "service-fabric-docker",
@@ -1850,7 +1906,10 @@
             "projectSlug": "service-fabric-docker",
             "branch": "master",
             "timeoutMinutes": 10,
-            "shouldSucceed": true
+            "shouldSucceed": true,
+            "images": [
+                "visual-studio-2017"
+            ]
         },
         {
             "testName": "service-fabric-dotnet-getting-started",
@@ -1860,7 +1919,8 @@
             "timeoutMinutes": 10,
             "shouldSucceed": true,
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -1902,7 +1962,8 @@
                 "SQL_INSTANCE_NAME": "SQL2014"
             },
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -1916,7 +1977,8 @@
                 "SQL_INSTANCE_NAME": "SQL2016"
             },
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -1930,7 +1992,8 @@
                 "SQL_INSTANCE_NAME": "SQL2017"
             },
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -1942,7 +2005,8 @@
             "shouldSucceed": true,
             "environmentVariables": {
                 "SQL_INSTANCE_NAME": "SQL2019"
-            }
+            },
+            "images": []
         },
         {
             "testName": "sql-server-restore-bak",
@@ -1952,7 +2016,8 @@
             "timeoutMinutes": 10,
             "shouldSucceed": true,
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -1963,7 +2028,8 @@
             "timeoutMinutes": 10,
             "shouldSucceed": true,
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -1974,7 +2040,8 @@
             "timeoutMinutes": 10,
             "shouldSucceed": true,
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -1985,7 +2052,8 @@
             "timeoutMinutes": 10,
             "shouldSucceed": true,
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -2008,7 +2076,8 @@
             "timeoutMinutes": 10,
             "shouldSucceed": true,
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -2017,7 +2086,10 @@
             "projectSlug": "unit-test-runners",
             "branch": "master",
             "timeoutMinutes": 10,
-            "shouldSucceed": true
+            "shouldSucceed": true,
+            "images": [
+                "visual-studio-2017"
+            ]
         },
         {
             "testName": "unit-test-runners-except",
@@ -2025,7 +2097,10 @@
             "projectSlug": "unit-test-runners-l2j5s",
             "branch": "master",
             "timeoutMinutes": 10,
-            "shouldSucceed": true
+            "shouldSucceed": true,
+            "images": [
+                "visual-studio-2017"
+            ]
         },
         {
             "testName": "unit-test-runners-only-new-style",
@@ -2033,7 +2108,10 @@
             "projectSlug": "unit-test-runners-lin69",
             "branch": "master",
             "timeoutMinutes": 10,
-            "shouldSucceed": true
+            "shouldSucceed": true,
+            "images": [
+                "visual-studio-2017"
+            ]
         },
         {
             "testName": "unit-test-runners-only-old-style",
@@ -2041,7 +2119,10 @@
             "projectSlug": "unit-test-runners-fn0om",
             "branch": "master",
             "timeoutMinutes": 10,
-            "shouldSucceed": true
+            "shouldSucceed": true,
+            "images": [
+                "visual-studio-2017"
+            ]
         },
         {
             "testName": "upload-xml-test-results",
@@ -2075,7 +2156,8 @@
             "timeoutMinutes": 10,
             "shouldSucceed": true,
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -2099,7 +2181,8 @@
             "images": [
                 "ubuntu-arm",
                 "ubuntu",
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -2112,7 +2195,8 @@
             "images": [
                 "ubuntu-arm",
                 "ubuntu",
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -2134,7 +2218,8 @@
             "timeoutMinutes": 10,
             "shouldSucceed": true,
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -2145,7 +2230,8 @@
             "timeoutMinutes": 10,
             "shouldSucceed": true,
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -2156,7 +2242,8 @@
             "timeoutMinutes": 10,
             "shouldSucceed": true,
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -2165,7 +2252,10 @@
             "projectSlug": "setupproject2017",
             "branch": "master",
             "timeoutMinutes": 10,
-            "shouldSucceed": true
+            "shouldSucceed": true,
+            "images": [
+                "visual-studio-2017"
+            ]
         },
         {
             "testName": "wix3x-pre311-test",
@@ -2175,7 +2265,8 @@
             "timeoutMinutes": 10,
             "shouldSucceed": true,
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         },
         {
@@ -2198,7 +2289,8 @@
             "timeoutMinutes": 10,
             "shouldSucceed": true,
             "images": [
-                "visual-studio-2015"
+                "visual-studio-2015",
+                "visual-studio-2017"
             ]
         }
     ]

@@ -39,10 +39,9 @@ namespace TestSuiteRunner
             // add all tests to AppVeyor
 
             var filteredTests = tests.Where(t => t.Images.Contains(testSuite) || t.Images.Length == 0).ToArray<TestItem>();
-            // filter via linq for exclusions here
             foreach(var test in filteredTests)
             {
-                Console.WriteLine($"Test {test.TestName} being run");
+                //Console.WriteLine($"Test {test.TestName} being run");
                 await BuildWorkerApi.AddTest(test.TestName);
             }
 
@@ -52,7 +51,6 @@ namespace TestSuiteRunner
             {
                 List<Task> tasks = new List<Task>();
 
-                //filter via linq for exceptions here
                 foreach (var test in filteredTests)
                 {
                     concurrencySemaphore.Wait();

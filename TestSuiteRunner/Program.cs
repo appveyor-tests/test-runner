@@ -19,13 +19,12 @@ namespace TestSuiteRunner
             int maxConcurrency = Int32.TryParse(Environment.GetEnvironmentVariable("TESTS_CONCURRENCY"), out int mc) ? mc : 1;
 
             // load test items
-            var loadedJson = "final";
             var testSuite = GetVariable("TEST_SUITE");
-            //GetVariable("TEST_CLOUD");
-            //GetVariable("TEST_IMAGE");
+            GetVariable("TEST_CLOUD");
+            var testImage = GetVariable("TEST_IMAGE");
 
             var binDir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
-            var suitePath = Path.GetFullPath(Path.Combine("..", "..", "..", "..", "test-suites", "staging", $"{loadedJson}.json"), binDir);
+            var suitePath = Path.GetFullPath(Path.Combine("..", "..", "..", "..", "test-suites", $"{testSuite}.json"), binDir);
             var suiteFailed = false;
 
             if (!File.Exists(suitePath))
@@ -36,12 +35,10 @@ namespace TestSuiteRunner
 
             var tests = JsonConvert.DeserializeObject<TestItem[]>(File.ReadAllText(suitePath));
 
-            // add all tests to AppVeyor
-
-            var filteredTests = tests.Where(t => t.Images.Contains(testSuite) || t.Images.Length == 0).ToArray<TestItem>();
+            // add all relevant tests to AppVeyor
+            var filteredTests = tests.Where(t => t.Images.Contains(testImage) || t.Images.Length == 0).ToArray<TestItem>();
             foreach(var test in filteredTests)
             {
-                //Console.WriteLine($"Test {test.TestName} being run");
                 await BuildWorkerApi.AddTest(test.TestName);
             }
 

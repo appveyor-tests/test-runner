@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System;
 using System.Collections;
+using System.Linq;
 using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
@@ -20,7 +21,7 @@ namespace TestSuiteRunner
             // load test items
             var testSuite = GetVariable("TEST_SUITE");
             GetVariable("TEST_CLOUD");
-            GetVariable("TEST_IMAGE");
+            var testImage = GetVariable("TEST_IMAGE");
 
             var binDir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
             var suitePath = Path.GetFullPath(Path.Combine("..", "..", "..", "..", "test-suites", $"{testSuite}.json"), binDir);
@@ -34,8 +35,9 @@ namespace TestSuiteRunner
 
             var tests = JsonConvert.DeserializeObject<TestItem[]>(File.ReadAllText(suitePath));
 
-            // add all tests to AppVeyor
-            foreach(var test in tests)
+            // add all relevant tests to AppVeyor
+            var filteredTests = tests.Where(t => t.Images.Contains(testImage) || t.Images.Length == 0).ToArray<TestItem>();
+            foreach(var test in filteredTests)
             {
                 await BuildWorkerApi.AddTest(test.TestName);
             }
@@ -46,12 +48,11 @@ namespace TestSuiteRunner
             {
                 List<Task> tasks = new List<Task>();
 
-                foreach (var test in tests)
+                foreach (var test in filteredTests)
                 {
                     concurrencySemaphore.Wait();
 
-                    Console.WriteLine($"Running test [{testNum++}/{tests.Length}]");
-
+                    Console.WriteLine($"Running test [{testNum++}/{filteredTests.Length}]");
                     var worker = new TestBuildWorker(test);
                     tasks.Add(worker.Start().ContinueWith(ct =>
                     {

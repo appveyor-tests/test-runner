@@ -1,0 +1,19 @@
+
+** sorting test suites **
+unique_by(.testName) | sort_by(.testName | ascii_downcase)
+
+** adding images to test suites **
+first as $names | (.[1] | map(select(.testName|IN($names[])).images = ["ubuntu"]))
+first as $names | (.[1] | map(select(.testName|IN($names[])).images += ["ubuntu-main"]))
+first as $names | (.[1] | map(select(.testName|IN($names[])).images += ["macos"]))
+first as $names | (.[1] | map(select(.testName|IN($names[])).images += ["macos"]))
+
+** misc. ** 
+[.[1][] | .images = []]
+[.[] | .images = []]
+
+** vscode regexp **
+[,\s\n]*"visual-studio-2019"
+
+** info **
+tests-merged has 170 tests

@@ -288,18 +288,6 @@
         "images": []
     },
     {
-        "testName": "jdk 7",
-        "accountName": "appveyor-tests",
-        "projectSlug": "jdk-stack-versions-linux",
-        "branch": "master",
-        "timeoutMinutes": 10,
-        "shouldSucceed": true,
-        "environmentVariables": {
-            "JAVA_STACK": "jdk 7"
-        },
-        "images": []
-    },
-    {
         "testName": "jdk 8",
         "accountName": "appveyor-tests",
         "projectSlug": "jdk-stack-versions-linux",
@@ -402,7 +390,10 @@
         "branch": "master",
         "timeoutMinutes": 10,
         "shouldSucceed": true,
-        "images": []
+        "images": [
+            "ubuntu1804-master",
+            "ubuntu2004-master"
+        ]
     },
     {
         "testName": "nodejs 8",
@@ -699,18 +690,6 @@
         ]
     },
     {
-        "testName": "python 3.7.13",
-        "accountName": "appveyor-tests",
-        "projectSlug": "python-versions-linux",
-        "branch": "master",
-        "timeoutMinutes": 10,
-        "shouldSucceed": true,
-        "environmentVariables": {
-            "PYTHON_STACK": "python 3.7.13"
-        },
-        "images": []
-    },
-    {
         "testName": "python 3.7.16",
         "accountName": "appveyor-tests",
         "projectSlug": "python-versions-linux",
@@ -719,18 +698,6 @@
         "shouldSucceed": true,
         "environmentVariables": {
             "PYTHON_STACK": "python 3.7.16"
-        },
-        "images": []
-    },
-    {
-        "testName": "python 3.8.13",
-        "accountName": "appveyor-tests",
-        "projectSlug": "python-versions-linux",
-        "branch": "master",
-        "timeoutMinutes": 10,
-        "shouldSucceed": true,
-        "environmentVariables": {
-            "PYTHON_STACK": "python 3.8.13"
         },
         "images": []
     },
@@ -755,18 +722,6 @@
         "shouldSucceed": true,
         "environmentVariables": {
             "PYTHON_STACK": "python 3.8"
-        },
-        "images": []
-    },
-    {
-        "testName": "python 3.9.13",
-        "accountName": "appveyor-tests",
-        "projectSlug": "python-versions-linux",
-        "branch": "master",
-        "timeoutMinutes": 10,
-        "shouldSucceed": true,
-        "environmentVariables": {
-            "PYTHON_STACK": "python 3.9.13"
         },
         "images": []
     },
@@ -926,18 +881,6 @@
         "shouldSucceed": true,
         "environmentVariables": {
             "RUBY_STACK": "ruby 3.1.3"
-        },
-        "images": []
-    },
-    {
-        "testName": "Ruby 3.1.2",
-        "accountName": "appveyor-tests",
-        "projectSlug": "ruby-stack-versions-linux",
-        "branch": "master",
-        "timeoutMinutes": 10,
-        "shouldSucceed": true,
-        "environmentVariables": {
-            "RUBY_STACK": "ruby 3.1.2"
         },
         "images": []
     },

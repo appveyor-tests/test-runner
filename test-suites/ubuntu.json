@@ -921,7 +921,7 @@
     },
     {
         "testName": "tools-linux",
-        "accountName": "OwenMcDonnell",
+        "accountName": "appveyor-tests",
         "projectSlug": "tools-linux",
         "branch": "master",
         "timeoutMinutes": 10,

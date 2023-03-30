@@ -391,7 +391,6 @@
         "timeoutMinutes": 10,
         "shouldSucceed": true,
         "images": [
-            "ubuntu1804-master",
             "ubuntu2004-master"
         ]
     },
@@ -548,7 +547,6 @@
             "NODE_MAJOR": "node 18"
         },
         "images": [
-            "ubuntu1804-master",
             "ubuntu2004-master"
         ]
     },
@@ -658,21 +656,6 @@
         "shouldSucceed": true,
         "environmentVariables": {
             "PYTHON_STACK": "python 3.10.10"
-        },
-        "images": [
-            "ubuntu1804-master",
-            "ubuntu2004-master"
-        ]
-    },
-    {
-        "testName": "python 3.10.6",
-        "accountName": "appveyor-tests",
-        "projectSlug": "python-versions-linux",
-        "branch": "master",
-        "timeoutMinutes": 10,
-        "shouldSucceed": true,
-        "environmentVariables": {
-            "PYTHON_STACK": "python 3.10.6"
         },
         "images": [
             "ubuntu1804-master",

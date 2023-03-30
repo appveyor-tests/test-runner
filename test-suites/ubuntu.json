@@ -564,7 +564,9 @@
             "NODE_LTS": "v18",
             "NODE_STABLE": "v19"
         },
-        "images": []
+        "images": [
+            "ubuntu2004-master"
+        ]
     },
     {
         "testName": "octo-test-ubuntu",

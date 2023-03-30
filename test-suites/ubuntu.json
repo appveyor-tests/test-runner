@@ -591,7 +591,10 @@
         "branch": "master",
         "timeoutMinutes": 10,
         "shouldSucceed": true,
-        "images": []
+        "images": [
+            "ubuntu1804-master",
+            "ubuntu2004-master"
+        ]
     },
     {
         "testName": "Powershell-linux",

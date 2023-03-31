@@ -762,7 +762,10 @@
         "environmentVariables": {
             "RUBY_STACK": "ruby 2.0"
         },
-        "images": []
+        "images": [
+            "ubuntu1604-master",
+            "ubuntu1804-master"
+        ]
     },
     {
         "testName": "Ruby 2.1",
@@ -774,7 +777,10 @@
         "environmentVariables": {
             "RUBY_STACK": "ruby 2.1"
         },
-        "images": []
+        "images": [
+            "ubuntu1604-master",
+            "ubuntu1804-master"
+        ]
     },
     {
         "testName": "Ruby 2.2",
@@ -786,7 +792,10 @@
         "environmentVariables": {
             "RUBY_STACK": "ruby 2.2"
         },
-        "images": []
+        "images": [
+            "ubuntu1604-master",
+            "ubuntu1804-master"
+        ]
     },
     {
         "testName": "Ruby 2.3",
@@ -798,7 +807,10 @@
         "environmentVariables": {
             "RUBY_STACK": "ruby 2.3"
         },
-        "images": []
+        "images": [
+            "ubuntu1604-master",
+            "ubuntu1804-master"
+        ]
     },
     {
         "testName": "Ruby 2.4",
@@ -891,7 +903,10 @@
         "branch": "master",
         "timeoutMinutes": 10,
         "shouldSucceed": true,
-        "images": []
+        "images": [
+            "ubuntu1604-master",
+            "ubuntu1804-master"
+        ]
     },
     {
         "testName": "secure-file-test",

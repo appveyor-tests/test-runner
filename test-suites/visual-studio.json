@@ -1,834 +1,887 @@
 [
-    {
-      "testName": "android-app-test",
-      "accountName": "appveyor-tests",
-      "projectSlug": "android-app-test",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "appveyor-bot-test",
-      "accountName": "appveyor-tests",
-      "projectSlug": "appveyor-bot-test",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "appveyor-py-launcher",
-      "accountName": "appveyor-tests",
-      "projectSlug": "appveyor-py-launcher",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "artifacts",
-      "accountName": "appveyor-tests",
-      "projectSlug": "artifacts",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "aws-tools",
-      "accountName": "appveyor-tests",
-      "projectSlug": "aws-tools",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "az-powershell",
-      "accountName": "appveyor-tests",
-      "projectSlug": "az-powershell",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "azure-cloud-services",
-      "accountName": "appveyor-tests",
-      "projectSlug": "azure-cloud-services",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "azure-powershell",
-      "accountName": "appveyor-tests",
-      "projectSlug": "azure-powershell",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "azure-unc-smb-share",
-      "accountName": "appveyor-tests",
-      "projectSlug": "azure-unc-smb-share",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "AzureCloudServiceVS2017",
-      "accountName": "appveyor-tests",
-      "projectSlug": "azurecloudservicevs2017",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "bash-test",
-      "accountName": "appveyor-tests",
-      "projectSlug": "bash-test",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "bitbucket-private-git",
-      "accountName": "appveyor-tests",
-      "projectSlug": "bitbucket-private-git",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "bitbucket-private-git-ssh-clone-test",
-      "accountName": "appveyor-tests",
-      "projectSlug": "bitbucket-private-git-qddys",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "bitbucket-private-shallow-clone",
-      "accountName": "appveyor-tests",
-      "projectSlug": "bitbucket-private-shallow-clone",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "bitbucket-public-git",
-      "accountName": "appveyor-tests",
-      "projectSlug": "bitbucket-public-git",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "c-projects-folder-should-not-exist",
-      "accountName": "appveyor-tests",
-      "projectSlug": "c-projects-folder-should-not-exist",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "cache",
-      "accountName": "appveyor-tests",
-      "projectSlug": "cache",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "clone-folder-forward-slash",
-      "accountName": "appveyor-tests",
-      "projectSlug": "clone-folder-forward-slash",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "clone-folder-variables",
-      "accountName": "appveyor-tests",
-      "projectSlug": "clone-folder-variables",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "clone-folder-with-spaces",
-      "accountName": "appveyor-tests",
-      "projectSlug": "clone-folder-with-spaces",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "CORSTest",
-      "accountName": "appveyor-tests",
-      "projectSlug": "corstest",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "CosmosDb",
-      "accountName": "appveyor-tests",
-      "projectSlug": "cosmosdb",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "dacpac-local-2008r2sp2-vs2015",
-      "accountName": "appveyor-tests",
-      "projectSlug": "dacpac-local-2008r2sp2",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "dacpac-local-2012sp1-vs2015",
-      "accountName": "appveyor-tests",
-      "projectSlug": "dacpac-local-2012sp1",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "dacpac-local-2014",
-      "accountName": "appveyor-tests",
-      "projectSlug": "dacpac-local-2014",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "dacpac-local-2016",
-      "accountName": "appveyor-tests",
-      "projectSlug": "dacpac-local-2016",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "dacpac-local-2017",
-      "accountName": "appveyor-tests",
-      "projectSlug": "dacpac-local-2017",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "dacpac-sqlpackage-test",
-      "accountName": "appveyor-tests",
-      "projectSlug": "dacpac-sqlpackage-test",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "dacpac-sqlpackage-test-sql2019",
-      "accountName": "appveyor-tests",
-      "projectSlug": "dacpac-sqlpackage-test-sql2019",
-      "branch": "sql2019",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "docker-tests",
-      "accountName": "appveyor-tests",
-      "projectSlug": "docker-tests",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "dotnet-core-2017",
-      "accountName": "appveyor-tests",
-      "projectSlug": "dotnet-core-2017",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "environmentVariables": {
-        "EXPECTED_DOTNET_VER": "2.2.402"
-      },
-      "images": []
-    },
-    {
-      "testName": "dotnetcore-nuget-pack",
-      "accountName": "appveyor-tests",
-      "projectSlug": "dotnetcore-nuget-pack",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "git-lfs-test",
-      "accountName": "appveyor-tests",
-      "projectSlug": "git-lfs-test",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "git-long-paths",
-      "accountName": "appveyor-tests",
-      "projectSlug": "git-long-paths",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "git-private-clone-credentials",
-      "accountName": "appveyor-tests",
-      "projectSlug": "bitbucket-private-git-dtc5j",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "github-shallow-clone",
-      "accountName": "appveyor-tests",
-      "projectSlug": "github-shallow-clone",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "jspm-config-auth",
-      "accountName": "appveyor-tests",
-      "projectSlug": "jspm-config-auth",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "msbuild-community-tasks-chocolatey",
-      "accountName": "appveyor-tests",
-      "projectSlug": "msbuild-community-tasks-chocolatey",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "msys-test",
-      "accountName": "appveyor-tests",
-      "projectSlug": "msys2-test",
-      "branch": "main",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "multiple-test-assemblies",
-      "accountName": "appveyor-tests",
-      "projectSlug": "multiple-test-assemblies",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "nodejs-versions",
-      "accountName": "appveyor-tests",
-      "projectSlug": "nodejs-versions",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "npm-install",
-      "accountName": "appveyor-tests",
-      "projectSlug": "npm-install",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "nuget-restore",
-      "accountName": "appveyor-tests",
-      "projectSlug": "nuget-restore",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "nuget-test",
-      "accountName": "appveyor-tests",
-      "projectSlug": "nuget-test",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "nunit3-tests",
-      "accountName": "appveyor-tests",
-      "projectSlug": "nunit3-tests",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": false,
-      "images": []
-    },
-    {
-      "testName": "package-web-app-with-web-jobs",
-      "accountName": "appveyor-tests",
-      "projectSlug": "package-web-app-with-web-jobs",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "ping-test",
-      "accountName": "appveyor-tests",
-      "projectSlug": "ping-test",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "postgresql",
-      "accountName": "appveyor-tests",
-      "projectSlug": "postgresql",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "powershell-core",
-      "accountName": "appveyor-tests",
-      "projectSlug": "powershell-core",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "powershell-start-job-slow-regression",
-      "accountName": "appveyor-tests",
-      "projectSlug": "powershell-start-job-slow-regression",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "ps-core-windows-appveyor-cmdlets",
-      "accountName": "appveyor-tests",
-      "projectSlug": "ps-core-windows-appveyor-cmdlets",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "ps-iswindows-islinux-vars",
-      "accountName": "appveyor-tests",
-      "projectSlug": "ps-iswindows-islinux-vars",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "psexec-test",
-      "accountName": "appveyor-tests",
-      "projectSlug": "psexec-test",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "psgallery-test",
-      "accountName": "appveyor-tests",
-      "projectSlug": "psgallery-test",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "python-miniconda-tests",
-      "accountName": "appveyor-tests",
-      "projectSlug": "miniconda-tests",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "qt-tests",
-      "accountName": "appveyor-tests",
-      "projectSlug": "qt-tests",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "ruby-test",
-      "accountName": "appveyor-tests",
-      "projectSlug": "ruby-test",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "rust-ssl-test",
-      "accountName": "appveyor-tests",
-      "projectSlug": "rust-ssl-test",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "secure-file-test",
-      "accountName": "appveyor-tests",
-      "projectSlug": "secure-file-test",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "selenium-tests",
-      "accountName": "appveyor-tests",
-      "projectSlug": "selenium-tests",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "semver2-nuget-restore",
-      "accountName": "appveyor-tests",
-      "projectSlug": "semver2-nuget-restore",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "service-fabric-docker",
-      "accountName": "appveyor-tests",
-      "projectSlug": "service-fabric-docker",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "service-fabric-dotnet-getting-started",
-      "accountName": "appveyor-tests",
-      "projectSlug": "service-fabric-dotnet-getting-started",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "sql server 2008 R2 SP2",
-      "accountName": "appveyor-tests",
-      "projectSlug": "sql-server-test",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "environmentVariables": {
-        "SQL_INSTANCE_NAME": "SQL2008R2SP2"
-      },
-      "images": []
-    },
-    {
-      "testName": "sql server 2012 SP1",
-      "accountName": "appveyor-tests",
-      "projectSlug": "sql-server-test",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "environmentVariables": {
-        "SQL_INSTANCE_NAME": "SQL2012SP1"
-      },
-      "images": []
-    },
-    {
-      "testName": "sql server 2014",
-      "accountName": "appveyor-tests",
-      "projectSlug": "sql-server-test",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "environmentVariables": {
-        "SQL_INSTANCE_NAME": "SQL2014"
-      },
-      "images": []
-    },
-    {
-      "testName": "sql server 2016",
-      "accountName": "appveyor-tests",
-      "projectSlug": "sql-server-test",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "environmentVariables": {
-        "SQL_INSTANCE_NAME": "SQL2016"
-      },
-      "images": []
-    },
-    {
-      "testName": "sql server 2017",
-      "accountName": "appveyor-tests",
-      "projectSlug": "sql-server-test",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "environmentVariables": {
-        "SQL_INSTANCE_NAME": "SQL2017"
-      },
-      "images": []
-    },
-    {
-      "testName": "sql server 2019",
-      "accountName": "appveyor-tests",
-      "projectSlug": "sql-server-test",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "environmentVariables": {
-        "SQL_INSTANCE_NAME": "SQL2019"
-      },
-      "images": []
-    },
-    {
-      "testName": "sql-server-restore-bak",
-      "accountName": "appveyor-tests",
-      "projectSlug": "sql-server-restore-bak",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "ssdt-dacpac",
-      "accountName": "appveyor-tests",
-      "projectSlug": "ssdt-dacpac",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "start-bitstransfer-test",
-      "accountName": "appveyor-tests",
-      "projectSlug": "start-bitstransfer-test",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "sxs-vs7",
-      "accountName": "appveyor-tests",
-      "projectSlug": "sxs-vs7",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "unc-test-python",
-      "accountName": "appveyor-tests",
-      "projectSlug": "unc-test-python",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "unit-test-runners",
-      "accountName": "appveyor-tests",
-      "projectSlug": "unit-test-runners",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "unit-test-runners-except",
-      "accountName": "appveyor-tests",
-      "projectSlug": "unit-test-runners-l2j5s",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "unit-test-runners-only-new-style",
-      "accountName": "appveyor-tests",
-      "projectSlug": "unit-test-runners-lin69",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "unit-test-runners-only-old-style",
-      "accountName": "appveyor-tests",
-      "projectSlug": "unit-test-runners-fn0om",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "upload-xml-test-results",
-      "accountName": "appveyor-tests",
-      "projectSlug": "upload-xml-test-results",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "vdproj-do-not-parse-as-xml",
-      "accountName": "appveyor-tests",
-      "projectSlug": "vdproj-do-not-parse-as-xml",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "vdproj-test",
-      "accountName": "appveyor-tests",
-      "projectSlug": "vdproj-test",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "VSTS-git-clone",
-      "accountName": "appveyor-tests",
-      "projectSlug": "mywebapp",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "VSTS-TFVC-clone",
-      "accountName": "appveyor-tests",
-      "projectSlug": "projecta",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "WDK 10.0.14393.0",
-      "accountName": "appveyor-tests",
-      "projectSlug": "winfsp-citest",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "web-app-packaging-for-xcopy",
-      "accountName": "appveyor-tests",
-      "projectSlug": "web-app-packaging-for-xcopy",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "where-tools",
-      "accountName": "appveyor-tests",
-      "projectSlug": "where-tools",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "windows-phone-8.1-behaviors",
-      "accountName": "appveyor-tests",
-      "projectSlug": "appveyorxamlbehaviorstest",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "wix-in-vs2017",
-      "accountName": "appveyor-tests",
-      "projectSlug": "setupproject2017",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "wix3x-pre311-test",
-      "accountName": "appveyor-tests",
-      "projectSlug": "wix3x-pre311-test",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    },
-    {
-      "testName": "yarn-tests",
-      "accountName": "appveyor-tests",
-      "projectSlug": "yarn-tests",
-      "branch": "master",
-      "timeoutMinutes": 10,
-      "shouldSucceed": true,
-      "images": []
-    }
-  ]
-  
+  {
+    "testName": "android-app-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "android-app-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "appveyor-bot-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "appveyor-bot-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "appveyor-py-launcher",
+    "accountName": "appveyor-tests",
+    "projectSlug": "appveyor-py-launcher",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "artifacts",
+    "accountName": "appveyor-tests",
+    "projectSlug": "artifacts",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "aws-tools",
+    "accountName": "appveyor-tests",
+    "projectSlug": "aws-tools",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "az-powershell",
+    "accountName": "appveyor-tests",
+    "projectSlug": "az-powershell",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "azure-cloud-services",
+    "accountName": "appveyor-tests",
+    "projectSlug": "azure-cloud-services",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "azure-powershell",
+    "accountName": "appveyor-tests",
+    "projectSlug": "azure-powershell",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": [
+      "vs2015-master",
+      "vs2017-master"
+    ]
+  },
+  {
+    "testName": "azure-unc-smb-share",
+    "accountName": "appveyor-tests",
+    "projectSlug": "azure-unc-smb-share",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "AzureCloudServiceVS2017",
+    "accountName": "appveyor-tests",
+    "projectSlug": "azurecloudservicevs2017",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "bash-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "bash-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "bitbucket-private-git",
+    "accountName": "appveyor-tests",
+    "projectSlug": "bitbucket-private-git",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "bitbucket-private-git-ssh-clone-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "bitbucket-private-git-qddys",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "bitbucket-private-shallow-clone",
+    "accountName": "appveyor-tests",
+    "projectSlug": "bitbucket-private-shallow-clone",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "bitbucket-public-git",
+    "accountName": "appveyor-tests",
+    "projectSlug": "bitbucket-public-git",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "c-projects-folder-should-not-exist",
+    "accountName": "appveyor-tests",
+    "projectSlug": "c-projects-folder-should-not-exist",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "cache",
+    "accountName": "appveyor-tests",
+    "projectSlug": "cache",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "clone-folder-forward-slash",
+    "accountName": "appveyor-tests",
+    "projectSlug": "clone-folder-forward-slash",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": [
+      "not-found"
+    ]
+  },
+  {
+    "testName": "clone-folder-variables",
+    "accountName": "appveyor-tests",
+    "projectSlug": "clone-folder-variables",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": [
+      "not-found"
+    ]
+  },
+  {
+    "testName": "clone-folder-with-spaces",
+    "accountName": "appveyor-tests",
+    "projectSlug": "clone-folder-with-spaces",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "CORSTest",
+    "accountName": "appveyor-tests",
+    "projectSlug": "corstest",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": [
+      "vs2015-master"
+    ]
+  },
+  {
+    "testName": "CosmosDb",
+    "accountName": "appveyor-tests",
+    "projectSlug": "cosmosdb",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "dacpac-local-2008r2sp2-vs2015",
+    "accountName": "appveyor-tests",
+    "projectSlug": "dacpac-local-2008r2sp2",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": [
+      "vs2015-master"
+    ]
+  },
+  {
+    "testName": "dacpac-local-2012sp1-vs2015",
+    "accountName": "appveyor-tests",
+    "projectSlug": "dacpac-local-2012sp1",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": [
+      "vs2015-master"
+    ]
+  },
+  {
+    "testName": "dacpac-local-2014",
+    "accountName": "appveyor-tests",
+    "projectSlug": "dacpac-local-2014",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": [
+      "vs2015-master",
+      "vs2017-master"
+    ]
+  },
+  {
+    "testName": "dacpac-local-2016",
+    "accountName": "appveyor-tests",
+    "projectSlug": "dacpac-local-2016",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": [
+      "vs2015-master",
+      "vs2017-master"
+    ]
+  },
+  {
+    "testName": "dacpac-local-2017",
+    "accountName": "appveyor-tests",
+    "projectSlug": "dacpac-local-2017",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "dacpac-sqlpackage-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "dacpac-sqlpackage-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": [
+      "vs2015-master",
+      "vs2017-master"
+    ]
+  },
+  {
+    "testName": "dacpac-sqlpackage-test-sql2019",
+    "accountName": "appveyor-tests",
+    "projectSlug": "dacpac-sqlpackage-test-sql2019",
+    "branch": "sql2019",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "docker-tests",
+    "accountName": "appveyor-tests",
+    "projectSlug": "docker-tests",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "dotnet-core-2017",
+    "accountName": "appveyor-tests",
+    "projectSlug": "dotnet-core-2017",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "EXPECTED_DOTNET_VER": "2.2.402"
+    },
+    "images": []
+  },
+  {
+    "testName": "dotnetcore-nuget-pack",
+    "accountName": "appveyor-tests",
+
+    "projectSlug": "dotnetcore-nuget-pack",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "git-lfs-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "git-lfs-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "git-long-paths",
+    "accountName": "appveyor-tests",
+    "projectSlug": "git-long-paths",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "git-private-clone-credentials",
+    "accountName": "appveyor-tests",
+    "projectSlug": "bitbucket-private-git-dtc5j",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "github-shallow-clone",
+    "accountName": "appveyor-tests",
+    "projectSlug": "github-shallow-clone",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "jspm-config-auth",
+    "accountName": "appveyor-tests",
+    "projectSlug": "jspm-config-auth",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "msbuild-community-tasks-chocolatey",
+    "accountName": "appveyor-tests",
+    "projectSlug": "msbuild-community-tasks-chocolatey",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "msys-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "msys2-test",
+    "branch": "main",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "multiple-test-assemblies",
+    "accountName": "appveyor-tests",
+    "projectSlug": "multiple-test-assemblies",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": [
+      "vs2015-master"
+    ]
+  },
+  {
+    "testName": "nodejs-versions",
+    "accountName": "appveyor-tests",
+    "projectSlug": "nodejs-versions",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "npm-install",
+    "accountName": "appveyor-tests",
+    "projectSlug": "npm-install",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "nuget-restore",
+    "accountName": "appveyor-tests",
+    "projectSlug": "nuget-restore",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "nuget-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "nuget-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "nunit3-tests",
+    "accountName": "appveyor-tests",
+    "projectSlug": "nunit3-tests",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": false,
+    "images": [
+      "vs2015-master"
+    ]
+  },
+  {
+    "testName": "package-web-app-with-web-jobs",
+    "accountName": "appveyor-tests",
+    "projectSlug": "package-web-app-with-web-jobs",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "ping-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "ping-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "postgresql",
+    "accountName": "appveyor-tests",
+    "projectSlug": "postgresql",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "powershell-core",
+    "accountName": "appveyor-tests",
+    "projectSlug": "powershell-core",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "powershell-start-job-slow-regression",
+    "accountName": "appveyor-tests",
+    "projectSlug": "powershell-start-job-slow-regression",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "ps-core-windows-appveyor-cmdlets",
+    "accountName": "appveyor-tests",
+    "projectSlug": "ps-core-windows-appveyor-cmdlets",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "ps-iswindows-islinux-vars",
+    "accountName": "appveyor-tests",
+    "projectSlug": "ps-iswindows-islinux-vars",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "psexec-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "psexec-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "psgallery-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "psgallery-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "python-miniconda-tests",
+    "accountName": "appveyor-tests",
+    "projectSlug": "miniconda-tests",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "qt-tests",
+    "accountName": "appveyor-tests",
+    "projectSlug": "qt-tests",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "ruby-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "ruby-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "rust-ssl-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "rust-ssl-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "secure-file-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "secure-file-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "selenium-tests",
+    "accountName": "appveyor-tests",
+    "projectSlug": "selenium-tests",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "semver2-nuget-restore",
+    "accountName": "appveyor-tests",
+    "projectSlug": "semver2-nuget-restore",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "service-fabric-docker",
+    "accountName": "appveyor-tests",
+    "projectSlug": "service-fabric-docker",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": [
+      "vs2017-master"
+    ]
+  },
+  {
+    "testName": "service-fabric-dotnet-getting-started",
+    "accountName": "appveyor-tests",
+    "projectSlug": "service-fabric-dotnet-getting-started",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "sql server 2008 R2 SP2",
+    "accountName": "appveyor-tests",
+    "projectSlug": "sql-server-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "SQL_INSTANCE_NAME": "SQL2008R2SP2"
+    },
+    "images": [
+      "vs2015-master"
+    ]
+  },
+  {
+    "testName": "sql server 2012 SP1",
+    "accountName": "appveyor-tests",
+    "projectSlug": "sql-server-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "SQL_INSTANCE_NAME": "SQL2012SP1"
+    },
+    "images": [
+      "vs2015-master"
+    ]
+  },
+  {
+    "testName": "sql server 2014",
+    "accountName": "appveyor-tests",
+    "projectSlug": "sql-server-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "SQL_INSTANCE_NAME": "SQL2014"
+    },
+    "images": [
+      "vs2015-master",
+      "vs2017-master"
+    ]
+  },
+  {
+    "testName": "sql server 2016",
+    "accountName": "appveyor-tests",
+    "projectSlug": "sql-server-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "SQL_INSTANCE_NAME": "SQL2016"
+    },
+    "images": [
+      "vs2015-master",
+      "vs2017-master"
+    ]
+  },
+  {
+    "testName": "sql server 2017",
+    "accountName": "appveyor-tests",
+    "projectSlug": "sql-server-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "SQL_INSTANCE_NAME": "SQL2017"
+    },
+    "images": []
+  },
+  {
+    "testName": "sql server 2019",
+    "accountName": "appveyor-tests",
+    "projectSlug": "sql-server-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "SQL_INSTANCE_NAME": "SQL2019"
+    },
+    "images": []
+  },
+  {
+    "testName": "sql-server-restore-bak",
+    "accountName": "appveyor-tests",
+    "projectSlug": "sql-server-restore-bak",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "ssdt-dacpac",
+    "accountName": "appveyor-tests",
+    "projectSlug": "ssdt-dacpac",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": [
+      "vs2015-master",
+      "vs2017-master"
+    ]
+  },
+  {
+    "testName": "start-bitstransfer-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "start-bitstransfer-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "sxs-vs7",
+    "accountName": "appveyor-tests",
+    "projectSlug": "sxs-vs7",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": [
+      "vs2015-master",
+      "vs2017-master"
+    ]
+  },
+  {
+    "testName": "unc-test-python",
+    "accountName": "appveyor-tests",
+    "projectSlug": "unc-test-python",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "unit-test-runners",
+    "accountName": "appveyor-tests",
+    "projectSlug": "unit-test-runners",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "unit-test-runners-except",
+    "accountName": "appveyor-tests",
+    "projectSlug": "unit-test-runners-l2j5s",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "unit-test-runners-only-new-style",
+    "accountName": "appveyor-tests",
+    "projectSlug": "unit-test-runners-lin69",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "unit-test-runners-only-old-style",
+    "accountName": "appveyor-tests",
+    "projectSlug": "unit-test-runners-fn0om",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "upload-xml-test-results",
+    "accountName": "appveyor-tests",
+    "projectSlug": "upload-xml-test-results",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": [
+      "vs2015-master"
+    ]
+  },
+  {
+    "testName": "vdproj-do-not-parse-as-xml",
+    "accountName": "appveyor-tests",
+    "projectSlug": "vdproj-do-not-parse-as-xml",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": [
+      "vs2015-master"
+    ]
+  },
+  {
+    "testName": "vdproj-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "vdproj-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "VSTS-git-clone",
+    "accountName": "appveyor-tests",
+    "projectSlug": "mywebapp",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "VSTS-TFVC-clone",
+    "accountName": "appveyor-tests",
+    "projectSlug": "projecta",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "WDK 10.0.14393.0",
+    "accountName": "appveyor-tests",
+    "projectSlug": "winfsp-citest",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": [
+      "vs2015-master"
+    ]
+  },
+  {
+    "testName": "web-app-packaging-for-xcopy",
+    "accountName": "appveyor-tests",
+    "projectSlug": "web-app-packaging-for-xcopy",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "where-tools",
+    "accountName": "appveyor-tests",
+    "projectSlug": "where-tools",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "windows-phone-8.1-behaviors",
+    "accountName": "appveyor-tests",
+    "projectSlug": "appveyorxamlbehaviorstest",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": [
+      "vs2015-master",
+      "vs2017-master"
+    ]
+  },
+  {
+    "testName": "wix-in-vs2017",
+    "accountName": "appveyor-tests",
+    "projectSlug": "setupproject2017",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "wix3x-pre311-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "wix3x-pre311-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "yarn-tests",
+    "accountName": "appveyor-tests",
+    "projectSlug": "yarn-tests",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  }
+]

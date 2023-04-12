@@ -299,7 +299,7 @@
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "environmentVariables": {
-      "EXPECTED_DOTNET_VER": "2.2.402"
+      "EXPECTED_DOTNET_VER": "5.0.416"
     },
     "images": []
   },

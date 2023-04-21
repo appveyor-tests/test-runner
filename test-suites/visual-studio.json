@@ -315,7 +315,7 @@
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "environmentVariables": {
-      "EXPECTED_DOTNET_VER": "7.0.23"
+      "EXPECTED_DOTNET_VER": "7.0.203"
     },
     "images": [
       "vs2022-master"

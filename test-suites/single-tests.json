@@ -1,4 +1,16 @@
 [
+  {
+    "testName": "sql server 2019",
+    "accountName": "appveyor-tests",
+    "projectSlug": "sql-server-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "SQL_INSTANCE_NAME": "SQL2019"
+    },
+    "images": []
+  },
     {
     "testName": "sql server 2022",
     "accountName": "appveyor-tests",

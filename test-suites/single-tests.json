@@ -1,16 +1,11 @@
 [
-    {
-    "testName": "sql server 2022",
+  {
+    "testName": "bitbucket-private-git-ssh-clone-test",
     "accountName": "appveyor-tests",
-    "projectSlug": "sql-server-test",
+    "projectSlug": "bitbucket-private-git-qddys",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
-    "environmentVariables": {
-      "SQL_INSTANCE_NAME": "SQL2022"
-    },
-    "images": [
-      "vs2022-master"
-    ]
+    "images": []
   }
 ]

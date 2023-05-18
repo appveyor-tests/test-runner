@@ -1,8 +1,8 @@
 [
   {
-    "testName": "bitbucket-private-git-ssh-clone-test",
+    "testName": "qt-tests",
     "accountName": "appveyor-tests",
-    "projectSlug": "bitbucket-private-git-qddys",
+    "projectSlug": "qt-tests",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,

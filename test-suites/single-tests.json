@@ -1,8 +1,8 @@
 [
   {
-    "testName": "qt-tests",
+    "testName": "docker-tests",
     "accountName": "appveyor-tests",
-    "projectSlug": "qt-tests",
+    "projectSlug": "docker-tests",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,

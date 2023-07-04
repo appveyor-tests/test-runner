@@ -1,16 +1,11 @@
 [
   {
-    "testName": "dotnet-core-2017",
+    "testName": "aws-tools",
     "accountName": "appveyor-tests",
-    "projectSlug": "dotnet-core-2017",
+    "projectSlug": "aws-tools",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
-    "environmentVariables": {
-      "EXPECTED_DOTNET_VER": "7.0.304"
-    },
-    "images": [
-      "vs2022-master"
-    ]
+    "images": []
   }
 ]

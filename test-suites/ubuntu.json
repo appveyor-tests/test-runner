@@ -678,21 +678,6 @@
         ]
     },
     {
-        "testName": "python 3.12.0",
-        "accountName": "appveyor-tests",
-        "projectSlug": "python-versions-linux",
-        "branch": "master",
-        "timeoutMinutes": 10,
-        "shouldSucceed": true,
-        "environmentVariables": {
-            "PYTHON_STACK": "python 3.12.0"
-        },
-        "images": [
-            "ubuntu1804-master",
-            "ubuntu2004-master"
-        ]
-    },
-    {
         "testName": "python 3.7.16",
         "accountName": "appveyor-tests",
         "projectSlug": "python-versions-linux",

@@ -542,8 +542,8 @@
         "timeoutMinutes": 10,
         "shouldSucceed": true,
         "environmentVariables": {
-            "NODE_STACK": "node 18.17.0",
-            "NODE_VERSION": "18.17.0",
+            "NODE_STACK": "node 18.17.1",
+            "NODE_VERSION": "18.17.1",
             "NODE_MAJOR": "node 18"
         },
         "images": [
@@ -932,7 +932,7 @@
         "shouldSucceed": true,
         "environmentVariables": {
             "ALL_TOOLS": "wget curl 7z 7za ftp lftp tclsh cmake make mvn gradle ant yarn gcc gfortran java javac go node ruby docker sqlcmd psql mongo rabbitmqctl packer aws az pwsh mono mcs xsp4 csc pip virtualenv python python3 git svn hg",
-            "TEST_TOOLS": "wget curl 7z 7za ftp lftp tclsh cmake make mvn gradle ant yarn gcc gfortran java javac go node ruby docker sqlcmd mongo packer aws az pwsh mono mcs xsp4 csc pip virtualenv python python3 git svn hg"
+            "TEST_TOOLS": "wget curl 7z 7za ftp lftp tclsh cmake make mvn gradle ant yarn gcc gfortran java javac go node ruby docker sqlcmd mongosh packer aws az pwsh mono mcs xsp4 csc pip virtualenv python python3 git svn hg"
         },
         "images": []
     },

@@ -542,8 +542,8 @@
         "timeoutMinutes": 10,
         "shouldSucceed": true,
         "environmentVariables": {
-            "NODE_STACK": "node 18.15.0",
-            "NODE_VERSION": "18.15.0",
+            "NODE_STACK": "node 18.17.0",
+            "NODE_VERSION": "18.17.0",
             "NODE_MAJOR": "node 18"
         },
         "images": [
@@ -633,7 +633,10 @@
         "environmentVariables": {
             "PYTHON_STACK": "python 2.7.18"
         },
-        "images": []
+        "images": [
+            "ubuntu1804-master",
+            "ubuntu1604-master"
+        ]
     },
     {
         "testName": "python 2.7.x",
@@ -645,7 +648,10 @@
         "environmentVariables": {
             "PYTHON_STACK": "python 2.7"
         },
-        "images": []
+        "images": [
+            "ubuntu1804-master",
+            "ubuntu1604-master"
+        ]
     },
     {
         "testName": "python 3.10.12",

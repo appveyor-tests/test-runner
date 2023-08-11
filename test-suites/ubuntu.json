@@ -514,8 +514,8 @@
         "timeoutMinutes": 10,
         "shouldSucceed": true,
         "environmentVariables": {
-            "NODE_STACK": "node 16.19.1",
-            "NODE_VERSION": "16.19.1",
+            "NODE_STACK": "node 16.20.2",
+            "NODE_VERSION": "16.20.2",
             "NODE_MAJOR": "node 16"
         },
         "images": []

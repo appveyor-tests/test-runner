@@ -1,8 +1,8 @@
 [
   {
-    "testName": "aws-tools",
+    "testName": "nodejs-versions",
     "accountName": "appveyor-tests",
-    "projectSlug": "aws-tools",
+    "projectSlug": "nodejs-versions",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,

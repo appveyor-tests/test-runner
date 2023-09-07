@@ -1,8 +1,26 @@
 [
   {
-    "testName": "selenium-tests",
+    "testName": "nodejs-versions",
     "accountName": "appveyor-tests",
-    "projectSlug": "selenium-tests",
+    "projectSlug": "nodejs-versions",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "where-tools",
+    "accountName": "appveyor-tests",
+    "projectSlug": "where-tools",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "jspm-config-auth",
+    "accountName": "appveyor-tests",
+    "projectSlug": "jspm-config-auth",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,

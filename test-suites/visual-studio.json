@@ -141,7 +141,7 @@
     "testName": "boost-libraries",
     "accountName": "appveyor-tests",
     "projectSlug": "boost-libraries",
-    "branch": "master",
+    "branch": "main",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "images": [

@@ -297,7 +297,11 @@
         "environmentVariables": {
             "JAVA_STACK": "jdk 8"
         },
-        "images": []
+        "images": [
+            "ubuntu1604-master",
+            "ubuntu1804-master",
+            "ubuntu2004-master"
+        ]
     },
     {
         "testName": "jdk 9",
@@ -828,7 +832,11 @@
         "environmentVariables": {
             "RUBY_STACK": "ruby 2.4"
         },
-        "images": []
+        "images": [
+            "ubuntu1604-master",
+            "ubuntu1804-master",
+            "ubuntu2004-master"
+        ]
     },
     {
         "testName": "Ruby 2.5",
@@ -840,7 +848,11 @@
         "environmentVariables": {
             "RUBY_STACK": "ruby 2.5"
         },
-        "images": []
+        "images": [
+            "ubuntu1604-master",
+            "ubuntu1804-master",
+            "ubuntu2004-master"
+        ]
     },
     {
         "testName": "Ruby 2.6",

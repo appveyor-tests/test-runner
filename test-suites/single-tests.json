@@ -12,6 +12,102 @@
     "images": []
   },
   {
+    "testName": "jdk 11",
+    "accountName": "appveyor-tests",
+    "projectSlug": "jdk-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "JAVA_STACK": "jdk 11"
+    },
+    "images": []
+  },
+  {
+    "testName": "jdk 12",
+    "accountName": "appveyor-tests",
+    "projectSlug": "jdk-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "JAVA_STACK": "jdk 12"
+    },
+    "images": []
+  },
+  {
+    "testName": "jdk 13",
+    "accountName": "appveyor-tests",
+    "projectSlug": "jdk-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "JAVA_STACK": "jdk 13"
+    },
+    "images": []
+  },
+  {
+    "testName": "jdk 14",
+    "accountName": "appveyor-tests",
+    "projectSlug": "jdk-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "JAVA_STACK": "jdk 14"
+    },
+    "images": []
+  },
+  {
+    "testName": "jdk 15",
+    "accountName": "appveyor-tests",
+    "projectSlug": "jdk-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "JAVA_STACK": "jdk 15"
+    },
+    "images": []
+  },
+  {
+    "testName": "jdk 16",
+    "accountName": "appveyor-tests",
+    "projectSlug": "jdk-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "JAVA_STACK": "jdk 16"
+    },
+    "images": []
+  },
+  {
+    "testName": "jdk 17",
+    "accountName": "appveyor-tests",
+    "projectSlug": "jdk-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "JAVA_STACK": "jdk 17"
+    },
+    "images": []
+  },
+  {
+    "testName": "jdk 18",
+    "accountName": "appveyor-tests",
+    "projectSlug": "jdk-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "JAVA_STACK": "jdk 18"
+    },
+    "images": []
+  },
+  {
     "testName": "gce-scopes-linux",
     "accountName": "appveyor-tests",
     "projectSlug": "gce-scopes-linux",

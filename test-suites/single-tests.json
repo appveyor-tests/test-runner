@@ -1,14 +1,23 @@
 [
   {
-    "testName": "boost-libraries",
+    "testName": "jdk 10",
     "accountName": "appveyor-tests",
-    "projectSlug": "boost-libraries",
-    "branch": "main",
+    "projectSlug": "jdk-stack-versions-linux",
+    "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
-    "images": [
-      "vs2019-master",
-      "vs2022-master"
-    ]
+    "environmentVariables": {
+      "JAVA_STACK": "jdk 10"
+    },
+    "images": []
+  },
+  {
+    "testName": "gce-scopes-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "gce-scopes-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
   }
 ]

@@ -1,5 +1,17 @@
 [
   {
+    "testName": "jdk 9",
+    "accountName": "appveyor-tests",
+    "projectSlug": "jdk-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "JAVA_STACK": "jdk 9"
+    },
+    "images": []
+  },
+  {
     "testName": "jdk 10",
     "accountName": "appveyor-tests",
     "projectSlug": "jdk-stack-versions-linux",
@@ -105,15 +117,6 @@
     "environmentVariables": {
       "JAVA_STACK": "jdk 18"
     },
-    "images": []
-  },
-  {
-    "testName": "gce-scopes-linux",
-    "accountName": "appveyor-tests",
-    "projectSlug": "gce-scopes-linux",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
     "images": []
   }
 ]

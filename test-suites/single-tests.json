@@ -1,11 +1,11 @@
 [
   {
-    "testName": "qt-tests",
+    "testName": "root-files-linux",
     "accountName": "appveyor-tests",
-    "projectSlug": "qt-tests",
+    "projectSlug": "root-files-linux",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "images": []
-  }
+  },
 ]

@@ -1,8 +1,8 @@
 [
   {
-    "testName": "android-app-test",
+    "testName": "qt-tests",
     "accountName": "appveyor-tests",
-    "projectSlug": "android-app-test",
+    "projectSlug": "qt-tests",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,

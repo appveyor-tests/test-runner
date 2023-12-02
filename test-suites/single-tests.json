@@ -8,4 +8,31 @@
     "shouldSucceed": true,
     "images": []
   },
+  {
+    "testName": "semver2-nuget-restore",
+    "accountName": "appveyor-tests",
+    "projectSlug": "semver2-nuget-restore",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "psgallery-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "psgallery-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "secure-file-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "secure-file-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
 ]

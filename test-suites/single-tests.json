@@ -16,10 +16,12 @@
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "environmentVariables": {
-      "EXPECTED_DOTNET_VER": "8.0.100"
+      "EXPECTED_DOTNET_VER": "5.0.416"
     },
     "images": [
-      "vs2022-master"
+      "vs2015-master",
+      "vs2017-master",
+      "vs2019-master"
     ]
   },
 ]

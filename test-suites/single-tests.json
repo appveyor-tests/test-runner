@@ -24,4 +24,13 @@
       "vs2019-master"
     ]
   },
+  {
+    "testName": "qt-tests",
+    "accountName": "appveyor-tests",
+    "projectSlug": "qt-tests",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
 ]

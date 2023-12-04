@@ -1,38 +1,25 @@
 [
   {
-    "testName": "qt-tests",
+    "testName": "dacpac-sqlpackage-test-sql2019",
     "accountName": "appveyor-tests",
-    "projectSlug": "qt-tests",
-    "branch": "master",
+    "projectSlug": "dacpac-sqlpackage-test-sql2019",
+    "branch": "sql2019",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "images": []
   },
   {
-    "testName": "semver2-nuget-restore",
+    "testName": "dotnet-core-2017",
     "accountName": "appveyor-tests",
-    "projectSlug": "semver2-nuget-restore",
+    "projectSlug": "dotnet-core-2017",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
-    "images": []
-  },
-  {
-    "testName": "psgallery-test",
-    "accountName": "appveyor-tests",
-    "projectSlug": "psgallery-test",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": []
-  },
-  {
-    "testName": "secure-file-test",
-    "accountName": "appveyor-tests",
-    "projectSlug": "secure-file-test",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": []
+    "environmentVariables": {
+      "EXPECTED_DOTNET_VER": "8.0.100"
+    },
+    "images": [
+      "vs2022-master"
+    ]
   },
 ]

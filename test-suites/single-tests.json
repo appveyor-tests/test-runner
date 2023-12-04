@@ -1,33 +1,8 @@
 [
   {
-    "testName": "dacpac-sqlpackage-test-sql2019",
+    "testName": "unit-test-runners",
     "accountName": "appveyor-tests",
-    "projectSlug": "dacpac-sqlpackage-test-sql2019",
-    "branch": "sql2019",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": []
-  },
-  {
-    "testName": "dotnet-core-2017",
-    "accountName": "appveyor-tests",
-    "projectSlug": "dotnet-core-2017",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "environmentVariables": {
-      "EXPECTED_DOTNET_VER": "5.0.416"
-    },
-    "images": [
-      "vs2015-master",
-      "vs2017-master",
-      "vs2019-master"
-    ]
-  },
-  {
-    "testName": "qt-tests",
-    "accountName": "appveyor-tests",
-    "projectSlug": "qt-tests",
+    "projectSlug": "unit-test-runners",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,

@@ -1,44 +1,35 @@
 [
   {
-    "testName": "android-app-test",
+    "testName": "unit-test-runners",
     "accountName": "appveyor-tests",
-    "projectSlug": "android-app-test",
+    "projectSlug": "unit-test-runners",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "images": []
   },
   {
-    "testName": "appveyor-bot-test",
+    "testName": "unit-test-runners-except",
     "accountName": "appveyor-tests",
-    "projectSlug": "appveyor-bot-test",
+    "projectSlug": "unit-test-runners-l2j5s",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "images": []
   },
   {
-    "testName": "appveyor-py-launcher",
+    "testName": "unit-test-runners-only-new-style",
     "accountName": "appveyor-tests",
-    "projectSlug": "appveyor-py-launcher",
+    "projectSlug": "unit-test-runners-lin69",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "images": []
   },
   {
-    "testName": "artifacts",
+    "testName": "unit-test-runners-only-old-style",
     "accountName": "appveyor-tests",
-    "projectSlug": "artifacts",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": []
-  },
-  {
-    "testName": "aws-tools",
-    "accountName": "appveyor-tests",
-    "projectSlug": "aws-tools",
+    "projectSlug": "unit-test-runners-fn0om",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,

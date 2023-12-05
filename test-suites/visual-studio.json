@@ -315,8 +315,7 @@
     },
     "images": [
       "vs2015-master",
-      "vs2017-master",
-      "vs2019-master"
+      "vs2017-master"
     ]
   },
   {
@@ -330,6 +329,7 @@
       "EXPECTED_DOTNET_VER": "8.0.100"
     },
     "images": [
+      "vs2019-master",
       "vs2022-master"
     ]
   },

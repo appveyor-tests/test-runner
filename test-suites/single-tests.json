@@ -1,11 +1,17 @@
 [
   {
-    "testName": "unit-test-runners",
+    "testName": "dotnet-core-2017",
     "accountName": "appveyor-tests",
-    "projectSlug": "unit-test-runners",
+    "projectSlug": "dotnet-core-2017",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
-    "images": []
+    "environmentVariables": {
+      "EXPECTED_DOTNET_VER": "8.0.100"
+    },
+    "images": [
+      "vs2019-master",
+      "vs2022-master"
+    ]
   },
 ]

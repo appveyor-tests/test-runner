@@ -2,8 +2,7 @@ image: ubuntu
 
 init:
 - appveyor UpdateBuild -Message "TEST_SUITE=${TEST_SUITE}, TEST_IMAGE=${TEST_IMAGE}, TEST_CLOUD=${TEST_CLOUD}"
-- curl -sL https://gist.githubusercontent.com/OwenMcDonnell/c63da7c5ba8508c219df01a503f57565/raw/8fc304831965261a1d0335df90c4abac8eb1e770/rvm > /var/tmp/rvm
-- sudo cp /var/tmp/rvm /usr/bin/rvm
+
 build_script:
 - cd TestSuiteRunner
 - dotnet run

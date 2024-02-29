@@ -662,14 +662,14 @@
         ]
     },
     {
-        "testName": "python 3.10.12",
+        "testName": "python 3.10.13",
         "accountName": "appveyor-tests",
         "projectSlug": "python-versions-linux",
         "branch": "master",
         "timeoutMinutes": 10,
         "shouldSucceed": true,
         "environmentVariables": {
-            "PYTHON_STACK": "python 3.10.12"
+            "PYTHON_STACK": "python 3.10.13"
         },
         "images": [
             "ubuntu1804-master",
@@ -677,14 +677,14 @@
         ]
     },
     {
-        "testName": "python 3.11.4",
+        "testName": "python 3.11.8",
         "accountName": "appveyor-tests",
         "projectSlug": "python-versions-linux",
         "branch": "master",
         "timeoutMinutes": 10,
         "shouldSucceed": true,
         "environmentVariables": {
-            "PYTHON_STACK": "python 3.11.4"
+            "PYTHON_STACK": "python 3.11.8"
         },
         "images": [
             "ubuntu1804-master",
@@ -692,14 +692,14 @@
         ]
     },
     {
-        "testName": "python 3.12.0",
+        "testName": "python 3.12.2",
         "accountName": "appveyor-tests",
         "projectSlug": "python-versions-linux",
         "branch": "master",
         "timeoutMinutes": 10,
         "shouldSucceed": true,
         "environmentVariables": {
-            "PYTHON_STACK": "python 3.12.0"
+            "PYTHON_STACK": "python 3.12.2"
         },
         "images": [
             "ubuntu1804-master",
@@ -744,14 +744,14 @@
         "images": []
     },
     {
-        "testName": "python 3.9.17",
+        "testName": "python 3.9.18",
         "accountName": "appveyor-tests",
         "projectSlug": "python-versions-linux",
         "branch": "master",
         "timeoutMinutes": 10,
         "shouldSucceed": true,
         "environmentVariables": {
-            "PYTHON_STACK": "python 3.9.17"
+            "PYTHON_STACK": "python 3.9.18"
         },
         "images": []
     },

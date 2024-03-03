@@ -793,8 +793,7 @@
             "RUBY_STACK": "ruby 2.0"
         },
         "images": [
-            "ubuntu1604-master",
-            "ubuntu1804-master"
+            "ubuntu1604-master"
         ]
     },
     {
@@ -942,8 +941,17 @@
         "timeoutMinutes": 10,
         "shouldSucceed": true,
         "images": [
-            "ubuntu1604-master",
-            "ubuntu1804-master"
+            "ubuntu1604-master"
+        ]
+    },
+    {
+        "testName": "ruby-test-rbenv",
+        "accountName": "appveyor-tests",
+        "projectSlug": "ruby-test-rbenv",
+        "branch": "master",
+        "timeoutMinutes": 10,
+        "shouldSucceed": true,
+        "images": [
         ]
     },
     {

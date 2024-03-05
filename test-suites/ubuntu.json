@@ -189,7 +189,11 @@
         "environmentVariables": {
             "JAVA_STACK": "jdk 10"
         },
-        "images": []
+        "images": [
+            "ubuntu1604-master",
+            "ubuntu1804-master",
+            "ubuntu2004-master"
+        ]
     },
     {
         "testName": "jdk 11",

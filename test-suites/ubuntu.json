@@ -126,6 +126,15 @@
         "images": []
     },
     {
+        "testName": "flutter-build",
+        "accountName": "appveyor-tests",
+        "projectSlug": "flutter-build",
+        "branch": "master",
+        "timeoutMinutes": 10,
+        "shouldSucceed": true,
+        "images": []
+    },
+    {
         "testName": "gce-scopes-linux",
         "accountName": "appveyor-tests",
         "projectSlug": "gce-scopes-linux",

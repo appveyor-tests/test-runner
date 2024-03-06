@@ -1,12 +1,11 @@
 [
     {
-        "testName": "ruby-test-rbenv",
+        "testName": "flutter-build",
         "accountName": "appveyor-tests",
-        "projectSlug": "ruby-test-rbenv",
+        "projectSlug": "flutter-build",
         "branch": "master",
         "timeoutMinutes": 10,
         "shouldSucceed": true,
-        "images": [
-        ]
+        "images": []
     },
 ]

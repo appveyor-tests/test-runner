@@ -8,4 +8,13 @@
         "shouldSucceed": true,
         "images": []
     },
+    {
+        "testName": "go-lang-versions-linux",
+        "accountName": "appveyor-tests",
+        "projectSlug": "go-lang-versions-linux",
+        "branch": "master",
+        "timeoutMinutes": 10,
+        "shouldSucceed": true,
+        "images": []
+    },
 ]

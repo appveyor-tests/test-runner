@@ -369,6 +369,15 @@
         "images": []
     },
     {
+        "testName": "linux-cd-command",
+        "accountName": "appveyor-tests",
+        "projectSlug": "linux-cd-command",
+        "branch": "master",
+        "timeoutMinutes": 10,
+        "shouldSucceed": true,
+        "images": []
+    },
+    {
         "testName": "login-interactive-shell-linux",
         "accountName": "appveyor-tests",
         "projectSlug": "login-interactive-shell-linux",

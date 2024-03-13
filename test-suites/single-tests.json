@@ -18,9 +18,9 @@
         "images": []
     },
     {
-        "testName": "virtualbox-linux",
+        "testName": "linux-browsers-test",
         "accountName": "appveyor-tests",
-        "projectSlug": "virtualbox-linux",
+        "projectSlug": "linux-browsers-test",
         "branch": "master",
         "timeoutMinutes": 10,
         "shouldSucceed": true,

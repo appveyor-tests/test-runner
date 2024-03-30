@@ -1,26 +1,20 @@
 [
-    {
-        "testName": "dotnet-core-2017",
-        "accountName": "appveyor-tests",
-        "projectSlug": "dotnet-core-2017",
-        "branch": "master",
-        "timeoutMinutes": 10,
-        "shouldSucceed": true,
-        "environmentVariables": {
-          "EXPECTED_DOTNET_VER": "8.0.202"
-        },
-        "images": [
-          "vs2019-master",
-          "vs2022-master"
-        ]
-      },
-      {
-        "testName": "android-app-test",
-        "accountName": "appveyor-tests",
-        "projectSlug": "android-app-test",
-        "branch": "master",
-        "timeoutMinutes": 10,
-        "shouldSucceed": true,
-        "images": []
-      },
+  {
+    "testName": "nuget-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "nuget-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "qt-tests",
+    "accountName": "appveyor-tests",
+    "projectSlug": "qt-tests",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
 ]

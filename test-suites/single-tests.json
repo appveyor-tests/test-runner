@@ -1,17 +1,8 @@
 [
   {
-    "testName": "nuget-test",
+    "testName": "vdproj-test",
     "accountName": "appveyor-tests",
-    "projectSlug": "nuget-test",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": []
-  },
-  {
-    "testName": "qt-tests",
-    "accountName": "appveyor-tests",
-    "projectSlug": "qt-tests",
+    "projectSlug": "vdproj-test",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,

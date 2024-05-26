@@ -7,7 +7,7 @@
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "environmentVariables": {
-      "EXPECTED_DOTNET_VER": "8.0.202"
+      "EXPECTED_DOTNET_VER": "8.0.300"
     },
     "images": [
       "vs2019-master",

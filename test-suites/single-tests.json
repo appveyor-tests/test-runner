@@ -15,12 +15,21 @@
     ]
   },
   {
-    "testName": "git-lfs-test",
+    "testName": "nuget-test",
     "accountName": "appveyor-tests",
-    "projectSlug": "git-lfs-test",
+    "projectSlug": "nuget-test",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "images": []
-  }
+  },
+  {
+    "testName": "nodejs-versions",
+    "accountName": "appveyor-tests",
+    "projectSlug": "nodejs-versions",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
 ]

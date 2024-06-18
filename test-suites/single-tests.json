@@ -1,29 +1,5 @@
 [
   {
-    "testName": "dotnet-core-2017",
-    "accountName": "appveyor-tests",
-    "projectSlug": "dotnet-core-2017",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "environmentVariables": {
-      "EXPECTED_DOTNET_VER": "8.0.300"
-    },
-    "images": [
-      "vs2019-master",
-      "vs2022-master"
-    ]
-  },
-  {
-    "testName": "nuget-test",
-    "accountName": "appveyor-tests",
-    "projectSlug": "nuget-test",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": []
-  },
-  {
     "testName": "nodejs-versions",
     "accountName": "appveyor-tests",
     "projectSlug": "nodejs-versions",
@@ -32,4 +8,16 @@
     "shouldSucceed": true,
     "images": []
   },
+  {
+    "testName": "boost-libraries",
+    "accountName": "appveyor-tests",
+    "projectSlug": "boost-libraries",
+    "branch": "main",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": [
+      "vs2019-master",
+      "vs2022-master"
+    ]
+  }
 ]

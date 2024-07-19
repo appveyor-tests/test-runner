@@ -198,11 +198,7 @@
         "environmentVariables": {
             "JAVA_STACK": "jdk 10"
         },
-        "images": [
-            "ubuntu1604-master",
-            "ubuntu1804-master",
-            "ubuntu2004-master"
-        ]
+        "images": []
     },
     {
         "testName": "jdk 11",
@@ -311,7 +307,6 @@
             "JAVA_STACK": "jdk 8"
         },
         "images": [
-            "ubuntu1604-master",
             "ubuntu1804-master",
             "ubuntu2004-master"
         ]
@@ -326,11 +321,7 @@
         "environmentVariables": {
             "JAVA_STACK": "jdk 9"
         },
-        "images": [
-            "ubuntu1604-master",
-            "ubuntu1804-master",
-            "ubuntu2004-master"
-        ]
+        "images": []
     },
     {
         "testName": "jdk-versions-linux",
@@ -585,9 +576,7 @@
             "NODE_VERSION": "18.17.1",
             "NODE_MAJOR": "node 18"
         },
-        "images": [
-            "ubuntu2004-master"
-        ]
+        "images": []
     },
     {
         "testName": "node-stable-default-lts-versions-linux",
@@ -602,7 +591,9 @@
             "NODE_STABLE": "v21"
         },
         "images": [
-            "ubuntu2004-master"
+            "ubuntu2004-master",
+            "ubuntu1804-master",
+            "ubuntu2204-master"
         ]
     },
     {
@@ -672,10 +663,7 @@
         "environmentVariables": {
             "PYTHON_STACK": "python 2.7.18"
         },
-        "images": [
-            "ubuntu1804-master",
-            "ubuntu1604-master"
-        ]
+        "images": []
     },
     {
         "testName": "python 2.7.x",
@@ -693,50 +681,40 @@
         ]
     },
     {
-        "testName": "python 3.10.13",
+        "testName": "python 3.10.14",
         "accountName": "appveyor-tests",
         "projectSlug": "python-versions-linux",
         "branch": "master",
         "timeoutMinutes": 10,
         "shouldSucceed": true,
         "environmentVariables": {
-            "PYTHON_STACK": "python 3.10.13"
+            "PYTHON_STACK": "python 3.10.14"
         },
-        "images": [
-            "ubuntu1804-master",
-            "ubuntu2004-master"
-        ]
+        "images": []
     },
     {
-        "testName": "python 3.11.8",
+        "testName": "python 3.11.9",
         "accountName": "appveyor-tests",
         "projectSlug": "python-versions-linux",
         "branch": "master",
         "timeoutMinutes": 10,
         "shouldSucceed": true,
         "environmentVariables": {
-            "PYTHON_STACK": "python 3.11.8"
+            "PYTHON_STACK": "python 3.11.9"
         },
-        "images": [
-            "ubuntu1804-master",
-            "ubuntu2004-master"
-        ]
+        "images": []
     },
     {
-        "testName": "python 3.12.2",
+        "testName": "python 3.12.4",
         "accountName": "appveyor-tests",
         "projectSlug": "python-versions-linux",
         "branch": "master",
         "timeoutMinutes": 10,
         "shouldSucceed": true,
         "environmentVariables": {
-            "PYTHON_STACK": "python 3.12.2"
+            "PYTHON_STACK": "python 3.12.4"
         },
-        "images": [
-            "ubuntu1804-master",
-            "ubuntu2004-master",
-            "ubuntu2204-master"
-        ]
+        "images": []
     },
     {
         "testName": "python 3.7.16",
@@ -814,65 +792,6 @@
         "images": []
     },
     {
-        "testName": "Ruby 2.0",
-        "accountName": "appveyor-tests",
-        "projectSlug": "ruby-stack-versions-linux",
-        "branch": "master",
-        "timeoutMinutes": 10,
-        "shouldSucceed": true,
-        "environmentVariables": {
-            "RUBY_STACK": "ruby 2.0"
-        },
-        "images": [
-            "ubuntu1604-master"
-        ]
-    },
-    {
-        "testName": "Ruby 2.1",
-        "accountName": "appveyor-tests",
-        "projectSlug": "ruby-stack-versions-linux",
-        "branch": "master",
-        "timeoutMinutes": 10,
-        "shouldSucceed": true,
-        "environmentVariables": {
-            "RUBY_STACK": "ruby 2.1"
-        },
-        "images": [
-            "ubuntu1604-master",
-            "ubuntu1804-master"
-        ]
-    },
-    {
-        "testName": "Ruby 2.2",
-        "accountName": "appveyor-tests",
-        "projectSlug": "ruby-stack-versions-linux",
-        "branch": "master",
-        "timeoutMinutes": 10,
-        "shouldSucceed": true,
-        "environmentVariables": {
-            "RUBY_STACK": "ruby 2.2"
-        },
-        "images": [
-            "ubuntu1604-master",
-            "ubuntu1804-master"
-        ]
-    },
-    {
-        "testName": "Ruby 2.3",
-        "accountName": "appveyor-tests",
-        "projectSlug": "ruby-stack-versions-linux",
-        "branch": "master",
-        "timeoutMinutes": 10,
-        "shouldSucceed": true,
-        "environmentVariables": {
-            "RUBY_STACK": "ruby 2.3"
-        },
-        "images": [
-            "ubuntu1604-master",
-            "ubuntu1804-master"
-        ]
-    },
-    {
         "testName": "Ruby 2.4",
         "accountName": "appveyor-tests",
         "projectSlug": "ruby-stack-versions-linux",
@@ -882,11 +801,7 @@
         "environmentVariables": {
             "RUBY_STACK": "ruby 2.4"
         },
-        "images": [
-            "ubuntu1604-master",
-            "ubuntu1804-master",
-            "ubuntu2004-master"
-        ]
+        "images": []
     },
     {
         "testName": "Ruby 2.5",
@@ -898,11 +813,7 @@
         "environmentVariables": {
             "RUBY_STACK": "ruby 2.5"
         },
-        "images": [
-            "ubuntu1604-master",
-            "ubuntu1804-master",
-            "ubuntu2004-master"
-        ]
+        "images": []
     },
     {
         "testName": "Ruby 2.6",
@@ -948,7 +859,7 @@
         "timeoutMinutes": 10,
         "shouldSucceed": true,
         "environmentVariables": {
-            "RUBY_STACK": "ruby 3.1.4"
+            "RUBY_STACK": "ruby 3.1.5"
         },
         "images": []
     },
@@ -960,7 +871,19 @@
         "timeoutMinutes": 10,
         "shouldSucceed": true,
         "environmentVariables": {
-            "RUBY_STACK": "ruby 3.2.3"
+            "RUBY_STACK": "ruby 3.2.4"
+        },
+        "images": []
+    },
+    {
+        "testName": "Ruby 3.3",
+        "accountName": "appveyor-tests",
+        "projectSlug": "ruby-stack-versions-linux",
+        "branch": "master",
+        "timeoutMinutes": 10,
+        "shouldSucceed": true,
+        "environmentVariables": {
+            "RUBY_STACK": "ruby 3.3.4"
         },
         "images": []
     },
@@ -982,8 +905,7 @@
         "branch": "master",
         "timeoutMinutes": 10,
         "shouldSucceed": true,
-        "images": [
-        ]
+        "images": []
     },
     {
         "testName": "secure-file-test",
@@ -1007,7 +929,8 @@
         },
         "images": [
             "ubuntu1804-master",
-            "ubuntu2004-master"
+            "ubuntu2004-master",
+            "ubuntu2204-master"
         ]
     },
     {

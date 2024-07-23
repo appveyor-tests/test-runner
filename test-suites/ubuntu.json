@@ -576,7 +576,10 @@
             "NODE_VERSION": "18.17.1",
             "NODE_MAJOR": "node 18"
         },
-        "images": []
+        "images": [
+            "ubuntu2004-master",
+            "ubuntu2204-master"
+        ]
     },
     {
         "testName": "node-stable-default-lts-versions-linux",
@@ -592,8 +595,23 @@
         },
         "images": [
             "ubuntu2004-master",
-            "ubuntu1804-master",
             "ubuntu2204-master"
+        ]
+    },
+    {
+        "testName": "node-stable-default-lts-versions-linux",
+        "accountName": "appveyor-tests",
+        "projectSlug": "node-stable-default-lts-versions-linux",
+        "branch": "master",
+        "timeoutMinutes": 10,
+        "shouldSucceed": true,
+        "environmentVariables": {
+            "NODE_DEFAULT": "v17",
+            "NODE_LTS": "16",
+            "NODE_STABLE": "v17"
+        },
+        "images": [
+            "ubuntu1804-master"
         ]
     },
     {

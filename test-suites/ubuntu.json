@@ -589,7 +589,7 @@
         "timeoutMinutes": 10,
         "shouldSucceed": true,
         "environmentVariables": {
-            "NODE_DEFAULT": "v16",
+            "NODE_DEFAULT": "v21",
             "NODE_LTS": "v20",
             "NODE_STABLE": "v21"
         },

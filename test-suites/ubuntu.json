@@ -595,7 +595,7 @@
         "timeoutMinutes": 10,
         "shouldSucceed": true,
         "environmentVariables": {
-            "NODE_DEFAULT": "v17",
+            "NODE_DEFAULT": "v22",
             "NODE_LTS": "v20",
             "NODE_STABLE": "v22"
         },
@@ -973,8 +973,7 @@
         },
         "images": [
             "ubuntu1804-master",
-            "ubuntu2004-master",
-            "ubuntu2204-master"
+            "ubuntu2004-master"
         ]
     },
     {
@@ -985,10 +984,11 @@
         "timeoutMinutes": 10,
         "shouldSucceed": true,
         "environmentVariables": {
-            "TEST_TOOLS": "wget curl 7z 7za ftp lftp tclsh cmake make mvn gradle ant yarn gcc gfortran java javac go node ruby docker sqlcmd mongo packer aws az pwsh mono mcs xsp4 csc pip virtualenv python python3 git svn hg"
+            "ALL_TOOLS": "wget curl 7z 7za ftp lftp tclsh cmake make mvn gradle ant yarn gcc gfortran java javac go node ruby docker sqlcmd psql mongo rabbitmqctl packer aws az pwsh mono mcs xsp4 csc pip virtualenv python python3 git svn hg",
+            "TEST_TOOLS": "wget curl 7z 7za ftp lftp tclsh cmake make mvn gradle ant yarn gcc gfortran java javac go node ruby docker sqlcmd mongosh packer aws az pwsh mono mcs xsp4 csc pip virtualenv python3 git svn hg"
         },
         "images": [
-            "ubuntu1604-master"
+            "ubuntu2204-master"
         ]
     },
     {

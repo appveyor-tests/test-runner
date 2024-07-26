@@ -198,7 +198,10 @@
         "environmentVariables": {
             "JAVA_STACK": "jdk 10"
         },
-        "images": []
+        "images": [
+            "ubuntu1804-master",
+            "ubuntu2004-master"
+        ]
     },
     {
         "testName": "jdk 11",
@@ -321,7 +324,10 @@
         "environmentVariables": {
             "JAVA_STACK": "jdk 9"
         },
-        "images": []
+        "images": [
+            "ubuntu1804-master",
+            "ubuntu2004-master"
+        ]
     },
     {
         "testName": "jdk-versions-linux",
@@ -589,9 +595,9 @@
         "timeoutMinutes": 10,
         "shouldSucceed": true,
         "environmentVariables": {
-            "NODE_DEFAULT": "v21",
+            "NODE_DEFAULT": "v17",
             "NODE_LTS": "v20",
-            "NODE_STABLE": "v21"
+            "NODE_STABLE": "v22"
         },
         "images": [
             "ubuntu2004-master",
@@ -923,7 +929,27 @@
         "branch": "master",
         "timeoutMinutes": 10,
         "shouldSucceed": true,
-        "images": []
+        "environmentVariables": {
+            "RUBY_VERSIONS": "2.4.10 2.5.9 2.6.10 2.7.8 3.0.6 3.1.5 3.2.4 3.3.4"
+        },
+        "images": [
+            "ubuntu1804-master",
+            "ubuntu2004-master"
+        ]
+    },
+    {
+        "testName": "ruby-test-rbenv",
+        "accountName": "appveyor-tests",
+        "projectSlug": "ruby-test-rbenv",
+        "branch": "master",
+        "timeoutMinutes": 10,
+        "shouldSucceed": true,
+        "environmentVariables": {
+            "RUBY_VERSIONS": "2.6.10 2.7.8 3.0.6 3.1.5 3.2.4 3.3.4"
+        },
+        "images": [
+            "ubuntu2204-master"
+        ]
     },
     {
         "testName": "secure-file-test",

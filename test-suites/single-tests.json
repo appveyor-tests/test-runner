@@ -1,23 +1,11 @@
 [
   {
-    "testName": "nodejs-versions",
+    "testName": "qemu-kvm-linux",
     "accountName": "appveyor-tests",
-    "projectSlug": "nodejs-versions",
+    "projectSlug": "qemu-kvm-linux",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "images": []
-  },
-  {
-    "testName": "boost-libraries",
-    "accountName": "appveyor-tests",
-    "projectSlug": "boost-libraries",
-    "branch": "main",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": [
-      "vs2019-master",
-      "vs2022-master"
-    ]
-  }
+},
 ]

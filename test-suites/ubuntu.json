@@ -687,7 +687,9 @@
         "environmentVariables": {
             "PYTHON_STACK": "python 2.7.18"
         },
-        "images": []
+        "images": [
+            "ubuntu1804-master"
+        ]
     },
     {
         "testName": "python 2.7.x",
@@ -825,7 +827,10 @@
         "environmentVariables": {
             "RUBY_STACK": "ruby 2.4"
         },
-        "images": []
+        "images": [
+            "ubuntu1804-master",
+            "ubuntu2004-master"
+        ]
     },
     {
         "testName": "Ruby 2.5",
@@ -837,7 +842,10 @@
         "environmentVariables": {
             "RUBY_STACK": "ruby 2.5"
         },
-        "images": []
+        "images": [
+            "ubuntu1804-master",
+            "ubuntu2004-master"
+        ]
     },
     {
         "testName": "Ruby 2.6",

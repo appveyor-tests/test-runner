@@ -1,11 +1,11 @@
 [
   {
-    "testName": "qemu-kvm-linux",
+    "testName": "wix3x-pre311-test",
     "accountName": "appveyor-tests",
-    "projectSlug": "qemu-kvm-linux",
+    "projectSlug": "wix3x-pre311-test",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "images": []
-},
+  },
 ]

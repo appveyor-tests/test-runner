@@ -8,4 +8,28 @@
     "shouldSucceed": true,
     "images": []
   },
+  {
+    "testName": "dotnet-core-2017",
+    "accountName": "appveyor-tests",
+    "projectSlug": "dotnet-core-2017",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "EXPECTED_DOTNET_VER": "8.0.401"
+    },
+    "images": [
+      "vs2019-master",
+      "vs2022-master"
+    ]
+  },
+  {
+    "testName": "artifacts",
+    "accountName": "appveyor-tests",
+    "projectSlug": "artifacts",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
 ]

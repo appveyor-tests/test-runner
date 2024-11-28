@@ -8,4 +8,13 @@
     "shouldSucceed": true,
     "images": []
   },
+  {
+    "testName": "github-hostkey-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "github-hostkey-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
 ]

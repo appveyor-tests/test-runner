@@ -12,7 +12,7 @@
     "testName": "github-hostkey-test",
     "accountName": "appveyor-tests",
     "projectSlug": "github-hostkey-test",
-    "branch": "mainß",
+    "branch": "main",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "images": []

@@ -9,9 +9,9 @@
     "images": []
   },
   {
-    "testName": "github-hostkey-test",
+    "testName": "github-hostkey-test-fork",
     "accountName": "appveyor-tests",
-    "projectSlug": "github-hostkey-test",
+    "projectSlug": "github-hostkey-test-fork",
     "branch": "main",
     "timeoutMinutes": 10,
     "shouldSucceed": true,

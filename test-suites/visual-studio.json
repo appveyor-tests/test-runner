@@ -927,5 +927,14 @@
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "images": []
+  },
+  {
+    "testName": "big-repo",
+    "accountName": "appveyor-tests",
+    "projectSlug": "big-repo",
+    "branch": "main",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
   }
 ]

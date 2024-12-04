@@ -9,18 +9,9 @@
     "images": []
   },
   {
-    "testName": "github-hostkey-test-fork",
+    "testName": "test-ps-modules",
     "accountName": "appveyor-tests",
-    "projectSlug": "github-hostkey-test-fork",
-    "branch": "main",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": []
-  },
-  {
-    "testName": "big-repo",
-    "accountName": "appveyor-tests",
-    "projectSlug": "big-repo",
+    "projectSlug": "test-ps-modules",
     "branch": "main",
     "timeoutMinutes": 10,
     "shouldSucceed": true,

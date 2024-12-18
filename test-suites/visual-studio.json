@@ -326,7 +326,7 @@
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "environmentVariables": {
-      "EXPECTED_DOTNET_VER": "9.0.100"
+      "EXPECTED_DOTNET_VER": "9.0.101"
     },
     "images": [
       "vs2019-master",

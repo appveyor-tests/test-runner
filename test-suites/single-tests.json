@@ -1,8 +1,8 @@
 [
   {
-    "testName": "where-tools",
+    "testName": "sql-server-restore-bak",
     "accountName": "appveyor-tests",
-    "projectSlug": "where-tools",
+    "projectSlug": "sql-server-restore-bak",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
@@ -22,14 +22,5 @@
       "vs2019-master",
       "vs2022-master"
     ]
-  },
-  {
-    "testName": "qt-tests",
-    "accountName": "appveyor-tests",
-    "projectSlug": "qt-tests",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": []
-  },
+  }
 ]

@@ -595,7 +595,7 @@
         "timeoutMinutes": 10,
         "shouldSucceed": true,
         "environmentVariables": {
-            "NODE_DEFAULT": "v23",
+            "NODE_DEFAULT": "v22",
             "NODE_LTS": "v22",
             "NODE_STABLE": "v23"
         },

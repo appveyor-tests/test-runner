@@ -595,9 +595,9 @@
         "timeoutMinutes": 10,
         "shouldSucceed": true,
         "environmentVariables": {
-            "NODE_DEFAULT": "v22",
-            "NODE_LTS": "v20",
-            "NODE_STABLE": "v22"
+            "NODE_DEFAULT": "v23",
+            "NODE_LTS": "v22",
+            "NODE_STABLE": "v23"
         },
         "images": [
             "ubuntu2004-master",
@@ -707,14 +707,14 @@
         ]
     },
     {
-        "testName": "python 3.10.14",
+        "testName": "python 3.10.15",
         "accountName": "appveyor-tests",
         "projectSlug": "python-versions-linux",
         "branch": "master",
         "timeoutMinutes": 10,
         "shouldSucceed": true,
         "environmentVariables": {
-            "PYTHON_STACK": "python 3.10.14"
+            "PYTHON_STACK": "python 3.10.15"
         },
         "images": []
     },
@@ -731,38 +731,38 @@
         "images": []
     },
     {
-        "testName": "python 3.12.4",
+        "testName": "python 3.12.8",
         "accountName": "appveyor-tests",
         "projectSlug": "python-versions-linux",
         "branch": "master",
         "timeoutMinutes": 10,
         "shouldSucceed": true,
         "environmentVariables": {
-            "PYTHON_STACK": "python 3.12.4"
+            "PYTHON_STACK": "python 3.12.8"
         },
         "images": []
     },
     {
-        "testName": "python 3.7.16",
+        "testName": "python 3.7.17",
         "accountName": "appveyor-tests",
         "projectSlug": "python-versions-linux",
         "branch": "master",
         "timeoutMinutes": 10,
         "shouldSucceed": true,
         "environmentVariables": {
-            "PYTHON_STACK": "python 3.7.16"
+            "PYTHON_STACK": "python 3.7.17"
         },
         "images": []
     },
     {
-        "testName": "python 3.8.17",
+        "testName": "python 3.8.19",
         "accountName": "appveyor-tests",
         "projectSlug": "python-versions-linux",
         "branch": "master",
         "timeoutMinutes": 10,
         "shouldSucceed": true,
         "environmentVariables": {
-            "PYTHON_STACK": "python 3.8.17"
+            "PYTHON_STACK": "python 3.8.19"
         },
         "images": []
     },
@@ -779,14 +779,26 @@
         "images": []
     },
     {
-        "testName": "python 3.9.18",
+        "testName": "python 3.9.20",
         "accountName": "appveyor-tests",
         "projectSlug": "python-versions-linux",
         "branch": "master",
         "timeoutMinutes": 10,
         "shouldSucceed": true,
         "environmentVariables": {
-            "PYTHON_STACK": "python 3.9.18"
+            "PYTHON_STACK": "python 3.9.20"
+        },
+        "images": []
+    },
+    {
+        "testName": "python 3.13.2",
+        "accountName": "appveyor-tests",
+        "projectSlug": "python-versions-linux",
+        "branch": "master",
+        "timeoutMinutes": 10,
+        "shouldSucceed": true,
+        "environmentVariables": {
+            "PYTHON_STACK": "python 3.13.2"
         },
         "images": []
     },
@@ -903,7 +915,7 @@
         "timeoutMinutes": 10,
         "shouldSucceed": true,
         "environmentVariables": {
-            "RUBY_STACK": "ruby 3.2.4"
+            "RUBY_STACK": "ruby 3.2.7"
         },
         "images": []
     },
@@ -915,7 +927,19 @@
         "timeoutMinutes": 10,
         "shouldSucceed": true,
         "environmentVariables": {
-            "RUBY_STACK": "ruby 3.3.4"
+            "RUBY_STACK": "ruby 3.3.7"
+        },
+        "images": []
+    },
+    {
+        "testName": "Ruby 3.4",
+        "accountName": "appveyor-tests",
+        "projectSlug": "ruby-stack-versions-linux",
+        "branch": "master",
+        "timeoutMinutes": 10,
+        "shouldSucceed": true,
+        "environmentVariables": {
+            "RUBY_STACK": "ruby 3.4.2"
         },
         "images": []
     },

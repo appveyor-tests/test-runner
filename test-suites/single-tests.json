@@ -1,26 +1,30 @@
 [
   {
-    "testName": "sql-server-restore-bak",
+    "testName": "MSSQL_linux",
     "accountName": "appveyor-tests",
-    "projectSlug": "sql-server-restore-bak",
+    "projectSlug": "mssql-linux",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "images": []
   },
   {
-    "testName": "dotnet-core-2017",
+    "testName": "qemu-kvm-linux",
     "accountName": "appveyor-tests",
-    "projectSlug": "dotnet-core-2017",
+    "projectSlug": "qemu-kvm-linux",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
-    "environmentVariables": {
-      "EXPECTED_DOTNET_VER": "9.0.101"
-    },
-    "images": [
-      "vs2019-master",
-      "vs2022-master"
-    ]
-  }
+    "images": []
+  },
+  {
+    "testName": "bitbucket-private-git",
+    "accountName": "appveyor-tests",
+    "projectSlug": "bitbucket-private-git",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+
 ]

@@ -600,8 +600,23 @@
             "NODE_STABLE": "v23"
         },
         "images": [
+            "ubuntu2204-master",
+        ]
+    },
+    {
+        "testName": "node-stable-default-lts-versions-linux",
+        "accountName": "appveyor-tests",
+        "projectSlug": "node-stable-default-lts-versions-linux",
+        "branch": "master",
+        "timeoutMinutes": 10,
+        "shouldSucceed": true,
+        "environmentVariables": {
+            "NODE_DEFAULT": "v22",
+            "NODE_LTS": "v20",
+            "NODE_STABLE": "v23"
+        },
+        "images": [
             "ubuntu2004-master",
-            "ubuntu2204-master"
         ]
     },
     {

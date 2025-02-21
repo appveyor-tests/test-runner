@@ -612,7 +612,7 @@
         "shouldSucceed": true,
         "environmentVariables": {
             "NODE_DEFAULT": "v22",
-            "NODE_LTS": "v20",
+            "NODE_LTS": "v22",
             "NODE_STABLE": "v23"
         },
         "images": [

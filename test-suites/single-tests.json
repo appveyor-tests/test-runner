@@ -18,13 +18,13 @@
     "images": []
   },
   {
-    "testName": "bitbucket-private-git",
+    "testName": "check_nuget_linux",
     "accountName": "appveyor-tests",
-    "projectSlug": "bitbucket-private-git",
+    "projectSlug": "check-nuget-linux",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "images": []
-  },
+},
 
 ]

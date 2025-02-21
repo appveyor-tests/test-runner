@@ -9,6 +9,18 @@
     "images": []
   },
   {
+    "testName": "nodejs_versions-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "linux-nodejs-versions",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": [
+        "ubuntu2004-master",
+        "ubuntu2204-master"
+    ]
+},
+  {
     "testName": "qemu-kvm-linux",
     "accountName": "appveyor-tests",
     "projectSlug": "qemu-kvm-linux",

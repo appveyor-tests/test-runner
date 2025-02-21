@@ -427,7 +427,8 @@
         "timeoutMinutes": 10,
         "shouldSucceed": true,
         "images": [
-            "ubuntu2004-master"
+            "ubuntu2004-master",
+            "ubuntu2204-master"
         ]
     },
     {

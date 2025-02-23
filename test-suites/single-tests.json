@@ -9,24 +9,6 @@
     "images": []
   },
   {
-    "testName": "mysql-linux",
-    "accountName": "appveyor-tests",
-    "projectSlug": "mysql-linux",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": []
-  },
-  {
-    "testName": "linux-upgrade",
-    "accountName": "appveyor-tests",
-    "projectSlug": "linux-upgrade",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": []
-  },
-  {
     "testName": "qemu-kvm-linux",
     "accountName": "appveyor-tests",
     "projectSlug": "qemu-kvm-linux",
@@ -36,46 +18,21 @@
     "images": []
   },
   {
-    "testName": "check_nuget_linux",
+    "testName": "Powershell-linux",
     "accountName": "appveyor-tests",
-    "projectSlug": "check-nuget-linux",
+    "projectSlug": "linux-powershell",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "images": []
   },
   {
-    "testName": "nodejs 22",
+    "testName": "xplat-cache-test",
     "accountName": "appveyor-tests",
-    "projectSlug": "node-stack-versions-linux",
+    "projectSlug": "xplat-cache-test",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
-    "environmentVariables": {
-      "NODE_STACK": "node 22.14.0",
-      "NODE_VERSION": "22.14.0",
-      "NODE_MAJOR": "node 22"
-    },
-    "images": [
-      "ubuntu2004-master",
-      "ubuntu2204-master"
-    ]
-  },
-  {
-    "testName": "nodejs 23",
-    "accountName": "appveyor-tests",
-    "projectSlug": "node-stack-versions-linux",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "environmentVariables": {
-      "NODE_STACK": "node 23.8.0",
-      "NODE_VERSION": "23.8.0",
-      "NODE_MAJOR": "node 23"
-    },
-    "images": [
-      "ubuntu2004-master",
-      "ubuntu2204-master"
-    ]
-  },
+    "images": []
+  }
 ]

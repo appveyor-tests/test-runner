@@ -663,7 +663,7 @@
         "shouldSucceed": true,
         "environmentVariables": {
             "NODE_DEFAULT": "v17",
-            "NODE_LTS": "16",
+            "NODE_LTS": "v16",
             "NODE_STABLE": "v17"
         },
         "images": [

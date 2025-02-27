@@ -18,21 +18,12 @@
     "images": []
   },
   {
-    "testName": "Powershell-linux",
+    "testName": "gce-scopes-linux",
     "accountName": "appveyor-tests",
-    "projectSlug": "linux-powershell",
+    "projectSlug": "gce-scopes-linux",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "images": []
-  },
-  {
-    "testName": "xplat-cache-test",
-    "accountName": "appveyor-tests",
-    "projectSlug": "xplat-cache-test",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": []
-  }
+},
 ]

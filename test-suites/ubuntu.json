@@ -769,26 +769,26 @@
         "images": []
     },
     {
-        "testName": "python 3.11.9",
+        "testName": "python 3.11.13",
         "accountName": "appveyor-tests",
         "projectSlug": "python-versions-linux",
         "branch": "master",
         "timeoutMinutes": 10,
         "shouldSucceed": true,
         "environmentVariables": {
-            "PYTHON_STACK": "python 3.11.9"
+            "PYTHON_STACK": "python 3.11.13"
         },
         "images": []
     },
     {
-        "testName": "python 3.12.8",
+        "testName": "python 3.12.11",
         "accountName": "appveyor-tests",
         "projectSlug": "python-versions-linux",
         "branch": "master",
         "timeoutMinutes": 10,
         "shouldSucceed": true,
         "environmentVariables": {
-            "PYTHON_STACK": "python 3.12.8"
+            "PYTHON_STACK": "python 3.12.11"
         },
         "images": []
     },
@@ -841,14 +841,14 @@
         "images": []
     },
     {
-        "testName": "python 3.13.2",
+        "testName": "python 3.13.5",
         "accountName": "appveyor-tests",
         "projectSlug": "python-versions-linux",
         "branch": "master",
         "timeoutMinutes": 10,
         "shouldSucceed": true,
         "environmentVariables": {
-            "PYTHON_STACK": "python 3.13.2"
+            "PYTHON_STACK": "python 3.13.5"
         },
         "images": []
     },
@@ -965,7 +965,7 @@
         "timeoutMinutes": 10,
         "shouldSucceed": true,
         "environmentVariables": {
-            "RUBY_STACK": "ruby 3.2.7"
+            "RUBY_STACK": "ruby 3.2.9"
         },
         "images": []
     },
@@ -977,7 +977,7 @@
         "timeoutMinutes": 10,
         "shouldSucceed": true,
         "environmentVariables": {
-            "RUBY_STACK": "ruby 3.3.7"
+            "RUBY_STACK": "ruby 3.3.9"
         },
         "images": []
     },
@@ -989,7 +989,7 @@
         "timeoutMinutes": 10,
         "shouldSucceed": true,
         "environmentVariables": {
-            "RUBY_STACK": "ruby 3.4.2"
+            "RUBY_STACK": "ruby 3.4.5"
         },
         "images": []
     },
@@ -1012,7 +1012,7 @@
         "timeoutMinutes": 10,
         "shouldSucceed": true,
         "environmentVariables": {
-            "RUBY_VERSIONS": "2.4.10 2.5.9 2.6.10 2.7.8 3.0.6 3.1.5 3.2.4 3.3.4"
+            "RUBY_VERSIONS": "2.4.10 2.5.9 2.6.10 2.7.8 3.0.6 3.1.5 3.2.9 3.3.9 3.4.5"
         },
         "images": [
             "ubuntu1804-master",

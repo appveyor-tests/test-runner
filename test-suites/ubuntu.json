@@ -579,8 +579,8 @@
         "timeoutMinutes": 10,
         "shouldSucceed": true,
         "environmentVariables": {
-            "NODE_STACK": "node 18.17.1",
-            "NODE_VERSION": "18.17.1",
+            "NODE_STACK": "node 18.20.8",
+            "NODE_VERSION": "18.20.8",
             "NODE_MAJOR": "node 18"
         },
         "images": [
@@ -596,8 +596,8 @@
         "timeoutMinutes": 10,
         "shouldSucceed": true,
         "environmentVariables": {
-            "NODE_STACK": "node 22.14.0",
-            "NODE_VERSION": "22.14.0",
+            "NODE_STACK": "node 22.18.0",
+            "NODE_VERSION": "22.18.0",
             "NODE_MAJOR": "node 22"
         },
         "images": [
@@ -613,9 +613,26 @@
         "timeoutMinutes": 10,
         "shouldSucceed": true,
         "environmentVariables": {
-            "NODE_STACK": "node 23.8.0",
-            "NODE_VERSION": "23.8.0",
+            "NODE_STACK": "node 23.11.1",
+            "NODE_VERSION": "23.11.1",
             "NODE_MAJOR": "node 23"
+        },
+        "images": [
+            "ubuntu2004-master",
+            "ubuntu2204-master"
+        ]
+    },
+        {
+        "testName": "nodejs 24",
+        "accountName": "appveyor-tests",
+        "projectSlug": "node-stack-versions-linux",
+        "branch": "master",
+        "timeoutMinutes": 10,
+        "shouldSucceed": true,
+        "environmentVariables": {
+            "NODE_STACK": "node 24.5.0",
+            "NODE_VERSION": "24.5.0",
+            "NODE_MAJOR": "node 24"
         },
         "images": [
             "ubuntu2004-master",
@@ -632,7 +649,7 @@
         "environmentVariables": {
             "NODE_DEFAULT": "v22",
             "NODE_LTS": "v22",
-            "NODE_STABLE": "v23"
+            "NODE_STABLE": "v24"
         },
         "images": [
             "ubuntu2204-master",
@@ -648,7 +665,7 @@
         "environmentVariables": {
             "NODE_DEFAULT": "v22",
             "NODE_LTS": "v22",
-            "NODE_STABLE": "v23"
+            "NODE_STABLE": "v24"
         },
         "images": [
             "ubuntu2004-master",

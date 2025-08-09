@@ -1,29 +1,36 @@
 [
-  {
-    "testName": "MSSQL_linux",
-    "accountName": "appveyor-tests",
-    "projectSlug": "mssql-linux",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": []
-  },
-  {
-    "testName": "qemu-kvm-linux",
-    "accountName": "appveyor-tests",
-    "projectSlug": "qemu-kvm-linux",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": []
-  },
-  {
-    "testName": "gce-scopes-linux",
-    "accountName": "appveyor-tests",
-    "projectSlug": "gce-scopes-linux",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": []
-},
+    {
+        "testName": "dotnet_preheat_linux",
+        "accountName": "appveyor-tests",
+        "projectSlug": "dotnet-preheat-linux",
+        "branch": "master",
+        "timeoutMinutes": 10,
+        "shouldSucceed": true,
+        "images": []
+    },
+        {
+        "testName": "node-stable-default-lts-versions-linux",
+        "accountName": "appveyor-tests",
+        "projectSlug": "node-stable-default-lts-versions-linux",
+        "branch": "master",
+        "timeoutMinutes": 10,
+        "shouldSucceed": true,
+        "environmentVariables": {
+            "NODE_DEFAULT": "v17",
+            "NODE_LTS": "v16",
+            "NODE_STABLE": "v17"
+        },
+        "images": [
+            "ubuntu1804-master"
+        ]
+    },
+        {
+        "testName": "VSTS-TFVC-clone",
+        "accountName": "appveyor-tests",
+        "projectSlug": "projecta",
+        "branch": "master",
+        "timeoutMinutes": 10,
+        "shouldSucceed": true,
+        "images": []
+    },
 ]

@@ -1,15 +1,34 @@
 [
     {
-        "testName": "nodejs 11",
+        "testName": "Powershell-linux",
         "accountName": "appveyor-tests",
-        "projectSlug": "node-stack-versions-linux",
+        "projectSlug": "linux-powershell",
+        "branch": "master",
+        "timeoutMinutes": 10,
+        "shouldSucceed": true,
+        "images": []
+    },
+        {
+        "testName": "python 3.7.17",
+        "accountName": "appveyor-tests",
+        "projectSlug": "python-versions-linux",
         "branch": "master",
         "timeoutMinutes": 10,
         "shouldSucceed": true,
         "environmentVariables": {
-            "NODE_STACK": "node 11.15.0",
-            "NODE_VERSION": "11.15.0",
-            "NODE_MAJOR": "node 11"
+            "PYTHON_STACK": "python 3.7.17"
+        },
+        "images": []
+    },
+        {
+        "testName": "python 3.9.20",
+        "accountName": "appveyor-tests",
+        "projectSlug": "python-versions-linux",
+        "branch": "master",
+        "timeoutMinutes": 10,
+        "shouldSucceed": true,
+        "environmentVariables": {
+            "PYTHON_STACK": "python 3.9.20"
         },
         "images": []
     },

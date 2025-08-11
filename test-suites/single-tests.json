@@ -1,36 +1,16 @@
 [
     {
-        "testName": "dotnet_preheat_linux",
+        "testName": "nodejs 11",
         "accountName": "appveyor-tests",
-        "projectSlug": "dotnet-preheat-linux",
-        "branch": "master",
-        "timeoutMinutes": 10,
-        "shouldSucceed": true,
-        "images": []
-    },
-        {
-        "testName": "node-stable-default-lts-versions-linux",
-        "accountName": "appveyor-tests",
-        "projectSlug": "node-stable-default-lts-versions-linux",
+        "projectSlug": "node-stack-versions-linux",
         "branch": "master",
         "timeoutMinutes": 10,
         "shouldSucceed": true,
         "environmentVariables": {
-            "NODE_DEFAULT": "v17",
-            "NODE_LTS": "v16",
-            "NODE_STABLE": "v17"
+            "NODE_STACK": "node 11.15.0",
+            "NODE_VERSION": "11.15.0",
+            "NODE_MAJOR": "node 11"
         },
-        "images": [
-            "ubuntu1804-master"
-        ]
-    },
-        {
-        "testName": "VSTS-TFVC-clone",
-        "accountName": "appveyor-tests",
-        "projectSlug": "projecta",
-        "branch": "master",
-        "timeoutMinutes": 10,
-        "shouldSucceed": true,
         "images": []
     },
 ]

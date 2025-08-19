@@ -1,35 +1,12 @@
 [
     {
-        "testName": "Powershell-linux",
+        "testName": "virtualbox-linux",
         "accountName": "appveyor-tests",
-        "projectSlug": "linux-powershell",
+        "projectSlug": "virtualbox-linux",
         "branch": "master",
         "timeoutMinutes": 10,
         "shouldSucceed": true,
         "images": []
     },
-        {
-        "testName": "python 3.7.17",
-        "accountName": "appveyor-tests",
-        "projectSlug": "python-versions-linux",
-        "branch": "master",
-        "timeoutMinutes": 10,
-        "shouldSucceed": true,
-        "environmentVariables": {
-            "PYTHON_STACK": "python 3.7.17"
-        },
-        "images": []
-    },
-        {
-        "testName": "python 3.9.20",
-        "accountName": "appveyor-tests",
-        "projectSlug": "python-versions-linux",
-        "branch": "master",
-        "timeoutMinutes": 10,
-        "shouldSucceed": true,
-        "environmentVariables": {
-            "PYTHON_STACK": "python 3.9.20"
-        },
-        "images": []
-    },
+
 ]

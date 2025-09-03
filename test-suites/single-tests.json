@@ -26,5 +26,14 @@
     "shouldSucceed": true,
     "images": []
   },
+{
+    "testName": "unit-test-runners",
+    "accountName": "appveyor-tests",
+    "projectSlug": "unit-test-runners",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
 
 ]

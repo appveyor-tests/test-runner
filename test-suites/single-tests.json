@@ -9,27 +9,36 @@
     "images": []
   },
   {
-    "testName": "artifacts",
+    "testName": "service-fabric-dotnet-getting-started",
     "accountName": "appveyor-tests",
-    "projectSlug": "artifacts",
+    "projectSlug": "service-fabric-dotnet-getting-started",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "images": []
   },
   {
-    "testName": "nodejs-versions",
+    "testName": "where-tools",
     "accountName": "appveyor-tests",
-    "projectSlug": "nodejs-versions",
+    "projectSlug": "where-tools",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "images": []
   },
-{
-    "testName": "unit-test-runners",
+  {
+    "testName": "unit-test-runners-only-new-style",
     "accountName": "appveyor-tests",
-    "projectSlug": "unit-test-runners",
+    "projectSlug": "unit-test-runners-lin69",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "selenium-tests",
+    "accountName": "appveyor-tests",
+    "projectSlug": "selenium-tests",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,

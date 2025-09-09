@@ -9,18 +9,9 @@
     "images": []
   },
   {
-    "testName": "service-fabric-dotnet-getting-started",
+    "testName": "unit-test-runners-except",
     "accountName": "appveyor-tests",
-    "projectSlug": "service-fabric-dotnet-getting-started",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": []
-  },
-  {
-    "testName": "where-tools",
-    "accountName": "appveyor-tests",
-    "projectSlug": "where-tools",
+    "projectSlug": "unit-test-runners-l2j5s",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
@@ -36,9 +27,9 @@
     "images": []
   },
   {
-    "testName": "selenium-tests",
+    "testName": "unit-test-runners-only-old-style",
     "accountName": "appveyor-tests",
-    "projectSlug": "selenium-tests",
+    "projectSlug": "unit-test-runners-fn0om",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,

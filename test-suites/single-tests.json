@@ -116,5 +116,23 @@
     "shouldSucceed": true,
     "images": []
   },
+  {
+    "testName": "yarn-tests",
+    "accountName": "appveyor-tests",
+    "projectSlug": "yarn-tests",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "big-repo",
+    "accountName": "appveyor-tests",
+    "projectSlug": "big-repo",
+    "branch": "main",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  }
 
 ]

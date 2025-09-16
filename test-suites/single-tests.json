@@ -9,9 +9,9 @@
         "images": []
     },
     {
-        "testName": "qt-linux",
+        "testName": "octo-test-ubuntu",
         "accountName": "appveyor-tests",
-        "projectSlug": "qt-linux",
+        "projectSlug": "octo-test-ubuntu",
         "branch": "master",
         "timeoutMinutes": 10,
         "shouldSucceed": true,

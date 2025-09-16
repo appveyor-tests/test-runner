@@ -1,48 +1,12 @@
 [
-  {
-    "testName": "qt-tests",
-    "accountName": "appveyor-tests",
-    "projectSlug": "qt-tests",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": []
-  },
-  {
-    "testName": "unit-test-runners-except",
-    "accountName": "appveyor-tests",
-    "projectSlug": "unit-test-runners-l2j5s",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": []
-  },
-  {
-    "testName": "unit-test-runners-only-new-style",
-    "accountName": "appveyor-tests",
-    "projectSlug": "unit-test-runners-lin69",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": []
-  },
-  {
-    "testName": "unit-test-runners-only-old-style",
-    "accountName": "appveyor-tests",
-    "projectSlug": "unit-test-runners-fn0om",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": []
-  },
-  {
-    "testName": "unit-test-runners",
-    "accountName": "appveyor-tests",
-    "projectSlug": "unit-test-runners",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": []
-  },
+    {
+        "testName": "git-lfs-test",
+        "accountName": "appveyor-tests",
+        "projectSlug": "git-lfs-test",
+        "branch": "master",
+        "timeoutMinutes": 10,
+        "shouldSucceed": true,
+        "images": []
+    },
 
 ]

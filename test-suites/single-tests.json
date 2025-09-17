@@ -1,17 +1,8 @@
 [
     {
-        "testName": "git-lfs-test",
+        "testName": "linux-upgrade",
         "accountName": "appveyor-tests",
-        "projectSlug": "git-lfs-test",
-        "branch": "master",
-        "timeoutMinutes": 10,
-        "shouldSucceed": true,
-        "images": []
-    },
-    {
-        "testName": "octo-test-ubuntu",
-        "accountName": "appveyor-tests",
-        "projectSlug": "octo-test-ubuntu",
+        "projectSlug": "linux-upgrade",
         "branch": "master",
         "timeoutMinutes": 10,
         "shouldSucceed": true,

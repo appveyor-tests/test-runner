@@ -35,5 +35,128 @@
     "shouldSucceed": true,
     "images": []
   },
+  {
+    "testName": "sql server 2017",
+    "accountName": "appveyor-tests",
+    "projectSlug": "sql-server-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "SQL_INSTANCE_NAME": "SQL2017"
+    },
+    "images": []
+  },
+  {
+    "testName": "vdproj-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "vdproj-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "qt-tests",
+    "accountName": "appveyor-tests",
+    "projectSlug": "qt-tests",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "ps-iswindows-islinux-vars",
+    "accountName": "appveyor-tests",
+    "projectSlug": "ps-iswindows-islinux-vars",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "sql server 2019",
+    "accountName": "appveyor-tests",
+    "projectSlug": "sql-server-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "SQL_INSTANCE_NAME": "SQL2019"
+    },
+    "images": []
+  },
+  {
+    "testName": "powershell-start-job-slow-regression",
+    "accountName": "appveyor-tests",
+    "projectSlug": "powershell-start-job-slow-regression",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "sql-server-restore-bak",
+    "accountName": "appveyor-tests",
+    "projectSlug": "sql-server-restore-bak",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "rust-ssl-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "rust-ssl-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "package-web-app-with-web-jobs",
+    "accountName": "appveyor-tests",
+    "projectSlug": "package-web-app-with-web-jobs",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "nuget-restore",
+    "accountName": "appveyor-tests",
+    "projectSlug": "nuget-restore",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "psgallery-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "psgallery-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "psexec-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "psexec-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "wix-in-vs2017",
+    "accountName": "appveyor-tests",
+    "projectSlug": "setupproject2017",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
 
 ]

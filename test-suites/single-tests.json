@@ -59,5 +59,14 @@
     "shouldSucceed": true,
     "images": []
   },
+    {
+    "testName": "cache",
+    "accountName": "appveyor-tests",
+    "projectSlug": "cache",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
 
 ]

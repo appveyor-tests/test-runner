@@ -1,68 +1,44 @@
 [
   {
-    "testName": "unit-test-runners",
+    "testName": "where-tools",
     "accountName": "appveyor-tests",
-    "projectSlug": "unit-test-runners",
+    "projectSlug": "where-tools",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "images": []
   },
   {
-    "testName": "unit-test-runners-except",
+    "testName": "github-shallow-clone",
     "accountName": "appveyor-tests",
-    "projectSlug": "unit-test-runners-l2j5s",
+    "projectSlug": "github-shallow-clone",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "images": []
   },
   {
-    "testName": "unit-test-runners-only-new-style",
+    "testName": "powershell-core",
     "accountName": "appveyor-tests",
-    "projectSlug": "unit-test-runners-lin69",
+    "projectSlug": "powershell-core",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "images": []
   },
   {
-    "testName": "unit-test-runners-only-old-style",
+    "testName": "vdproj-test",
     "accountName": "appveyor-tests",
-    "projectSlug": "unit-test-runners-fn0om",
+    "projectSlug": "vdproj-test",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "images": []
   },
   {
-    "testName": "dotnet-core-2017",
+    "testName": "postgresql",
     "accountName": "appveyor-tests",
-    "projectSlug": "dotnet-core-2017",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "environmentVariables": {
-      "EXPECTED_DOTNET_VER": "9.0.306"
-    },
-    "images": [
-      "vs2019-master",
-      "vs2022-master"
-    ]
-  },
-    {
-    "testName": "jspm-config-auth",
-    "accountName": "appveyor-tests",
-    "projectSlug": "jspm-config-auth",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": []
-  },
-    {
-    "testName": "cache",
-    "accountName": "appveyor-tests",
-    "projectSlug": "cache",
+    "projectSlug": "postgresql",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,

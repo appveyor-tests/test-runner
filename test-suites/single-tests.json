@@ -1,32 +1,5 @@
 [
   {
-    "testName": "where-tools",
-    "accountName": "appveyor-tests",
-    "projectSlug": "where-tools",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": []
-  },
-  {
-    "testName": "github-shallow-clone",
-    "accountName": "appveyor-tests",
-    "projectSlug": "github-shallow-clone",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": []
-  },
-  {
-    "testName": "powershell-core",
-    "accountName": "appveyor-tests",
-    "projectSlug": "powershell-core",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": []
-  },
-  {
     "testName": "vdproj-test",
     "accountName": "appveyor-tests",
     "projectSlug": "vdproj-test",

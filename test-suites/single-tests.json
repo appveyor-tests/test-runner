@@ -1,21 +1,54 @@
 [
   {
-    "testName": "vdproj-test",
+    "testName": "unit-test-runners",
     "accountName": "appveyor-tests",
-    "projectSlug": "vdproj-test",
+    "projectSlug": "unit-test-runners",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "images": []
   },
   {
-    "testName": "postgresql",
+    "testName": "unit-test-runners-except",
     "accountName": "appveyor-tests",
-    "projectSlug": "postgresql",
+    "projectSlug": "unit-test-runners-l2j5s",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "images": []
+  },
+  {
+    "testName": "unit-test-runners-only-new-style",
+    "accountName": "appveyor-tests",
+    "projectSlug": "unit-test-runners-lin69",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "unit-test-runners-only-old-style",
+    "accountName": "appveyor-tests",
+    "projectSlug": "unit-test-runners-fn0om",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "dotnet-core-2017",
+    "accountName": "appveyor-tests",
+    "projectSlug": "dotnet-core-2017",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "EXPECTED_DOTNET_VER": "9.0.306"
+    },
+    "images": [
+      "vs2019-master",
+      "vs2022-master"
+    ]
   },
 
 ]

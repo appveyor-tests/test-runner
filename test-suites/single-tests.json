@@ -36,19 +36,22 @@
     "images": []
   },
   {
-    "testName": "dotnet-core-2017",
+    "testName": "vdproj-test",
     "accountName": "appveyor-tests",
-    "projectSlug": "dotnet-core-2017",
+    "projectSlug": "vdproj-test",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
-    "environmentVariables": {
-      "EXPECTED_DOTNET_VER": "9.0.306"
-    },
-    "images": [
-      "vs2019-master",
-      "vs2022-master"
-    ]
+    "images": []
+  },
+  {
+    "testName": "docker-tests",
+    "accountName": "appveyor-tests",
+    "projectSlug": "docker-tests",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
   },
 
 ]

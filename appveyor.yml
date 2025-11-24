@@ -1,4 +1,4 @@
-image: ubuntu
+image: ubuntu1804
 
 init:
 - appveyor UpdateBuild -Message "TEST_SUITE=${TEST_SUITE}, TEST_IMAGE=${TEST_IMAGE}, TEST_CLOUD=${TEST_CLOUD}"

@@ -304,6 +304,17 @@
     "images": []
   },
   {
+    "testName": "docker-windows-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "docker-windows-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": [
+      "vs2026-master"
+    ]
+  },
+  {
     "testName": "dotnet-core-2017",
     "accountName": "appveyor-tests",
     "projectSlug": "dotnet-core-2017",
@@ -387,6 +398,17 @@
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "images": []
+  },
+  {
+    "testName": "jspm-config-auth-new",
+    "accountName": "appveyor-tests",
+    "projectSlug": "jspm-config-auth-new",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": [
+      "vs2026-master"
+    ]
   },
   {
     "testName": "msbuild-community-tasks-chocolatey",
@@ -549,6 +571,15 @@
     "testName": "python-miniconda-tests",
     "accountName": "appveyor-tests",
     "projectSlug": "miniconda-tests",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "python-miniconda-tests-new",
+    "accountName": "appveyor-tests",
+    "projectSlug": "python-miniconda-tests-new",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
@@ -792,6 +823,17 @@
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "images": []
+  },
+  {
+    "testName": "unit-test-runners-new",
+    "accountName": "appveyor-tests",
+    "projectSlug": "unit-test-runners-new",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": [
+      "vs2026-master"
+    ]
   },
   {
     "testName": "unit-test-runners-only-new-style",

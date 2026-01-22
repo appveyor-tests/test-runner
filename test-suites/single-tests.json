@@ -9,5 +9,58 @@
     "shouldSucceed": true,
     "images": []
   },
+  {
+    "testName": "jspm-config-auth-new",
+    "accountName": "appveyor-tests",
+    "projectSlug": "jspm-config-auth-new",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": [
+      "vs2026-master"
+    ]
+  },
+  {
+    "testName": "docker-windows-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "docker-windows-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": [
+      "vs2026-master"
+    ]
+  },
+  {
+    "testName": "azure-cloud-services",
+    "accountName": "appveyor-tests",
+    "projectSlug": "azure-cloud-services",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "unit-test-runners-new",
+    "accountName": "appveyor-tests",
+    "projectSlug": "unit-test-runners-new",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": [
+      "vs2026-master"
+    ]
+  },
+  {
+    "testName": "python-miniconda-tests-new",
+    "accountName": "appveyor-tests",
+    "projectSlug": "python-miniconda-tests-new",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": [
+      "vs2026-master"
+    ]
+  },
 
 ]

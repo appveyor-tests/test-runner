@@ -17,7 +17,9 @@
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "images": [
-      "vs2026-master"
+      "vs2026-master",
+      "vs2026-master-gce-us-central1"
+
     ]
   },
   {
@@ -28,7 +30,9 @@
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "images": [
-      "vs2026-master"
+      "vs2026-master",
+      "vs2026-master-gce-us-central1"
+
     ]
   },
   {
@@ -48,7 +52,8 @@
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "images": [
-      "vs2026-master"
+      "vs2026-master",
+      "vs2026-master-gce-us-central1"
     ]
   },
   {
@@ -59,7 +64,8 @@
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "images": [
-      "vs2026-master"
+      "vs2026-master",
+      "vs2026-master-gce-us-central1"
     ]
   },
 

@@ -36,15 +36,6 @@
     ]
   },
   {
-    "testName": "azure-cloud-services",
-    "accountName": "appveyor-tests",
-    "projectSlug": "azure-cloud-services",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": []
-  },
-  {
     "testName": "unit-test-runners-new",
     "accountName": "appveyor-tests",
     "projectSlug": "unit-test-runners-new",
@@ -57,6 +48,15 @@
     ]
   },
   {
+    "testName": "selenium-tests",
+    "accountName": "appveyor-tests",
+    "projectSlug": "selenium-tests",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
     "testName": "python-miniconda-tests-new",
     "accountName": "appveyor-tests",
     "projectSlug": "python-miniconda-tests-new",
@@ -67,6 +67,105 @@
       "vs2026-master",
       "vs2026-master-gce-us-central1"
     ]
+  },
+  {
+    "testName": "nuget-restore",
+    "accountName": "appveyor-tests",
+    "projectSlug": "nuget-restore",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "wix-in-vs2017",
+    "accountName": "appveyor-tests",
+    "projectSlug": "setupproject2017",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "wix3x-pre311-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "wix3x-pre311-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "nuget-restore",
+    "accountName": "appveyor-tests",
+    "projectSlug": "nuget-restore",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "semver2-nuget-restore",
+    "accountName": "appveyor-tests",
+    "projectSlug": "semver2-nuget-restore",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "package-web-app-with-web-jobs",
+    "accountName": "appveyor-tests",
+    "projectSlug": "package-web-app-with-web-jobs",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "web-app-packaging-for-xcopy",
+    "accountName": "appveyor-tests",
+    "projectSlug": "web-app-packaging-for-xcopy",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "vdproj-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "vdproj-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "dotnetcore-nuget-pack",
+    "accountName": "appveyor-tests",
+    "projectSlug": "dotnetcore-nuget-pack",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "nuget-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "nuget-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "where-tools",
+    "accountName": "appveyor-tests",
+    "projectSlug": "where-tools",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
   },
 
 ]

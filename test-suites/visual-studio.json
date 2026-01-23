@@ -347,7 +347,6 @@
   {
     "testName": "dotnetcore-nuget-pack",
     "accountName": "appveyor-tests",
-
     "projectSlug": "dotnetcore-nuget-pack",
     "branch": "master",
     "timeoutMinutes": 10,

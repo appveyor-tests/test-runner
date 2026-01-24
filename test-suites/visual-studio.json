@@ -751,7 +751,9 @@
       "SQL_INSTANCE_NAME": "SQL2022"
     },
     "images": [
-      "vs2022-master"
+      "vs2022-master",
+      "vs2026-master",
+      "vs2026-master-gce-us-central1"
     ]
   },
   {

@@ -87,15 +87,6 @@
     "images": []
   },
   {
-    "testName": "wix3x-pre311-test",
-    "accountName": "appveyor-tests",
-    "projectSlug": "wix3x-pre311-test",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": []
-  },
-  {
     "testName": "nuget-restore",
     "accountName": "appveyor-tests",
     "projectSlug": "nuget-restore",

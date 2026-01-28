@@ -7,7 +7,13 @@
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
-    "images": []
+    "images": [
+      "vs2017-master",
+      "vs2019-master",
+      "vs2019-master-gce-us-central1",
+      "vs2022-master",
+      "vs2022-master-gce-us-central1"
+    ]
   },
   {
     "testName": "jspm-config-auth-new",
@@ -190,7 +196,13 @@
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
-    "images": []
+    "images": [
+      "vs2017-master",
+      "vs2019-master",
+      "vs2019-master-gce-us-central1",
+      "vs2022-master",
+      "vs2022-master-gce-us-central1"
+    ]
   },
   {
     "testName": "service-fabric-dotnet-getting-started",

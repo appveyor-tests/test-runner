@@ -1,20 +1,6 @@
 [
 
-  {
-    "testName": "android-app-test",
-    "accountName": "appveyor-tests",
-    "projectSlug": "android-app-test",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": [
-      "vs2017-master",
-      "vs2019-master",
-      "vs2019-master-gce-us-central1",
-      "vs2022-master",
-      "vs2022-master-gce-us-central1"
-    ]
-  },
+
   {
     "testName": "jspm-config-auth-new",
     "accountName": "appveyor-tests",
@@ -187,21 +173,6 @@
       "vs2022-master",
       "vs2026-master",
       "vs2026-master-gce-us-central1"
-    ]
-  },
-  {
-    "testName": "AzureCloudServiceVS2017",
-    "accountName": "appveyor-tests",
-    "projectSlug": "azurecloudservicevs2017",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": [
-      "vs2017-master",
-      "vs2019-master",
-      "vs2019-master-gce-us-central1",
-      "vs2022-master",
-      "vs2022-master-gce-us-central1"
     ]
   },
   {

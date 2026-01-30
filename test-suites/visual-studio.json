@@ -313,7 +313,13 @@
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
-    "images": []
+    "images": [
+      "vs2019-master",
+      "vs2019-master-gce-us-central1",
+      "vs2022-master",
+      "vs2022-master-gce-us-central1",
+      "ws2022-master-azure-westus"
+    ]
   },
   {
     "testName": "docker-windows-test",
@@ -323,7 +329,8 @@
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "images": [
-      "vs2026-master"
+      "vs2026-master",
+      "vs2026-master-gce-us-central1"
     ]
   },
   {
@@ -418,7 +425,8 @@
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "images": [
-      "vs2026-master"
+      "vs2026-master",
+      "vs2026-master-gce-us-central1"
     ]
   },
   {
@@ -585,7 +593,12 @@
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
-    "images": []
+    "images": [
+      "vs2019-master",
+      "vs2019-master-gce-us-central1",
+      "vs2022-master",
+      "vs2022-master-gce-us-central1"
+    ]
   },
   {
     "testName": "python-miniconda-tests-new",
@@ -594,7 +607,10 @@
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
-    "images": []
+    "images": [
+      "vs2026-master",
+      "vs2026-master-gce-us-central1"
+    ]
   },
   {
     "testName": "qt-tests",
@@ -738,7 +754,12 @@
     "environmentVariables": {
       "SQL_INSTANCE_NAME": "SQL2017"
     },
-    "images": []
+    "images": [
+      "vs2019-master",
+      "vs2019-master-gce-us-central1",
+      "vs2022-master",
+      "vs2022-master-gce-us-central1"
+    ]
   },
   {
     "testName": "sql server 2019",
@@ -750,7 +771,12 @@
     "environmentVariables": {
       "SQL_INSTANCE_NAME": "SQL2019"
     },
-    "images": []
+    "images": [
+      "vs2019-master",
+      "vs2019-master-gce-us-central1",
+      "vs2022-master",
+      "vs2022-master-gce-us-central1"
+    ]
   },
   {
     "testName": "sql server 2022",
@@ -845,7 +871,8 @@
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "images": [
-      "vs2026-master"
+      "vs2026-master",
+      "vs2026-master-gce-us-central1"
     ]
   },
   {
@@ -855,7 +882,12 @@
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
-    "images": []
+    "images": [
+      "vs2019-master",
+      "vs2019-master-gce-us-central1",
+      "vs2022-master",
+      "vs2022-master-gce-us-central1"
+    ]
   },
   {
     "testName": "unit-test-runners-only-old-style",
@@ -864,7 +896,12 @@
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
-    "images": []
+    "images": [
+      "vs2019-master",
+      "vs2019-master-gce-us-central1",
+      "vs2022-master",
+      "vs2022-master-gce-us-central1"
+    ]
   },
   {
     "testName": "upload-xml-test-results",
@@ -972,7 +1009,13 @@
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
-    "images": []
+    "images": [
+      "vs2017-master",
+      "vs2019-master",
+      "vs2019-master-gce-us-central1",
+      "vs2022-master",
+      "vs2022-master-gce-us-central1"
+    ]
   },
   {
     "testName": "yarn-tests",

@@ -228,7 +228,13 @@
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
-    "images": []
+    "images": [
+      "vs2019-master",
+      "vs2019-master-gce-us-central1",
+      "vs2022-master",
+      "vs2022-master-gce-us-central1",
+      "ws2022-master-azure-westus"
+    ]
   },
   {
     "testName": "dacpac-local-2008r2sp2-vs2015",
@@ -585,7 +591,13 @@
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
-    "images": []
+    "images": [
+      "vs2019-master",
+      "vs2019-master-gce-us-central1",
+      "vs2022-master",
+      "vs2022-master-gce-us-central1",
+      "ws2022-master-azure-westus"
+    ]
   },
   {
     "testName": "psgallery-test",
@@ -665,7 +677,15 @@
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
-    "images": []
+    "images": [
+      "vs2015-master",
+      "vs2017-master",
+      "vs2019-master",
+      "vs2019-master-gce-us-central1",
+      "vs2022-master",
+      "vs2022-master-gce-us-central1",
+      "ws2022-master-azure-westus"
+    ]
   },
   {
     "testName": "semver2-nuget-restore",

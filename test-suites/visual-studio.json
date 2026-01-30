@@ -283,7 +283,12 @@
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
-    "images": []
+    "images": [
+      "vs2019-master",
+      "vs2019-master-gce-us-central1",
+      "vs2022-master",
+      "vs2022-master-gce-us-central1"
+    ]
   },
   {
     "testName": "dacpac-sqlpackage-test",
@@ -304,7 +309,12 @@
     "branch": "sql2019",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
-    "images": []
+    "images": [
+      "vs2019-master",
+      "vs2019-master-gce-us-central1",
+      "vs2022-master",
+      "vs2022-master-gce-us-central1"
+    ]
   },
   {
     "testName": "docker-tests",

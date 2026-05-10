@@ -225,7 +225,10 @@
         "environmentVariables": {
             "JAVA_STACK": "jdk 12"
         },
-        "images": []
+        "images": [
+            "ubuntu1804-master",
+            "ubuntu2004-master"
+        ]
     },
     {
         "testName": "jdk 13",
@@ -237,7 +240,11 @@
         "environmentVariables": {
             "JAVA_STACK": "jdk 13"
         },
-        "images": []
+        "images": [
+            "ubuntu1804-master",
+            "ubuntu2004-master",
+            "ubuntu2204-master"
+        ]
     },
     {
         "testName": "jdk 14",
@@ -249,7 +256,11 @@
         "environmentVariables": {
             "JAVA_STACK": "jdk 14"
         },
-        "images": []
+        "images": [
+            "ubuntu1804-master",
+            "ubuntu2004-master",
+            "ubuntu2204-master"
+        ]
     },
     {
         "testName": "jdk 15",
@@ -261,7 +272,11 @@
         "environmentVariables": {
             "JAVA_STACK": "jdk 15"
         },
-        "images": []
+        "images": [
+            "ubuntu1804-master",
+            "ubuntu2004-master",
+            "ubuntu2204-master"
+        ]
     },
     {
         "testName": "jdk 16",
@@ -273,7 +288,11 @@
         "environmentVariables": {
             "JAVA_STACK": "jdk 16"
         },
-        "images": []
+        "images": [
+            "ubuntu1804-master",
+            "ubuntu2004-master",
+            "ubuntu2204-master"
+        ]
     },
     {
         "testName": "jdk 17",
@@ -296,6 +315,46 @@
         "shouldSucceed": true,
         "environmentVariables": {
             "JAVA_STACK": "jdk 18"
+        },
+        "images": [
+            "ubuntu1804-master",
+            "ubuntu2004-master",
+            "ubuntu2204-master"
+        ]
+    },
+    {
+        "testName": "jdk 21",
+        "accountName": "appveyor-tests",
+        "projectSlug": "jdk-stack-versions-linux",
+        "branch": "master",
+        "timeoutMinutes": 10,
+        "shouldSucceed": true,
+        "environmentVariables": {
+            "JAVA_STACK": "jdk 21"
+        },
+        "images": []
+    },
+    {
+        "testName": "jdk 25",
+        "accountName": "appveyor-tests",
+        "projectSlug": "jdk-stack-versions-linux",
+        "branch": "master",
+        "timeoutMinutes": 10,
+        "shouldSucceed": true,
+        "environmentVariables": {
+            "JAVA_STACK": "jdk 25"
+        },
+        "images": []
+    },
+    {
+        "testName": "jdk 26",
+        "accountName": "appveyor-tests",
+        "projectSlug": "jdk-stack-versions-linux",
+        "branch": "master",
+        "timeoutMinutes": 10,
+        "shouldSucceed": true,
+        "environmentVariables": {
+            "JAVA_STACK": "jdk 26"
         },
         "images": []
     },
@@ -443,7 +502,10 @@
             "NODE_VERSION": "8.17.0",
             "NODE_MAJOR": "node 8"
         },
-        "images": []
+        "images": [
+            "ubuntu1804-master",
+            "ubuntu2004-master"
+        ]
     },
     {
         "testName": "nodejs 9",
@@ -457,7 +519,11 @@
             "NODE_VERSION": "9.11.2",
             "NODE_MAJOR": "node 9"
         },
-        "images": []
+        "images": [
+            "ubuntu1804-master",
+            "ubuntu2004-master",
+            "ubuntu2204-master"
+        ]
     },
     {
         "testName": "nodejs 10",
@@ -471,7 +537,11 @@
             "NODE_VERSION": "10.24.1",
             "NODE_MAJOR": "node 10"
         },
-        "images": []
+        "images": [
+            "ubuntu1804-master",
+            "ubuntu2004-master",
+            "ubuntu2204-master"
+        ]
     },
     {
         "testName": "nodejs 11",
@@ -485,7 +555,11 @@
             "NODE_VERSION": "11.15.0",
             "NODE_MAJOR": "node 11"
         },
-        "images": []
+        "images": [
+            "ubuntu1804-master",
+            "ubuntu2004-master",
+            "ubuntu2204-master"
+        ]
     },
     {
         "testName": "nodejs 12",
@@ -499,7 +573,11 @@
             "NODE_VERSION": "12.22.12",
             "NODE_MAJOR": "node 12"
         },
-        "images": []
+        "images": [
+            "ubuntu1804-master",
+            "ubuntu2004-master",
+            "ubuntu2204-master"
+        ]
     },
     {
         "testName": "nodejs 13",
@@ -513,7 +591,11 @@
             "NODE_VERSION": "13.14.0",
             "NODE_MAJOR": "node 13"
         },
-        "images": []
+        "images": [
+            "ubuntu1804-master",
+            "ubuntu2004-master",
+            "ubuntu2204-master"
+        ]
     },
     {
         "testName": "nodejs 14",
@@ -585,7 +667,8 @@
         },
         "images": [
             "ubuntu2004-master",
-            "ubuntu2204-master"
+            "ubuntu2204-master",
+            "ubuntu2404-master"
         ]
     },
     {
@@ -602,7 +685,8 @@
         },
         "images": [
             "ubuntu2004-master",
-            "ubuntu2204-master"
+            "ubuntu2204-master",
+            "ubuntu2404-master"
         ]
     },
     {
@@ -619,7 +703,8 @@
         },
         "images": [
             "ubuntu2004-master",
-            "ubuntu2204-master"
+            "ubuntu2204-master",
+            "ubuntu2404-master"
         ]
     },
         {
@@ -636,7 +721,8 @@
         },
         "images": [
             "ubuntu2004-master",
-            "ubuntu2204-master"
+            "ubuntu2204-master",
+            "ubuntu2404-master"
         ]
     },
     {
@@ -936,7 +1022,11 @@
         "environmentVariables": {
             "RUBY_STACK": "ruby 2.6"
         },
-        "images": []
+        "images": [
+            "ubuntu1804-master",
+            "ubuntu2004-master",
+            "ubuntu2204-master"
+        ]
     },
     {
         "testName": "Ruby 2.7",
@@ -948,7 +1038,11 @@
         "environmentVariables": {
             "RUBY_STACK": "ruby 2.7"
         },
-        "images": []
+        "images": [
+            "ubuntu1804-master",
+            "ubuntu2004-master",
+            "ubuntu2204-master"
+        ]
     },
     {
         "testName": "Ruby 3.0",
@@ -960,7 +1054,11 @@
         "environmentVariables": {
             "RUBY_STACK": "ruby 3.0"
         },
-        "images": []
+        "images": [
+            "ubuntu1804-master",
+            "ubuntu2004-master",
+            "ubuntu2204-master"
+        ]
     },
     {
         "testName": "Ruby 3.1",

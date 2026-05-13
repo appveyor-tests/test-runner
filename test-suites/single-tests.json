@@ -94,5 +94,17 @@
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "images": []
+  },
+  {
+    "testName": "python 3.14.5",
+    "accountName": "appveyor-tests",
+    "projectSlug": "python-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+        "PYTHON_STACK": "python 3.14.5"
+    },
+    "images": []
   }
 ]

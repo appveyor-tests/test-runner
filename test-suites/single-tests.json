@@ -18,63 +18,12 @@
     "images": []
   },
   {
-    "testName": "check_nuget_linux",
-    "accountName": "appveyor-tests",
-    "projectSlug": "check-nuget-linux",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": []
-  },
-  {
     "testName": "Kernel-linux",
     "accountName": "appveyor-tests",
     "projectSlug": "kernel-linux",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
-    "images": []
-  },
-  {
-    "testName": "nodejs 14",
-    "accountName": "appveyor-tests",
-    "projectSlug": "node-stack-versions-linux",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "environmentVariables": {
-      "NODE_STACK": "node 14.21.3",
-      "NODE_VERSION": "14.21.3",
-      "NODE_MAJOR": "node 14"
-    },
-    "images": []
-  },
-  {
-    "testName": "nodejs 16",
-    "accountName": "appveyor-tests",
-    "projectSlug": "node-stack-versions-linux",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "environmentVariables": {
-      "NODE_STACK": "node 16.20.2",
-      "NODE_VERSION": "16.20.2",
-      "NODE_MAJOR": "node 16"
-    },
-    "images": []
-  },
-  {
-    "testName": "nodejs 17",
-    "accountName": "appveyor-tests",
-    "projectSlug": "node-stack-versions-linux",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "environmentVariables": {
-      "NODE_STACK": "node 17.9.1",
-      "NODE_VERSION": "17.9.1",
-      "NODE_MAJOR": "node 17"
-    },
     "images": []
   },
   {

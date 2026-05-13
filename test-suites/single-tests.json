@@ -1,188 +1,80 @@
 [
-
-
   {
-    "testName": "jspm-config-auth-new",
+    "testName": "linux-upgrade",
     "accountName": "appveyor-tests",
-    "projectSlug": "jspm-config-auth-new",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": [
-      "vs2026-master",
-      "vs2026-master-gce-us-central1"
-
-    ]
-  },
-  {
-    "testName": "docker-windows-test",
-    "accountName": "appveyor-tests",
-    "projectSlug": "docker-windows-test",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": [
-      "vs2026-master",
-      "vs2026-master-gce-us-central1"
-
-    ]
-  },
-  {
-    "testName": "unit-test-runners-new",
-    "accountName": "appveyor-tests",
-    "projectSlug": "unit-test-runners-new",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": [
-      "vs2026-master",
-      "vs2026-master-gce-us-central1"
-    ]
-  },
-  {
-    "testName": "selenium-tests",
-    "accountName": "appveyor-tests",
-    "projectSlug": "selenium-tests",
+    "projectSlug": "linux-upgrade",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "images": []
   },
   {
-    "testName": "python-miniconda-tests-new",
+    "testName": "mysql-linux",
     "accountName": "appveyor-tests",
-    "projectSlug": "python-miniconda-tests-new",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": [
-      "vs2026-master",
-      "vs2026-master-gce-us-central1"
-    ]
-  },
-  {
-    "testName": "nuget-restore",
-    "accountName": "appveyor-tests",
-    "projectSlug": "nuget-restore",
+    "projectSlug": "mysql-linux",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "images": []
   },
   {
-    "testName": "wix-in-vs2017",
+    "testName": "check_nuget_linux",
     "accountName": "appveyor-tests",
-    "projectSlug": "setupproject2017",
+    "projectSlug": "check-nuget-linux",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "images": []
   },
   {
-    "testName": "nuget-restore",
+    "testName": "Kernel-linux",
     "accountName": "appveyor-tests",
-    "projectSlug": "nuget-restore",
+    "projectSlug": "kernel-linux",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "images": []
   },
   {
-    "testName": "semver2-nuget-restore",
+    "testName": "nodejs 14",
     "accountName": "appveyor-tests",
-    "projectSlug": "semver2-nuget-restore",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": []
-  },
-  {
-    "testName": "package-web-app-with-web-jobs",
-    "accountName": "appveyor-tests",
-    "projectSlug": "package-web-app-with-web-jobs",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": []
-  },
-  {
-    "testName": "web-app-packaging-for-xcopy",
-    "accountName": "appveyor-tests",
-    "projectSlug": "web-app-packaging-for-xcopy",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": []
-  },
-  {
-    "testName": "vdproj-test",
-    "accountName": "appveyor-tests",
-    "projectSlug": "vdproj-test",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": []
-  },
-  {
-    "testName": "dotnetcore-nuget-pack",
-    "accountName": "appveyor-tests",
-    "projectSlug": "dotnetcore-nuget-pack",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": []
-  },
-  {
-    "testName": "nuget-test",
-    "accountName": "appveyor-tests",
-    "projectSlug": "nuget-test",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": []
-  },
-  {
-    "testName": "where-tools",
-    "accountName": "appveyor-tests",
-    "projectSlug": "where-tools",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": []
-  },
-  {
-    "testName": "sql-server-restore-bak",
-    "accountName": "appveyor-tests",
-    "projectSlug": "sql-server-restore-bak",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": []
-  },
-  {
-    "testName": "sql server 2022",
-    "accountName": "appveyor-tests",
-    "projectSlug": "sql-server-test",
+    "projectSlug": "node-stack-versions-linux",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "environmentVariables": {
-      "SQL_INSTANCE_NAME": "SQL2022"
+      "NODE_STACK": "node 14.21.3",
+      "NODE_VERSION": "14.21.3",
+      "NODE_MAJOR": "node 14"
     },
-    "images": [
-      "vs2022-master",
-      "vs2026-master",
-      "vs2026-master-gce-us-central1"
-    ]
+    "images": []
   },
   {
-    "testName": "service-fabric-dotnet-getting-started",
+    "testName": "nodejs 16",
     "accountName": "appveyor-tests",
-    "projectSlug": "service-fabric-dotnet-getting-started",
+    "projectSlug": "node-stack-versions-linux",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
+    "environmentVariables": {
+      "NODE_STACK": "node 16.20.2",
+      "NODE_VERSION": "16.20.2",
+      "NODE_MAJOR": "node 16"
+    },
     "images": []
   },
-
+  {
+    "testName": "nodejs 17",
+    "accountName": "appveyor-tests",
+    "projectSlug": "node-stack-versions-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "NODE_STACK": "node 17.9.1",
+      "NODE_VERSION": "17.9.1",
+      "NODE_MAJOR": "node 17"
+    },
+    "images": []
+  }
 ]

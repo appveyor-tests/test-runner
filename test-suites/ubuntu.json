@@ -860,38 +860,38 @@
         ]
     },
     {
-        "testName": "python 3.10.15",
+        "testName": "python 3.10.20",
         "accountName": "appveyor-tests",
         "projectSlug": "python-versions-linux",
         "branch": "master",
         "timeoutMinutes": 10,
         "shouldSucceed": true,
         "environmentVariables": {
-            "PYTHON_STACK": "python 3.10.15"
+            "PYTHON_STACK": "python 3.10.20"
         },
         "images": []
     },
     {
-        "testName": "python 3.11.13",
+        "testName": "python 3.11.15",
         "accountName": "appveyor-tests",
         "projectSlug": "python-versions-linux",
         "branch": "master",
         "timeoutMinutes": 10,
         "shouldSucceed": true,
         "environmentVariables": {
-            "PYTHON_STACK": "python 3.11.13"
+            "PYTHON_STACK": "python 3.11.15"
         },
         "images": []
     },
     {
-        "testName": "python 3.12.11",
+        "testName": "python 3.12.13",
         "accountName": "appveyor-tests",
         "projectSlug": "python-versions-linux",
         "branch": "master",
         "timeoutMinutes": 10,
         "shouldSucceed": true,
         "environmentVariables": {
-            "PYTHON_STACK": "python 3.12.11"
+            "PYTHON_STACK": "python 3.12.13"
         },
         "images": []
     },
@@ -905,7 +905,11 @@
         "environmentVariables": {
             "PYTHON_STACK": "python 3.7.17"
         },
-        "images": []
+        "images": [
+            "ubuntu1804-master",
+            "ubuntu2004-master",
+            "ubuntu2204-master"
+        ]
     },
     {
         "testName": "python 3.8.19",
@@ -917,7 +921,11 @@
         "environmentVariables": {
             "PYTHON_STACK": "python 3.8.19"
         },
-        "images": []
+        "images": [
+            "ubuntu1804-master",
+            "ubuntu2004-master",
+            "ubuntu2204-master"
+        ]
     },
     {
         "testName": "python 3.8.x",
@@ -929,7 +937,10 @@
         "environmentVariables": {
             "PYTHON_STACK": "python 3.8"
         },
-        "images": []
+        "images": [
+            "ubuntu2004-master",
+            "ubuntu2204-master"
+        ]
     },
     {
         "testName": "python 3.9.20",
@@ -941,17 +952,32 @@
         "environmentVariables": {
             "PYTHON_STACK": "python 3.9.20"
         },
-        "images": []
+        "images": [
+            "ubuntu2004-master",
+            "ubuntu2204-master"
+        ]
     },
     {
-        "testName": "python 3.13.5",
+        "testName": "python 3.13.13",
         "accountName": "appveyor-tests",
         "projectSlug": "python-versions-linux",
         "branch": "master",
         "timeoutMinutes": 10,
         "shouldSucceed": true,
         "environmentVariables": {
-            "PYTHON_STACK": "python 3.13.5"
+            "PYTHON_STACK": "python 3.13.13"
+        },
+        "images": []
+    },
+    {
+        "testName": "python 3.14.5",
+        "accountName": "appveyor-tests",
+        "projectSlug": "python-versions-linux",
+        "branch": "master",
+        "timeoutMinutes": 10,
+        "shouldSucceed": true,
+        "environmentVariables": {
+            "PYTHON_STACK": "python 3.14.15"
         },
         "images": []
     },

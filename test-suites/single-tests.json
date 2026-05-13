@@ -76,5 +76,23 @@
       "NODE_MAJOR": "node 17"
     },
     "images": []
+  },
+  {
+    "testName": "VSTS-git-clone",
+    "accountName": "appveyor-tests",
+    "projectSlug": "mywebapp",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "VSTS-TFVC-clone",
+    "accountName": "appveyor-tests",
+    "projectSlug": "projecta",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
   }
 ]

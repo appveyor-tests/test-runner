@@ -1,51 +1,87 @@
 [
-
   {
-    "testName": "clone_folder_linux",
+    "testName": "tools-linux",
     "accountName": "appveyor-tests",
-    "projectSlug": "clone-folder-linux",
+    "projectSlug": "tools-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "ALL_TOOLS": "wget curl 7z 7za ftp lftp tclsh cmake make mvn gradle ant yarn gcc gfortran java javac go node ruby docker sqlcmd psql mongo rabbitmqctl packer aws az pwsh mono mcs xsp4 csc pip virtualenv python python3 git svn hg",
+      "TEST_TOOLS": "wget curl 7z 7za ftp lftp tclsh cmake make mvn gradle ant yarn gcc gfortran java javac go node ruby docker sqlcmd mongosh packer aws az pwsh mono mcs xsp4 csc pip virtualenv python python3 git svn hg"
+    },
+    "images": [
+      "ubuntu1804-master",
+      "ubuntu2004-master"
+    ]
+  },
+  {
+    "testName": "tools-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "tools-linux",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "environmentVariables": {
+      "ALL_TOOLS": "wget curl 7z 7za ftp lftp tclsh cmake make mvn gradle ant yarn gcc gfortran java javac go node ruby docker sqlcmd psql mongo rabbitmqctl packer aws az pwsh mono mcs xsp4 csc pip virtualenv python python3 git svn hg",
+      "TEST_TOOLS": "wget curl 7z 7za ftp lftp tclsh cmake make mvn gradle ant yarn gcc gfortran java javac go node ruby docker sqlcmd mongosh packer aws az pwsh mono mcs xsp4 csc pip virtualenv python3 git svn hg"
+    },
+    "images": [
+      "ubuntu2204-master"
+    ]
+  },
+  {
+    "testName": "docker-linux",
+    "accountName": "appveyor-tests",
+    "projectSlug": "docker-linux",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "images": []
   },
   {
-    "testName": "nodejs 24",
+    "testName": "Long-variables",
+    "accountName": "appveyor-tests",
+    "projectSlug": "long-variables",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "secure-file-test",
+    "accountName": "appveyor-tests",
+    "projectSlug": "secure-file-test",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "VSTS-TFVC-clone",
+    "accountName": "appveyor-tests",
+    "projectSlug": "projecta",
+    "branch": "master",
+    "timeoutMinutes": 10,
+    "shouldSucceed": true,
+    "images": []
+  },
+  {
+    "testName": "nodejs 18",
     "accountName": "appveyor-tests",
     "projectSlug": "node-stack-versions-linux",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
     "environmentVariables": {
-      "NODE_STACK": "node 24.15.0",
-      "NODE_VERSION": "24.15.0",
-      "NODE_MAJOR": "node 24"
+      "NODE_STACK": "node 18.20.8",
+      "NODE_VERSION": "18.20.8",
+      "NODE_MAJOR": "node 18"
     },
     "images": [
       "ubuntu2004-master",
       "ubuntu2204-master",
       "ubuntu2404-master"
     ]
-  },
-  {
-    "testName": "nodejs_versions-linux",
-    "accountName": "appveyor-tests",
-    "projectSlug": "linux-nodejs-versions",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": [
-      "ubuntu2004-master",
-      "ubuntu2204-master"
-    ]
-  },
-  {
-    "testName": "MSSQL_linux",
-    "accountName": "appveyor-tests",
-    "projectSlug": "mssql-linux",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": []
   }
 ]

@@ -724,7 +724,7 @@
         "shouldSucceed": true,
         "environmentVariables": {
             "NODE_DEFAULT": "v22",
-            "NODE_LTS": "v22",
+            "NODE_LTS": "v24",
             "NODE_STABLE": "v24"
         },
         "images": [
@@ -897,8 +897,7 @@
         },
         "images": [
             "ubuntu1804-master",
-            "ubuntu2004-master",
-            "ubuntu2204-master"
+            "ubuntu2004-master"
         ]
     },
     {
@@ -913,8 +912,7 @@
         },
         "images": [
             "ubuntu1804-master",
-            "ubuntu2004-master",
-            "ubuntu2204-master"
+            "ubuntu2004-master"
         ]
     },
     {
@@ -928,8 +926,7 @@
             "PYTHON_STACK": "python 3.8"
         },
         "images": [
-            "ubuntu2004-master",
-            "ubuntu2204-master"
+            "ubuntu2004-master"
         ]
     },
     {
@@ -943,8 +940,7 @@
             "PYTHON_STACK": "python 3.9.20"
         },
         "images": [
-            "ubuntu2004-master",
-            "ubuntu2204-master"
+            "ubuntu2004-master"
         ]
     },
     {

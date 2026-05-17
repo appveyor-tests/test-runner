@@ -1,19 +1,12 @@
 [
   {
-    "testName": "tools-linux",
-    "accountName": "appveyor-tests",
-    "projectSlug": "tools-linux",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "environmentVariables": {
-      "ALL_TOOLS": "wget curl 7z 7za ftp lftp tclsh cmake make mvn gradle ant yarn gcc gfortran java javac go node ruby docker sqlcmd psql mongo rabbitmqctl packer aws az pwsh mono mcs xsp4 csc pip virtualenv python python3 git svn hg",
-      "TEST_TOOLS": "wget curl 7z 7za ftp lftp tclsh cmake make mvn gradle ant yarn gcc gfortran java javac go node ruby docker sqlcmd mongosh packer aws az pwsh mono mcs xsp4 csc pip virtualenv python python3 git svn hg"
-    },
-    "images": [
-      "ubuntu1804-master",
-      "ubuntu2004-master"
-    ]
+      "testName": "virtualbox-linux",
+      "accountName": "appveyor-tests",
+      "projectSlug": "virtualbox-linux",
+      "branch": "master",
+      "timeoutMinutes": 10,
+      "shouldSucceed": true,
+      "images": []
   },
   {
     "testName": "tools-linux",
@@ -28,60 +21,6 @@
     },
     "images": [
       "ubuntu2204-master"
-    ]
-  },
-  {
-    "testName": "docker-linux",
-    "accountName": "appveyor-tests",
-    "projectSlug": "docker-linux",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": []
-  },
-  {
-    "testName": "Long-variables",
-    "accountName": "appveyor-tests",
-    "projectSlug": "long-variables",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": []
-  },
-  {
-    "testName": "secure-file-test",
-    "accountName": "appveyor-tests",
-    "projectSlug": "secure-file-test",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": []
-  },
-  {
-    "testName": "VSTS-TFVC-clone",
-    "accountName": "appveyor-tests",
-    "projectSlug": "projecta",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": []
-  },
-  {
-    "testName": "nodejs 18",
-    "accountName": "appveyor-tests",
-    "projectSlug": "node-stack-versions-linux",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "environmentVariables": {
-      "NODE_STACK": "node 18.20.8",
-      "NODE_VERSION": "18.20.8",
-      "NODE_MAJOR": "node 18"
-    },
-    "images": [
-      "ubuntu2004-master",
-      "ubuntu2204-master",
-      "ubuntu2404-master"
     ]
   }
 ]

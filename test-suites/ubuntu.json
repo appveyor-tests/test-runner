@@ -715,7 +715,7 @@
             "ubuntu2404-master"
         ]
     },
-        {
+    {
         "testName": "nodejs 24",
         "accountName": "appveyor-tests",
         "projectSlug": "node-stack-versions-linux",

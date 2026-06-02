@@ -1,53 +1,20 @@
 [
   {
-    "testName": "unit-test-runners-except",
+    "testName": "unit-test-runners-new",
     "accountName": "appveyor-tests",
-    "projectSlug": "unit-test-runners-l2j5s",
+    "projectSlug": "unit-test-runners-new",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
-    "images": []
-  },
-  {
-    "testName": "unit-test-runners",
-    "accountName": "appveyor-tests",
-    "projectSlug": "unit-test-runners",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": []
+    "images": [
+      "vs2026-master",
+      "vs2026-master-gce-us-central1"
+    ]
   },
   {
     "testName": "qt-tests",
     "accountName": "appveyor-tests",
     "projectSlug": "qt-tests",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": []
-  },
-  {
-    "testName": "VSTS-git-clone",
-    "accountName": "appveyor-tests",
-    "projectSlug": "mywebapp",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": []
-  },
-  {
-    "testName": "azure-cloud-services",
-    "accountName": "appveyor-tests",
-    "projectSlug": "azure-cloud-services",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": []
-  },
-  {
-    "testName": "VSTS-TFVC-clone",
-    "accountName": "appveyor-tests",
-    "projectSlug": "projecta",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
@@ -76,15 +43,6 @@
       "vs2026-master",
       "vs2026-master-gce-us-central1"
     ]
-  },
-  {
-    "testName": "bitbucket-private-git-ssh-clone-test",
-    "accountName": "appveyor-tests",
-    "projectSlug": "bitbucket-private-git-qddys",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": []
   },
   {
     "testName": "where-tools",
@@ -117,15 +75,6 @@
     "testName": "nodejs-versions",
     "accountName": "appveyor-tests",
     "projectSlug": "nodejs-versions",
-    "branch": "master",
-    "timeoutMinutes": 10,
-    "shouldSucceed": true,
-    "images": []
-  },
-  {
-    "testName": "appveyor-bot-test",
-    "accountName": "appveyor-tests",
-    "projectSlug": "appveyor-bot-test",
     "branch": "master",
     "timeoutMinutes": 10,
     "shouldSucceed": true,
